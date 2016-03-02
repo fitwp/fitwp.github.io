@@ -1,15 +1,10 @@
 ---
 layout: default
-title: whisper.md
+title: Whisper WordPress Theme Documentation
 permalink: /whisper
 published: true
 ---
 
----
-layout: default
-title: Whisper WordPress Theme Documentation
-permalink: /whisper
----
 ## Files Included
 
 The download package (`.zip`) that you get from ThemeForest contains the following files and folder:
