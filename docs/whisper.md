@@ -1,6 +1,6 @@
 ---
 layout: default
-title: null
+title: "Whisper WordPress Theme Documentation - FitWP"
 permalink: /docs/whisper
 published: true
 ---
