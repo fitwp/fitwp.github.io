@@ -1426,29 +1426,3 @@ This shortcode doesn't contains any parameters, just use it:
 ```
 [post_portfolio_tab]
 ```
-
-
-
-
-Credits
-=======
-
-1. Nivo Slider
-1. prettyPhoto Lightbox
-1. Iconmoon application – <a href="http://icomoon.io/">http://icomoon.io/</a>
-1. iconsweets2-  <a href="http://www.iconsweets2.com/">http://www.iconsweets2.com/</a>
-1. Magnifier shapes icons – <a href="http://www.shapes4free.com/photoshop-custom-shapes/zoom-magnifier-photoshop-shapes/">http://www.shapes4free.com/photoshop-custom-shapes/zoom-magnifier-photoshop-shapes/</a>
-1. Quicksand plugin
-1. jQuery Easing
-1. carouFredSel
-1. HTML5shiv
-1. jQuery placeholder
-1. Tweetable plugin
-1. Big buck bunny video – <a href="http://vimeo.com/1084537">http://vimeo.com/1084537</a>
-1. jPlayer Plugin for jQuery JavaScript Library by Mark J Panaghiston
-1. Images:
-	1. Jean-Maurice Damour – <a href="http://www.behance.net/JeanMauriceDamour?">http://www.behance.net/JeanMauriceDamour?</a>
-	1. Gorm Haraldsson – <a href="http://gormelito.deviantart.com/">http://gormelito.deviantart.com/</a>
-	1. Kevin Roodhorst – <a href="http://www.behance.net/kevinroodhorst">http://www.behance.net/kevinroodhorst</a>
-	1. Rogier de Boeve – <a href="http://www.behance.net/rdbok">http://www.behance.net/rdbok</a>
-	1. Julien Renault – <a href="http://www.behance.net/julienrenault">http://www.behance.net/julienrenault</a>
