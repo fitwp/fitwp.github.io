@@ -1,7 +1,14 @@
 ---
 layout: default
-title: Whisper WordPress Theme Documentation
+title: whisper.md
 permalink: /docs/whisper
+published: true
+---
+
+---
+layout: default
+title: Whisper WordPress Theme Documentation
+permalink: /whisper
 ---
 ## Files Included
 
