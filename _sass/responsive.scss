@@ -1,10 +1,14 @@
 @media (max-width: 1199px) {
 	// Featured project
 	.desktop {
-		top: -200px;
+		top: -220px;
 		left: 100px;
 	}
+	.ipad {
+		top: -120px;
+	}
 	.iphone {
+		top: -20px;
 		left: 350px;
 	}
 }
@@ -30,21 +34,27 @@
 	// Featured project
 	.screenshots {
 		min-height: 350px;
+
 		&:hover {
-			transform: translate3d(-50%, -15px, 0);
+			.desktop {
+				transform: translate3d(-50%, -15px, 0);
+			}
 		}
 	}
 	.desktop {
 		left: 50%;
+		top: -180px;
 		max-width: 60%;
 		transform: translate3d(-50%, 0, 0);
 	}
 	.ipad {
 		max-width: 40%;
+		top: -80px;
 	}
 	.iphone {
 		left: 70%;
 		max-width: 25%;
+		top: 20px;
 	}
 	// Footer
 	.social {
