@@ -26,6 +26,10 @@
 	}
 }
 @media (max-width: 767px) {
+	// Header
+	.menu-home {
+		display: none;
+	}
 	// Hero
 	.video,
 	.hero-content {
@@ -63,6 +67,14 @@
 	}
 }
 @media (max-width: 479px) {
+	// Header
+	.logo {
+		font-size: 30px;
+	}
+	.menu-support,
+	.menu-contact {
+		display: none;
+	}
 	// Featured project
 	.screenshots {
 		min-height: 200px;
