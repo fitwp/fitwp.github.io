@@ -1,0 +1,40 @@
+.header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+.logo {
+	font: 50px/110px 'Covered By Your Grace', cursive;
+	margin: 0;
+	float: left;
+
+	a {
+		color: #fff;
+	}
+}
+.nav {
+	float: right;
+
+	li {
+		list-style: none;
+		float: left;
+	}
+	a {
+		color: rgba(255, 255, 255, .8);
+		line-height: 110px;
+		padding: 0 15px;
+		display: block;
+		text-decoration: none;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 13px;
+		position: relative;
+		transition: color .15s ease-out;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
