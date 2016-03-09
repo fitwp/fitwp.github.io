@@ -135,6 +135,36 @@
 	.btn:first-child {
 		margin-right: 3em;
 	}
+	img {
+		position: absolute;
+		transition: transform .4s;
+	}
+}
+.desktop {
+	top: -180px;
+	left: 150px;
+	z-index: 1;
+}
+.ipad {
+	top: -80px;
+	left: 20px;
+	z-index: 2;
+}
+.iphone {
+	top: 20px;
+	left: 420px;
+	z-index: 3;
+}
+.screenshots:hover {
+	.desktop {
+		transform: translate3d(0, -15px, 0);
+	}
+	.ipad {
+		transform: translate3d(-25px, 5px, 0);
+	}
+	.iphone {
+		transform: translate3d(35px, 0, 0);
+	}
 }
 .subtitle {
 	font-size: 13px;
@@ -148,7 +178,7 @@
 .btn-red {
 	background: #cd2122;
 	&:hover {
-		background: shade(#cd2122, 10%);
+		background: darken(#cd2122, 5%);
 	}
 }
 .btn-black {
@@ -188,7 +218,7 @@
 	border-radius: 60px;
 
 	&:hover {
-		background: shade(#00b4cc, 10%);
+		background: darken(#00b4cc, 5%);
 	}
 }
 // Themes
@@ -249,7 +279,7 @@
 		margin-bottom: 1em;
 		background: #00b4cc;
 		&:hover {
-			background: shade(#00b4cc, 10%);
+			background: darken(#00b4cc, 5%);
 		}
 	}
 	.description {
