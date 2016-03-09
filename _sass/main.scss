@@ -44,6 +44,7 @@
 }
 .hero {
 	position: relative;
+	font-size: 10px;
 }
 .video {
 	position: absolute;
@@ -85,13 +86,13 @@
 	h2 {
 		text-align: center;
 		color: #fff;
-		font-size: 50px;
+		font-size: 5em;
 		font-weight: 800;
 		margin: 3.5em 0 2em;
 		letter-spacing: -2px;
 	}
 	.text-label {
-		font-size: 16px;
+		font-size: 1.6em;
 		margin-bottom: 20px;
 		color: rgba(255, 255, 255, .4);
 		font-weight: 300;
@@ -99,7 +100,7 @@
 		line-height: 30px;
 	}
 	.text-content {
-		font-size: 30px;
+		font-size: 3em;
 		font-weight: 800;
 		line-height: 1;
 		margin-bottom: 1em;
@@ -123,7 +124,8 @@
 // Featured project
 //-----------------------------------------
 .featured {
-	padding: 15% 0 25%;
+	padding-top: 15%;
+	padding-bottom: 20%;
 	color: #45474d;
 
 	h2 {
@@ -155,15 +157,18 @@
 	left: 420px;
 	z-index: 3;
 }
-.screenshots:hover {
-	.desktop {
-		transform: translate3d(0, -15px, 0);
-	}
-	.ipad {
-		transform: translate3d(-25px, 5px, 0);
-	}
-	.iphone {
-		transform: translate3d(35px, 0, 0);
+.screenshots {
+	min-height: 450px;
+	&:hover {
+		.desktop {
+			transform: translateY(-15px);
+		}
+		.ipad {
+			transform: translate3d(-25px, 5px, 0);
+		}
+		.iphone {
+			transform: translate3d(35px, 0, 0);
+		}
 	}
 }
 .subtitle {
@@ -273,6 +278,7 @@
 		display: inline-block;
 		margin-bottom: 1em;
 		font-size: 13px;
+		vertical-align: middle;
 	}
 	button {
 		line-height: 1;

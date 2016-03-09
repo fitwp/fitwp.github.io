@@ -1,0 +1,52 @@
+@media (max-width: 1199px) {
+	// Featured project
+	.desktop {
+		top: -200px;
+		left: 100px;
+	}
+	.iphone {
+		left: 350px;
+	}
+}
+@media (max-width: 991px) {
+	// Hero
+	.hero {
+		font-size: 8px;
+	}
+	// Featured project
+	.desktop {
+		left: 180px;
+	}
+	.iphone {
+		left: 480px;
+	}
+}
+@media (max-width: 767px) {
+	// Hero
+	.video,
+	.hero-content {
+		height: 500px;
+	}
+	// Featured project
+	.screenshots {
+		min-height: 350px;
+	}
+	.desktop {
+		left: 50%;
+		max-width: 60%;
+		transform: translateX(-50%);
+	}
+	.ipad {
+		max-width: 40%;
+	}
+	.phone {
+		left: 70%;
+		max-width: 25%;
+	}
+}
+@media (max-width: 479px) {
+	// Featured project
+	.screenshots {
+		min-height: 200px;
+	}
+}
