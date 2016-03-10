@@ -1,19 +1,6 @@
-// Style for single page, post
+// Style for single page, post, docs
 // ---------------------------------------
-.page {
-	// Header
-	.header {
-		background: rgba(0, 0, 0, .3);
 
-		.logo {
-			font-size: 35px;
-			line-height: 60px;
-		}
-		.nav a {
-			line-height: 60px;
-		}
-	}
-}
 // Entry title
 .hentry {
 	font-size: 10px;
@@ -54,8 +41,6 @@
 }
 .entry-content {
 	font-size: 1.6em;
-	width: 700px;
-	max-width: 96%;
 	margin: 5em auto;
 
 	h2,
@@ -78,6 +63,45 @@
 	img {
 		display: block;
 		margin: 3em auto 4em;
-		box-shadow: 0 5px 20px 5px rgba(0,0,0,.4);
+		box-shadow: 0 5px 20px 5px rgba(0, 0, 0, .4);
 	}
+}
+// Style for single page, post
+// ---------------------------------------
+.page .entry-content {
+	width: 700px;
+	max-width: 96%;
+}
+// Style for single docs
+// ---------------------------------------
+.sidebar {
+	font-size: 1.3em;
+	margin-top: (80/13)*1em;
+}
+.docs {
+	.entry-content > h2:first-of-type {
+		margin-top: 0;
+	}
+}
+.toc {
+	ul {
+		padding: 0;
+		list-style: none;
+	}
+}
+.toc-h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 1em 0 .5em;
+
+	a {
+		color: #525252;
+
+		&:hover {
+			color: #525252;
+		}
+	}
+}
+.toc-h3 {
+	margin-left: 1em;
 }

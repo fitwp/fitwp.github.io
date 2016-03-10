@@ -1,0 +1,19 @@
+{% include header.html type="docs" %}
+<article class="hentry">
+	<div class="entry-header">
+		<h1 class="entry-title">{{ page.title }}</h1>
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+			<aside class="col-md-4 sidebar">
+				<nav id="toc" class="toc"></nav>
+			</aside>
+			<div class="col-md-8 entry-content" id="content">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+</article>
+{% include footer.html type="docs" %}

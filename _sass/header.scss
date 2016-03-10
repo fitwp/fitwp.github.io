@@ -4,9 +4,10 @@
 	top: 0;
 	left: 0;
 	z-index: 9;
+	background: rgba(0, 0, 0, .3);
 }
 .logo {
-	font: 50px/110px 'Covered By Your Grace', cursive;
+	font: 35px/60px 'Covered By Your Grace', cursive;
 	margin: 0;
 	float: left;
 
@@ -23,7 +24,7 @@
 	}
 	a {
 		color: rgba(255, 255, 255, .8);
-		line-height: 110px;
+		line-height: 60px;
 		padding: 0 15px;
 		display: block;
 		text-decoration: none;
@@ -36,5 +37,19 @@
 		&:hover {
 			color: #fff;
 		}
+	}
+}
+
+// Homepage
+.home {
+	.header {
+		background: none;
+	}
+	.logo {
+		font-size: 50px;
+		line-height: 110px;
+	}
+	.nav a {
+		line-height: 110px;
 	}
 }
