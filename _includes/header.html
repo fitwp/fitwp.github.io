@@ -10,8 +10,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Covered+By+Your+Grace|Homemade+Apple">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="canonical" href="http://fitwp.com{{ page.url }}" />
 </head>
-<body>
+<body{% if param.type %} class="{{ param.type }}"{% endif %}>
 {% include svg-defs.svg %}
 <header class="header">
 	<div class="container">
