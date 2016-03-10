@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="canonical" href="http://fitwp.com{{ page.url }}" />
 </head>
-<body{% if param.type %} class="{{ param.type }}"{% endif %}>
+<body{% if include.type %} class="{{ include.type }}"{% endif %}>
 {% include svg-defs.svg %}
 <header class="header">
 	<div class="container">
