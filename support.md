@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Documentation - FitWP
 documentation: How to get support for our WordPress themes
 permalink: /support

@@ -1,0 +1,83 @@
+// Style for single page, post
+// ---------------------------------------
+.page {
+	// Header
+	.header {
+		background: rgba(0, 0, 0, .3);
+
+		.logo {
+			font-size: 35px;
+			line-height: 60px;
+		}
+		.nav a {
+			line-height: 60px;
+		}
+	}
+}
+// Entry title
+.hentry {
+	font-size: 10px;
+}
+.entry-header {
+	background: #005f6b url(../img/bg.jpg);
+	background-size: cover;
+	padding: 15em 0 13em;
+	position: relative;
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	&:before {
+		z-index: 1;
+		background: rgba(0, 95, 107, .7);
+	}
+	&:after {
+		z-index: 2;
+		background: url(../img/pattern.png);
+	}
+}
+.entry-title {
+	font-size: 5em;
+	font-weight: 800;
+	letter-spacing: -2px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	z-index: 3;
+	position: relative;
+}
+.entry-content {
+	font-size: 1.6em;
+	width: 700px;
+	max-width: 96%;
+	margin: 5em auto;
+
+	h2,
+	h3 {
+		margin: 2em 0 1em;
+		color: #000;
+		font-weight: 700;
+		font-size: 2.5em;
+		line-height: 1.25;
+	}
+	h2 {
+		font-size: 2.5em;
+	}
+	h3 {
+		font-size: 1.3em;
+	}
+	p {
+		margin-bottom: 2em;
+	}
+	img {
+		display: block;
+		margin: 3em auto 4em;
+		box-shadow: 0 5px 20px 5px rgba(0,0,0,.4);
+	}
+}
