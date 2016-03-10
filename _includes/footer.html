@@ -12,7 +12,10 @@
 		</div>
 	</div>
 </footer>
-{% if include.type %}
+{% if include.type == 'docs' %}
+<a href="#" class="go-top" id="go-top"><svg><use xlink:href="#arrow-up" /></svg></a>
+{% endif %}
+{% if include.type == 'docs' %}
 <script src="https://cdn.jsdelivr.net/jquery/2.2.1/jquery.min.js"></script>
 <script>
 	/*!
