@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Documentation - FitWP
-documentation: How to get support for our WordPress themes
+title: Support
+description: How to get support for our WordPress themes
 permalink: /support
 ---
 
