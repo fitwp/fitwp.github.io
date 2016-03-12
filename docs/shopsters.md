@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Shopsters Documentataion
+title: Shopsters Documentation
 permalink: /docs/shopsters
 published: true
 ---
