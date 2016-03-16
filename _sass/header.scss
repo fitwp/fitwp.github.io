@@ -7,12 +7,19 @@
 	background: rgba(0, 0, 0, .3);
 }
 .logo {
-	font: 35px/60px 'Covered By Your Grace', cursive;
+	font: 400 28px/60px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
 	margin: 0;
 	float: left;
 
 	a {
 		color: #fff;
+	}
+	span {
+		color: rgba(255, 255, 255, .8);
+		font-size: 14px;
 	}
 }
 .nav {
@@ -46,7 +53,6 @@
 		background: none;
 	}
 	.logo {
-		font-size: 50px;
 		line-height: 110px;
 	}
 	.nav a {
