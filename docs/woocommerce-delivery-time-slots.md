@@ -210,20 +210,20 @@ Now you can choose any theme from 21 themes available. It's helpful when you wan
 
 By default the plugin shows the input for entering shipping time on the **Checkout page**, but you might want to display it on other pages as well.
 
-To do that, you can use the shortcode `[wdt_field]`. This shortcode doesn't have any attributes. So, use the code follow to insert the shortcode to your page template:
+To do that, you can use the shortcode `[wdts_field]`. This shortcode doesn't have any attributes. So, use the code follow to insert the shortcode to your page template:
 
 ```php
-<?php echo do_shortcode( '[wdt_field]' ); ?>
+<?php echo do_shortcode( '[wdts_field]' ); ?>
 ```
 
 ### Showing picked shipping time
 
-To show picked shipping time of an order, please use the shortcode `[wdt_shipping_time id="ORDER_ID"]`. This shortcode requires order ID (please replace with yours).
+To show picked shipping time of an order, please use the shortcode `[wdts_shipping_time id="ORDER_ID"]`. This shortcode requires order ID (please replace with yours).
 
 To show shipping time in your template, please use the following code:
 
 ```php
-<?php echo do_shortcode( '[wdt_shipping_time id="ORDER_ID"]' ); ?>
+<?php echo do_shortcode( '[wdts_shipping_time id="ORDER_ID"]' ); ?>
 ```
 
 ## Email
@@ -233,16 +233,12 @@ By default, the shipping time is attached to default WooCommerce email sent to a
 To fix that, please find file `woocommerce/emails/email-addresses.php` in your theme and add the following code to the place where you want the shipping time to appear:
 
 ```php
-<?php if ( $delivery_time = get_post_meta( $order->id, '_delivery_time', true ) ) : ?>
-	<tr>
-		<td class="td" style="text-align:left; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;" valign="top" colspan="2" width="100%">
-			<?php
-			$option = wdt_option();
-			$label = $option['label'];
-			?>
-			<h3><?php echo $label; ?></h3>
-			<p class="text"><?php echo do_shortcode( "[wdt_shipping_time id='" . $order->id . "']" ); ?></p>
-		</td>
-	</tr>
+<?php if ( $delivery_time = get_post_meta( $order->id, '_delivery_date', true ) ) : ?>
+	<?php
+	$option = wdts_option();
+	$label = $option['label'];
+	?>
+	<h3><?php echo $label; ?></h3>
+	<p class="text"><?php echo do_shortcode( "[wdts_shipping_time id='" . $order->id . "']" ); ?></p>
 <?php endif; ?>
 ```
