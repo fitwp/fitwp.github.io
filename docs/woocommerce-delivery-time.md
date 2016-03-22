@@ -247,15 +247,11 @@ To fix that, please find file `woocommerce/emails/email-addresses.php` in your t
 
 ```php
 <?php if ( $delivery_time = get_post_meta( $order->id, '_delivery_time', true ) ) : ?>
-	<tr>
-		<td class="td" style="text-align:left; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;" valign="top" colspan="2" width="100%">
-			<?php
-			$option = wdt_option();
-			$label = $option['label'];
-			?>
-			<h3><?php echo $label; ?></h3>
-			<p class="text"><?php echo do_shortcode( "[wdt_shipping_time id='" . $order->id . "']" ); ?></p>
-		</td>
-	</tr>
+	<?php
+	$option = wdt_option();
+	$label = $option['label'];
+	?>
+	<h3><?php echo $label; ?></h3>
+	<p class="text"><?php echo do_shortcode( "[wdt_shipping_time id='" . $order->id . "']" ); ?></p>
 <?php endif; ?>
 ```
