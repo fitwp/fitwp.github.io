@@ -14,22 +14,23 @@ If you have any questions that are beyond the scope of this help file, please fe
 
 The download package (.zip) that you get from CodeCanyon contains the following files and folder:
 
-- woocommerce-delivery-time.zip: main plugin file that need to be uploaded to host to install.
-- docs.html: the documentation file (copy of this page)
-- Licensing: folder of license terms.
+- `woocommerce-delivery-time.zip`: main plugin file that need to be uploaded to host to install.
+- `docs.html`: the documentation file (copy of this page)
+- `Licensing`: folder of license terms.
 
 ## Installation
 
-- After download the .zip package from CodeCanyon, unzip it and you will see a file `woocommerce-delivery-time.zip`.
-- Go to your WordPress **Dashboard**, then click to **Plugins -> Add New** menu on the left.
+After download the .zip package from CodeCanyon, unzip it and you will see a file `woocommerce-delivery-time.zip`.
+
+Go to your WordPress **Dashboard**, then click to **Plugins -> Add New** menu on the left.
 
 ![add new plugin](http://i.imgur.com/2QCWdJm.png)
 
-- In the next page, select the `woocommerce-delivery-time.zip` file and click **Install Now**
+In the next page, select the `woocommerce-delivery-time.zip` file and click **Install Now**
 
 ![upload plugin](http://i.imgur.com/ajcmwE5.png)
 
-- After uploading the plugin, click **Activate Now** link to activate the plugin.
+After uploading the plugin, click **Activate Now** link to activate the plugin.
 
 ## Upgrade
 
