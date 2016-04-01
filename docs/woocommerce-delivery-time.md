@@ -236,8 +236,16 @@ To show picked shipping time of an order, please use the shortcode `[wdt_shippin
 To show shipping time in your template, please use the following code:
 
 ```php
-<?php echo do_shortcode( '[wdt_shipping_time id="ORDER_ID"]' ); ?>
+<?php echo do_shortcode( '[wdt_shipping_time id="ORDER_ID" format="DATE_FORMAT"]' ); ?>
 ```
+
+The shortcode accepts 2 parameters:
+
+Parameter|Description
+---|---
+`id`|Order ID. Required.
+`format`|Date format. List of date formats are described [here](http://codex.wordpress.org/Formatting_Date_and_Time). If no format is entered, the plugin will takes the format in the Settings page. Optional.
+
 
 ## Email
 
