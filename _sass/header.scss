@@ -50,6 +50,7 @@
 			margin: 0;
 			padding: 0;
 			background: #fff;
+			border-radius: 2px;
 	
 			li {
 				width: 200px;
@@ -66,6 +67,10 @@
 				letter-spacing: 1px;
 				color: #009eb3;
 				padding: 0;
+				
+				&:hover {
+					color: darken(#009eb3, 5%);
+				}
 			}
 		}
 	}
