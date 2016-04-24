@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: WooCommerce Delivery Time Documentation
-permalink: /docs/woocommerce-delivery-time
+description: WooCommerce Delivery Time WordPress plugin documentation
 ---
 
 *Welcome! First of all we want to thank you for purchasing our WooCommerce Delivery Time for Shipping plugin.*
