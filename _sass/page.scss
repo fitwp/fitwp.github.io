@@ -112,13 +112,11 @@
 	.panel-body {
 		line-height: 2.5;
 	}
-}
-.icon {
-	display: inline-block;
-	width: 1em;
-	height: 1em;
-	fill: currentColor;
-}
-.icon-file {
-	width: 0.8571445867419243em;
+	.icon {
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		fill: #337ab7;
+		margin-right: .5em;
+	}
 }
