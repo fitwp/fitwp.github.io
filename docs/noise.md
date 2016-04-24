@@ -956,7 +956,7 @@ Here we will show you how to use WP PageBuilder to build a page.
 
 **Open page builder**
 
-![open wr pagebuilder](/glamo/ig-pagebuilder-open.png)
+![open wr pagebuilder](http://docs.fitwp.com//glamo/ig-pagebuilder-open.png)
 
 When add or edit pages, you will see 2 tabs `Classic Editor` and `Page Builder` right bellow page title, click to `Page Builder` to open page builder screen add start adding content.
 
@@ -967,7 +967,7 @@ Now let's see how to add rows, columns and elements to page content.
 
 ** Add Row **
 
-![WR pagebuilder add row](/glamo/ig-pagebuilder-add-row.png)
+![WR pagebuilder add row](http://docs.fitwp.com//glamo/ig-pagebuilder-add-row.png)
 
 **(1)**: Click the **Add Row** button to add new row.
 
@@ -977,7 +977,7 @@ Now let's see how to add rows, columns and elements to page content.
 
 **(4)**: Edit row. When you click the Edit Row icon (above delete row icon), a modal box will appear with options to edit row, let's see what it is:
 
-![wr pagebuilder edit row](/glamo/ig-pagebuilder-row-options.png)
+![wr pagebuilder edit row](http://docs.fitwp.com//glamo/ig-pagebuilder-row-options.png)
 
 - **Width**: select the width of row, boxed or full width. By default it is boxed.
 - **Background**: select background type of row: none, solid color, gradient, pattern or image, then set it up.
@@ -989,7 +989,7 @@ Now let's see how to add rows, columns and elements to page content.
 
 ** Add Columns **
 
-![ig pagebuilder add columns](/glamo/ig-pagebuilder-add-columns.png)
+![ig pagebuilder add columns](http://docs.fitwp.com//glamo/ig-pagebuilder-add-columns.png)
 
 There are 2 way to add columns into a row: add them manually or user pre-defined layout.
 
@@ -1002,11 +1002,11 @@ There are 2 way to add columns into a row: add them manually or user pre-defined
 
 ** Add Elements **
 
-![ig pagebuilder add elements](/glamo/ig-pagebuilder-add-elements.png)
+![ig pagebuilder add elements](http://docs.fitwp.com//glamo/ig-pagebuilder-add-elements.png)
 
 Inside each row, you will see Add Element button at bottom, just click to it, a modal box appear, it contain all avaiable elements that supported by IG Pagebuilder plugin.
 
-![ig pagebuilder elements](/glamo/ig-pagebuilder-elements.png)
+![ig pagebuilder elements](http://docs.fitwp.com//glamo/ig-pagebuilder-elements.png)
 
 Select element you want to add by clicking it, a new modal box will appear. It allows you to setup the element with many options. After done, click **Save** button to add the configured element into column.
 
