@@ -949,25 +949,3 @@ This widget shows links (with icons) to your social network profiles. All you ne
 ### [Glamo] Mini Cart
 
 This widget shows the shopping cart in minimized size. We prefer you to use it instead of WooCommerce Cart widget when you want to show shopping in Topbar or Header Sidebar.
-
-
-
-## Credits
-
-We want to give big thanks to the following authors of these products below which help us a lot in making Glamo.
-
-We also thank you for purchasing and using Glamo!
-
-1. Nivo Slider
-1. Bootstrap 3.2.0
-1. FontAwesome
-1. HTML5shiv
-1. TinyCarousel
-1. FitVids
-1. WOW.js
-1. Animate CSS
-
-</div><!-- #content -->
-<script src="/script.js"></script>
-</body>
-</html>
