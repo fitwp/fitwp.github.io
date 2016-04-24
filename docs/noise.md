@@ -2,7 +2,6 @@
 layout: docs
 title: NOISE Documentation
 description: Documentation for NOISE WordPress theme
-permalink: /docs/noise
 ---
 
 **Welcome! First of all we want to thank you for purchasing our Noise WordPress Theme.**</div>
