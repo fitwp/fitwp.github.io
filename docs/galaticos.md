@@ -8,30 +8,6 @@ Welcome! First of all we want to thank you for purchasing our Galaticos WordPres
 
 In the following sections we will explain how to set up and use Galaticos theme the easiest way possible. Although there're a lot of things written in this documentation, the theme itself is not hard to use. You can go to the Theme Options page and explore everything yourself. This file is more of a reference if you do not know what to do, or if you are not familiar with WordPress.
 
-If you have any questions that are beyond the scope of this help file, please feel free to ask your questions at the [support forum](http://fitwp.com/envato-support/).
-
-Best regards
-
-
-
-
-## Resources
-
-- **Online Documentation:** (this file) /galaticos/
-- **Support Forum:** http://fitwp.com/envato-support/
-
-
-
-
-## Theme Information
-
-- **Theme Name:** Galaticos WordPress Theme
-- **Author:** FitWP
-- **Theme URL:** http://fitwp.com/themes/galaticos/
-- **Author Website:** http://fitwp.com
-
-
-
 
 ## Files Included
 
