@@ -1,5 +1,5 @@
 ---
-layout: docsarchive
+layout: docs-archive
 title: Documentation
 description: Documentation for WordPress themes and WordPress plugins made by FitWP
 ---
