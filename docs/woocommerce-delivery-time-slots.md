@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: WooCommerce Delivery Time Slots Docs
-permalink: /docs/woocommerce-delivery-time-slots
+description: WooCommerce Delivery Time Slots WordPress plugin documentation
 ---
 
 *Welcome! First of all we want to thank you for purchasing our WooCommerce Delivery Time Slots.*
