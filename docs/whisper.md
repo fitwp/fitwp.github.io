@@ -50,7 +50,7 @@ You can either choose to upload and installl the theme using **FTP** or use **Wo
 - Click **Install Now**
 - When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate **Whisper** theme
 
-![upload](http://fitwp.github.io/docs/whisper/wordpress-upload.png)
+![upload](http://docs.fitwp.com/whisper/wordpress-upload.png)
 
 
 ### Install plugins
@@ -67,7 +67,7 @@ To install these plugins:
 - You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
 - After installing, if it's required to activate the plugin, just activate
 
-![plugins](http://fitwp.github.io/docs/whisper/install-plugins.png)
+![plugins](http://docs.fitwp.com/whisper/install-plugins.png)
 
 
 ### Install demo content
@@ -81,7 +81,7 @@ If you are new to WordPress and have problems with setting up the theme you migh
 - Click **Upload file and import**
 - When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
 
-![import](http://fitwp.github.io/docs/whisper/import.png)
+![import](http://docs.fitwp.com/whisper/import.png)
 
 After completing all above steps, go to `Posts` and `Pages` to see imported posts and pages. There are some special pages that you should pay attention to such as: **Homepage** (3 versions), **Blog** (2 versions), **Portfolios** (2 versions), **Contact**.
 
@@ -93,7 +93,7 @@ After completing all above steps, go to `Posts` and `Pages` to see imported post
 - Choose either **Home version 1**, **Home version 2**, **Home version 3** from the dropdown for **Front page**
 - Click **Save Changes**
 
-![homepage](http://fitwp.github.io/docs/whisper/setup-homepage.png)
+![homepage](http://docs.fitwp.com/whisper/setup-homepage.png)
 
 
 ### Setup homepage slider
@@ -107,7 +107,7 @@ The download package contains exported 3 sliders (Revolution Slider) that help y
 - When a popup appear, click **Browse** and select `home-slider-1.zip` file
 - Click **Import Slider** button to start import the selected slider
 
-![import slider](http://fitwp.github.io/docs/whisper/import-slider.png)
+![import slider](http://docs.fitwp.com/whisper/import-slider.png)
 
 One problem with Revolution Slider is it doesn't import images correctly. So we have to fix the URL to these images:
 
@@ -117,7 +117,7 @@ One problem with Revolution Slider is it doesn't import images correctly. So we 
 - Choose correct image from the Media Library as shown in the screenshot below and then click **Insert**
 - Click **Update Slide**
 
-![fix](http://fitwp.github.io/docs/whisper/fix-revolution-slider.png)
+![fix](http://docs.fitwp.com/whisper/fix-revolution-slider.png)
 
 **Repeat the steps below for other slides**
 
@@ -139,7 +139,7 @@ Following these steps to create a menu:
 - When you're done moving menu items, check **Primary Menu** for **theme locations** at the bottom of the page
 - Click **Save Menu**
 
-![menu](http://fitwp.github.io/docs/whisper/menu.png)
+![menu](http://docs.fitwp.com/whisper/menu.png)
 
 
 ### Setup widget areas
@@ -152,14 +152,14 @@ Whisper theme has 6 widget areas (sidebars) by default:
 
 To setup a sidebar, select it from the right by clicking its title or the arrow down. Then drag and drop widgets from the left to the sidebar area.
 
-![sidebar](http://fitwp.github.io/docs/whisper/sidebar.png)
+![sidebar](http://docs.fitwp.com/whisper/sidebar.png)
 
 That's all! Now you have the website up with all *basic* elements!
 
 
 ## Theme Options
 
-![theme options](http://fitwp.github.io/docs/whisper/theme-options.png)
+![theme options](http://docs.fitwp.com/whisper/theme-options.png)
 
 The Whisper theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
 
@@ -172,7 +172,7 @@ Let's go through each section.
 
 ### General
 
-![general](http://fitwp.github.io/docs/whisper/general.png)
+![general](http://docs.fitwp.com/whisper/general.png)
 
 This sections contains:
 
@@ -218,7 +218,7 @@ This option allows you to show/hide comments and comment form on pages. By defau
 
 **Important**: In case this option is set to "ON", to display comments on pages, you still have to **allow comments** for pages when you edit pages.
 
-![allow comments](http://fitwp.github.io/docs/whisper/allow-comments.png)
+![allow comments](http://docs.fitwp.com/whisper/allow-comments.png)
 
 By default, this checkbox is checked (meaning comments are allowed on pages). But in case you want to show comments on all pages, except some specific pages, you can use this checkbox to hide comments for those pages only.
 
@@ -245,7 +245,7 @@ This sections contains:
 
 ### Color Scheme
 
-![color schemes](http://fitwp.github.io/docs/whisper/color-schemes.png)
+![color schemes](http://docs.fitwp.com/whisper/color-schemes.png)
 
 Whisper theme has **4 predefined color schemes** to choose from: red, orange, blue and green. When you change color scheme of the theme, all links, icon boxes, button background and other elements will change their color or background accordingly.
 
@@ -253,7 +253,7 @@ The default color scheme is orange, but you can select any from 4 colors here. A
 
 When you select **Color Scheme** section, you'll see the following options:
 
-![color schemes](http://fitwp.github.io/docs/whisper/design-color-schemes.png)
+![color schemes](http://docs.fitwp.com/whisper/design-color-schemes.png)
 
 **(1)**: select built-in color scheme. These are 4 predefined color scheme. When you select one of them, your website elements will change color accordingly.
 
@@ -274,7 +274,7 @@ This section help you to select background pattern or image, and change how it a
 
 <div class="alert">All the background options are applied **only in boxed layout** (we'll reveal how to change boxed or wide layout in the next section).</div>
 
-![background](http://fitwp.github.io/docs/whisper/background.png)
+![background](http://docs.fitwp.com/whisper/background.png)
 
 **(1)**: select background pattern (background image). Whisper has **5 predefined background patterns** for you to select from. These patterns are handy picked and match the theme design. If you don't have a background image, you can use one of them.
 
@@ -301,13 +301,13 @@ After done, click **Save Changes** button to save your data. Now go to the front
 
 This section helps you to select which layout will be use in whole website.
 
-![layout](http://fitwp.github.io/docs/whisper/layout.png)
+![layout](http://docs.fitwp.com/whisper/layout.png)
 
 **(1)**: layout style. You can choose either **boxed** or **wide** style. Whisper theme allows you to change layout style of whole website to boxed or wide (full width). When you change layout style, it doesn’t affect style of your content, sidebar, header or footer. All these elements still keep their looks and feel.
 
 The default style is wide (full width), which make you feel the website is wider, especially on large screens. But in boxed style, you can set background for website.
 
-![boxed wide](http://fitwp.github.io/docs/whisper/boxed-wide.png)
+![boxed wide](http://docs.fitwp.com/whisper/boxed-wide.png)
 
 **(2)**: sidebar layout **for blog, single posts and other archive pages**. You can select sidebar position here: `left`, `right` or `none` (don't display sidebar)
 
@@ -322,7 +322,7 @@ By default: Whisper uses **wide** layout style with **right** sidebar for both b
 
 ### Typography
 
-![typography](http://fitwp.github.io/docs/whisper/typography.png)
+![typography](http://docs.fitwp.com/whisper/typography.png)
 
 This section helps you to customize fonts for **body text** and **headings** on your website. For each element, you can customize:
 
@@ -353,7 +353,7 @@ This section helps you to customize fonts for **body text** and **headings** on 
 
 ### Custom CSS
 
-![custom css](http://fitwp.github.io/docs/whisper/custom-css.png)
+![custom css](http://docs.fitwp.com/whisper/custom-css.png)
 
 This section allows to enter custom CSS that will be output in the `</head>`. This will **overwrite** CSS of theme, so please be careful!
 
@@ -362,7 +362,7 @@ Custom CSS is useful when you want to adjust **small things** for your website. 
 
 ### Header
 
-![header](http://fitwp.github.io/docs/whisper/header.png)
+![header](http://docs.fitwp.com/whisper/header.png)
 
 This sections contains:
 
@@ -393,7 +393,7 @@ This sections contains:
 
 ### Featured Title Area
 
-![featured title area](http://fitwp.github.io/docs/whisper/featured-title-area.png)
+![featured title area](http://docs.fitwp.com/whisper/featured-title-area.png)
 
 Featured Title Area is the highlighted area in the screenshot above. This area shows you an attractive title area with this information:
 
@@ -406,7 +406,7 @@ Whisper uses a **default image** for background and **show** breadcrumbs.
 
 In theme options page, you can change the background image and show/hide breadcrumbs for whole website:
 
-![featured title area](http://fitwp.github.io/docs/whisper/options-featured-title-area.png)
+![featured title area](http://docs.fitwp.com/whisper/options-featured-title-area.png)
 
 **(1)**: show/hide breadcrumbs. Default is **OFF** (show breadcrumbs). If you want to hide breadcrumbs, just turn it on.
 
@@ -419,7 +419,7 @@ In theme options page, you can change the background image and show/hide breadcr
 
 ### Blog
 
-![blog](http://fitwp.github.io/docs/whisper/blog.png)
+![blog](http://docs.fitwp.com/whisper/blog.png)
 
 This section helps you to change the display options for posts in blog page (and other archive pages). This section contains:
 
@@ -427,7 +427,7 @@ This section helps you to change the display options for posts in blog page (and
 
 To understand what those values mean, take a look at the screenshot bellow:
 
-![post](http://fitwp.github.io/docs/whisper/post-content.png)
+![post](http://docs.fitwp.com/whisper/post-content.png)
 
 Where:
 
@@ -457,7 +457,7 @@ Default value is **55 words**.
 
 This section give you options to customize footer area on your website.
 
-![footer](http://fitwp.github.io/docs/whisper/footer.png)
+![footer](http://docs.fitwp.com/whisper/footer.png)
 
 **(1)**: number of columns in footer. It also is the number of footer sidebars (widget areas). Default is **4**.
 
@@ -491,7 +491,7 @@ Customizer is a feature of WordPress that allows us to tweak a theme's settings 
 
 To start with Customizer, please go to **Appearance \ Customize**, you'll see the following screen:
 
-![customizer](http://fitwp.github.io/docs/whisper/customizer.png)
+![customizer](http://docs.fitwp.com/whisper/customizer.png)
 
 **(1)**: there are some sections that you can change and live preview it. These sections have `[Whisper]` in their title.
 
@@ -508,7 +508,7 @@ We've seen how to change featured title area, layout style, sidebar layout for w
 
 When you edit a page or a post, you'll see this meta box below the content editor:
 
-![display settings](http://fitwp.github.io/docs/whisper/display-settings-page.png)
+![display settings](http://docs.fitwp.com/whisper/display-settings-page.png)
 
 This meta box contains 3 main parts:
 
@@ -523,7 +523,7 @@ Each parts contains some settings as shown in the screenshot above. Let's go thr
 
 This is the featured title area which is displayed in the frontend
 
-![featured title area](http://fitwp.github.io/docs/whisper/featured-title-area.png)
+![featured title area](http://docs.fitwp.com/whisper/featured-title-area.png)
 
 where:
 
@@ -579,7 +579,7 @@ When you add or edit a portfolio, you need to fill in some required information 
 - **Portfolio Categories**: portfolio categories
 - **Featured Image**: portfolio featured image
 
-![portfolio](http://fitwp.github.io/docs/whisper/portfolio.png)
+![portfolio](http://docs.fitwp.com/whisper/portfolio.png)
 
 In the **(1)** meta box, you have to:
 
@@ -618,11 +618,11 @@ Each post format will have an icon near post title which tells you what post for
 
 When you edit a post, select a format you want to apply to that post on the **Format** meta box on the right:
 
-![formats](http://fitwp.github.io/docs/whisper/post-formats-box.png)
+![formats](http://docs.fitwp.com/whisper/post-formats-box.png)
 
 When you choose a format, a corresponding meta box will appear **below** the content editor, here's the list of them:
 
-![formats](http://fitwp.github.io/docs/whisper/post-formats-boxes.png)
+![formats](http://docs.fitwp.com/whisper/post-formats-boxes.png)
 
 All you need to do is just enter **all** information in the fields in these meta boxes. This information will be used to decorate the post. For example: gallery post format will uses uploaded images to show a slider above post title, a video post will display a video player above post title, etc.
 
@@ -631,19 +631,16 @@ All you need to do is just enter **all** information in the fields in these meta
 
 In Whisper, post formats is not only used for posts, but also for portfolios. This is used to display the portfolio icon, like this:
 
-![formats](http://fitwp.github.io/docs/whisper/formats-icons.png)
+![formats](http://docs.fitwp.com/whisper/formats-icons.png)
 
 When you edit a portfolio, simply select a format you want to apply to that post on the **Format** meta box on the right:
 
-![formats](http://fitwp.github.io/docs/whisper/post-formats-box.png)
+![formats](http://docs.fitwp.com/whisper/post-formats-box.png)
 
 That's all! There's no meta box for you to enter more information like for post (because the format is used to show icon only!).
 
 
-
-
-Page Templates
-==============
+## Page Templates
 
 Whisper has some build-in page templates that can help you create special pages easier:
 
@@ -656,7 +653,7 @@ Whisper has some build-in page templates that can help you create special pages 
 
 When you edit a page, look at on the right, find **Page Attributes** meta box and select a template from the dropdown **Template**:
 
-![page-templates](http://fitwp.github.io/docs/whisper/page-templates.png)
+![page-templates](http://docs.fitwp.com/whisper/page-templates.png)
 
 For **Blog**, **Blog Boxes**, **Portfolio**, **Portfolio Hexagon**, there's no configurations at all. After select page template from the meta box on the right, you just need to save the page and see it in action in the frontend.
 
@@ -664,12 +661,11 @@ For **Contact** and **Contact Without Map**, there're some options as below.
 
 
 
-Contact Page
-------------
+### Contact Page
 
 There is a special case for contact page. When you select **Contact** from the **Page Attributes** dropdown, a meta box will appear that lets you enter your contact info:
 
-![contact](http://fitwp.github.io/docs/whisper/contact.png)
+![contact](http://docs.fitwp.com/whisper/contact.png)
 
 **(1)**: contact form shortcode. If you don't want to use default contact form (maybe you need more information from users like Country, Postcode, etc.), you can use a form plugin like Contact Form 7 or Ninja Forms, Gravity Forms. Those plugins provide shortcode for each form, and you just need to paste the shortcode into this field.
 
@@ -691,31 +687,26 @@ When you entered all information, save the page and see it in the frontend.
 
 
 
-Contact Page Without Map
-------------------------
+### Contact Page Without Map
 
 This page template is similar to Contact Page above and has same options. The difference is there's no Google Maps on this page, and thus no options for maps.
 
 
 
-
-
-Widgets
-=======
+## Widgets
 
 Whisper plays nicely with default WordPress widgets. Besides that the theme has some additional widgets that might be useful for you:
 
 
 
 
-Whisper - Tweets
-----------------
+### Whisper - Tweets
 
 Before you use the Tweets widget, you have to create a Twitter app. Following these steps:
 
 - Go to [https://dev.twitter.com/apps](https://dev.twitter.com/apps) and click **Create a new application** button.
 
-![twitter-app](http://fitwp.github.io/docs/whisper/twitter-app.png)
+![twitter-app](http://docs.fitwp.com/whisper/twitter-app.png)
 
 - Fill in all information needed for the app. The name and description can be anything, it does not have to be a certain name. You can leave the Callback URL field empty.
 - After creating the app, click **Create My Access Token** button to generate the necessary codes.
@@ -729,7 +720,7 @@ These fields will be used in the tweets widget.
 
 Now go to your website admin area, then `Appearance > Widgets`, drag and drop **Whisper - Tweets** widget into a sidebar that you want it to show there. You'll see these fields like this:
 
-![tweets](http://fitwp.github.io/docs/whisper/tweets.png)
+![tweets](http://docs.fitwp.com/whisper/tweets.png)
 
 You also need to enter **Cache time** (2) - which is the time your tweets will be temporarily stored in WordPress cache, **Twitter username** (3) and **Number of tweets** (4).
 
@@ -737,15 +728,13 @@ After filling all information, just click **Save**.
 
 
 
-Whisper - Social Links
-----------------------
+### Whisper - Social Links
 
 This widget shows links (with icons) to your social network profiles. It's exactly the same as `[social]` shortcode. All you need to do is just enter URL to your social network profiles and optionally title for each link.
 
 
 
-Whisper - Social Feed
-----------------------
+### Whisper - Social Feed
 
 This widget shows items from the feed of creative social networks: Pinterest, Deviant Art, Flickr, Dribbble, Youtube, Instagram and Newsfeed (RSS). It uses `[social_feed]` shortcode to display items.
 
@@ -757,8 +746,7 @@ The configuration for this widget is simple:
 
 
 
-Whisper - Recent Posts
-----------------------
+### Whisper - Recent Posts
 
 This widgets replaces default WordPress recent posts widget. It displays recent posts in much more beautiful way and gives
 you more control to what will be shown.
@@ -780,8 +768,7 @@ The widget has the following options:
 
 
 
-Whisper - Tabs
-----------------------
+### Whisper - Tabs
 
 This widgets displays popular posts, recent posts and recent comments in a tabbed widget. Each tab has its own options. For popular posts and recent posts, the options are similar to the Recent Posts widget above.
 
@@ -790,8 +777,7 @@ Note that popular posts is counted based on number of comments.
 
 
 
-Shortcodes
-==========
+## Shortcodes
 
 The Whisper theme is bundled with powerful shortcodes that you can customize your page content in thousand ways!
 
@@ -801,7 +787,7 @@ Good samples of shortcodes are homepages and other pages in the live preview dem
 
 When you edit a post or a page, click on **Shortcodes** button above the content editor to show the shortcodes menu.
 
-![shortcode menu](http://fitwp.github.io/docs/whisper/shortcode-menu.png)
+![shortcode menu](http://docs.fitwp.com/whisper/shortcode-menu.png)
 
 Select a shortcode from the menu, a popup will appear that lets you add more settings for shortcodes.
 
@@ -815,8 +801,7 @@ Let's go one by one:
 
 
 
-Highlight
----------
+### Highlight
 
 This shortcode highlights a word, sentence or any text in post content. [See demo](http://themes.fitwp.com/whisper/shortcodes/highlight/).
 
@@ -833,7 +818,7 @@ This shortcode highlights a word, sentence or any text in post content. [See dem
 
 **Popup:**
 
-![highlight](http://fitwp.github.io/docs/whisper/highlight.png)
+![highlight](http://docs.fitwp.com/whisper/highlight.png)
 
 **(1)**: choose background color for highlighted text.
 
@@ -845,22 +830,19 @@ This shortcode highlights a word, sentence or any text in post content. [See dem
 
 
 
-Superscript
------------
+### Superscript
 
 Simply choose a text and select superscript, the text will be display<sup>like this</sup>. There's no config for this. [See demo](http://themes.fitwp.com/whisper/shortcodes/superscript-and-subscript/).
 
 
 
-Subscript
------------
+### Subscript
 
 Simply choose a text and select subcript, the text will be display<sub>like this</sub>. There's no config for this. [See demo](http://themes.fitwp.com/whisper/shortcodes/superscript-and-subscript/).
 
 
 
-Dropcap
--------
+### Dropcap
 
 This shortcode displays a letter (usually the first letter of the paragraph) bigger and colored to get attraction from users. [See demo](http://themes.fitwp.com/whisper/shortcodes/dropcaps/).
 
@@ -875,12 +857,11 @@ This shortcode displays a letter (usually the first letter of the paragraph) big
 
 **Popup:**
 
-![dropcap](http://fitwp.github.io/docs/whisper/dropcap.png)
+![dropcap](http://docs.fitwp.com/whisper/dropcap.png)
 
 
 
-Divider
--------
+### Divider
 
 This shortcode displays a beautiful horizontal line (divider). [See demo](http://themes.fitwp.com/whisper/shortcodes/divider/).
 
@@ -895,12 +876,11 @@ This shortcode displays a beautiful horizontal line (divider). [See demo](http:/
 
 **Popup:**
 
-![divider](http://fitwp.github.io/docs/whisper/divider.png)
+![divider](http://docs.fitwp.com/whisper/divider.png)
 
 
 
-Button
-------
+### Button
 
 This shortcode displays a beautiful button on your page. [See demo](http://themes.fitwp.com/whisper/shortcodes/buttons/).
 
@@ -928,14 +908,13 @@ This shortcode displays a beautiful button on your page. [See demo](http://theme
 
 **Popup:**
 
-![button](http://fitwp.github.io/docs/whisper/button.png)
+![button](http://docs.fitwp.com/whisper/button.png)
 
 In the popup, there're some advance options hidden by default. You need to click the **Advanced Button** to show them all.
 
 
 
-Box
----
+### Box
 
 Also called **alert box**, **information box** or **styled box**.
 
@@ -953,12 +932,11 @@ This shortcode displays an alert, success, error or information box with a close
 
 **Popup:**
 
-![box](http://fitwp.github.io/docs/whisper/box.png)
+![box](http://docs.fitwp.com/whisper/box.png)
 
 
 
-Toggles
--------
+### Toggles
 
 These shortcodes will display a panel of content which can be hide/show when you click on the panel title. [See demo](http://themes.fitwp.com/whisper/shortcodes/toggles-accordions-tabs/).
 
@@ -977,14 +955,13 @@ This is a combination of 2 shortcodes: `[toggles]` and `[toggle]`. `[toggles]` i
 
 **Popup:**
 
-![toggles](http://fitwp.github.io/docs/whisper/toggles.png)
+![toggles](http://docs.fitwp.com/whisper/toggles.png)
 
 In the popup, do add more toggle panel, just click the button **Add Toggle** and fill in the title and content.
 
 
 
-Accordions
-----------
+### Accordions
 
 These shortcodes will display a panel of content which can be hide/show when you click on the panel title. Similar to toggles, the difference here is when a panel is opened, other panels are closed (in toggles, they still can be opened). [See demo](http://themes.fitwp.com/whisper/shortcodes/toggles-accordions-tabs/).
 
@@ -1003,14 +980,13 @@ This is a combination of 2 shortcodes: `[accordions]` and `[accordion]`. `[accor
 
 **Popup:**
 
-![accordions](http://fitwp.github.io/docs/whisper/accordions.png)
+![accordions](http://docs.fitwp.com/whisper/accordions.png)
 
 In the popup, do add more accordion panel, just click the button **Add Accordion** and fill in the title and content.
 
 
 
-Tabs
-----
+### Tabs
 
 These shortcodes will display tabs of content which can be switched when you click on the tab title. [See demo](http://themes.fitwp.com/whisper/shortcodes/toggles-accordions-tabs/).
 
@@ -1041,14 +1017,13 @@ For `[tab]`:
 
 **Popup:**
 
-![tabs](http://fitwp.github.io/docs/whisper/tabs.png)
+![tabs](http://docs.fitwp.com/whisper/tabs.png)
 
 In the popup, do add more tab, just click the button **Add Tab** and fill in the title, content and select tab icon.
 
 
 
-Progress Bar
-------------
+### Progress Bar
 
 This shortcode will display a progress bar with title and percentage. [See demo](http://themes.fitwp.com/whisper/shortcodes/progress-bar/).
 
@@ -1064,12 +1039,11 @@ This shortcode will display a progress bar with title and percentage. [See demo]
 
 **Popup:**
 
-![progress bar](http://fitwp.github.io/docs/whisper/progress-bar.png)
+![progress bar](http://docs.fitwp.com/whisper/progress-bar.png)
 
 
 
-Promotion Box
--------------
+### Promotion Box
 
 This shortcode will display a promotion box that helps you to get people attraction and improve click through rate (CTR). It's also called **Call To Action** box. [See demo](http://themes.fitwp.com/whisper/shortcodes/promo-box/).
 
@@ -1097,12 +1071,11 @@ Note all the attributes for 2nd button are used only when you choose the promoti
 
 **Popup:**
 
-![promotion box](http://fitwp.github.io/docs/whisper/promotion-box.png)
+![promotion box](http://docs.fitwp.com/whisper/promotion-box.png)
 
 
 
-Map
----
+### Map
 
 This shortcode will display a Google Maps in your pages. [See demo](http://themes.fitwp.com/whisper/shortcodes/google-maps/).
 
@@ -1129,12 +1102,11 @@ This shortcode will display a Google Maps in your pages. [See demo](http://theme
 
 **Popup:**
 
-![map](http://fitwp.github.io/docs/whisper/map.png)
+![map](http://docs.fitwp.com/whisper/map.png)
 
 
 
-Column
-------
+### Column
 
 Whisper theme comes with a 12-grid columns (960.gs). This shortcode lets you display content in a column.
 
@@ -1161,12 +1133,11 @@ Note that in this example the `total` equals to number of columns of the `div`.
 
 **Popup:**
 
-![column](http://fitwp.github.io/docs/whisper/column.png)
+![column](http://docs.fitwp.com/whisper/column.png)
 
 
 
-Icon
-----
+### Icon
 
 Whisper has 140+ premium font icons from iconsweets2 that you can select from to make your content more attractive. [See list of icons](http://themes.fitwp.com/whisper/shortcodes/icon/).
 
@@ -1181,12 +1152,11 @@ Whisper has 140+ premium font icons from iconsweets2 that you can select from to
 
 **Popup:**
 
-![icon](http://fitwp.github.io/docs/whisper/icon.png)
+![icon](http://docs.fitwp.com/whisper/icon.png)
 
 
 
-Icon Box
---------
+### Icon Box
 
 Icon box is a way of displaying main information in a "box", which is usually used in homepage, landing pages. [See demo](http://themes.fitwp.com/whisper/shortcodes/icon-box/).
 
@@ -1211,12 +1181,11 @@ Icon box is a way of displaying main information in a "box", which is usually us
 
 **Popup:**
 
-![icon-box](http://fitwp.github.io/docs/whisper/icon-box.png)
+![icon-box](http://docs.fitwp.com/whisper/icon-box.png)
 
 
 
-Note Box
---------
+### Note Box
 
 Note box is an other way to display important information such as headlines. It's very similar to `[promo_box]` shortcode but needs a different config. [See demo](http://themes.fitwp.com/whisper/shortcodes/note-box/).
 
@@ -1235,12 +1204,11 @@ Note box is an other way to display important information such as headlines. It'
 
 **Popup:**
 
-![note-box](http://fitwp.github.io/docs/whisper/note-box.png)
+![note-box](http://docs.fitwp.com/whisper/note-box.png)
 
 
 
-Social Media
-------------
+### Social Media
 
 This shortcode helps you to display links to social media networks. It shows an icon of that network. Whisper supports 60 social networks! [See demo](http://themes.fitwp.com/whisper/shortcodes/social-media-links-and-icons/).
 
@@ -1257,12 +1225,11 @@ This shortcode helps you to display links to social media networks. It shows an 
 
 **Popup:**
 
-![social-media](http://fitwp.github.io/docs/whisper/social-media.png)
+![social-media](http://docs.fitwp.com/whisper/social-media.png)
 
 
 
-Social Feed
------------
+### Social Feed
 
 This shortcode shows items from the feed of creative social networks: Pinterest, Deviant Art, Flickr, Dribbble, Youtube, Instagram and Newsfeed (RSS). [See demo](http://themes.fitwp.com/whisper/shortcodes/social-feed/).
 
@@ -1280,12 +1247,11 @@ This shortcode shows items from the feed of creative social networks: Pinterest,
 
 **Popup:**
 
-![social-feed](http://fitwp.github.io/docs/whisper/social-feed.png)
+![social-feed](http://docs.fitwp.com/whisper/social-feed.png)
 
 
 
-Team Member
------------
+### Team Member
 
 This displays a team member profile on your website. [See demo](http://themes.fitwp.com/whisper/shortcodes/team-member/).
 
@@ -1304,12 +1270,11 @@ This displays a team member profile on your website. [See demo](http://themes.fi
 
 **Popup:**
 
-![team-member](http://fitwp.github.io/docs/whisper/team-member.png)
+![team-member](http://docs.fitwp.com/whisper/team-member.png)
 
 
 
-Clients
--------
+### Clients
 
 This shortcode displays a list of your clients in a carousel slider. [See demo](http://themes.fitwp.com/whisper/shortcodes/clients/).
 
@@ -1339,14 +1304,13 @@ For `[client]`:
 
 **Popup:**
 
-![clients](http://fitwp.github.io/docs/whisper/clients.png)
+![clients](http://docs.fitwp.com/whisper/clients.png)
 
 In the popup, when you need to add more client, just click **Add Client** button.
 
 
 
-Posts
------
+### Posts
 
 This shortcode display latest posts from your blog on your pages **in a grid**. [See demo](http://themes.fitwp.com/whisper/shortcodes/posts/).
 
@@ -1379,14 +1343,13 @@ If you want to display 4 posts, each post is 3 columns, then total columns is 12
 
 **Popup:**
 
-![posts](http://fitwp.github.io/docs/whisper/posts.png)
+![posts](http://docs.fitwp.com/whisper/posts.png)
 
 In the popup, click **Advanced Button** to show more options for the shortcode.
 
 
 
-Portfolios
-----------
+### Portfolios
 
 Similar to `[posts]` shortcode, this shortcode display latest portfolios from your blog on your pages **in a grid**. [See demo](http://themes.fitwp.com/whisper/shortcodes/portfolios/).
 
@@ -1416,14 +1379,13 @@ If you want to display 4 portfolios, each post is 3 columns, then total columns 
 
 **Popup:**
 
-![portfolios](http://fitwp.github.io/docs/whisper/shortcode-portfolios.png)
+![portfolios](http://docs.fitwp.com/whisper/shortcode-portfolios.png)
 
 In the popup, click **Advanced Button** to show more options for the shortcode.
 
 
 
-Posts/Portfolios Tab
---------------------
+### Posts/Portfolios Tab
 
 This shortcode displays tabs of posts and portfolios. [See demo](http://themes.fitwp.com/whisper/shortcodes/post-portfolio-tab/).
 
