@@ -1197,7 +1197,7 @@ This shortcode allow you config type and number of testimonials.
 
 **Popup:**
 
-![note-box](/galticos/shortcode-atestimonial.png)
+![note-box](http://docs.fitwp.com/galaticos/shortcode-atestimonial.png)
 
 
 
