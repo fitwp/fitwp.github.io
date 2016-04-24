@@ -1,9 +1,15 @@
 ---
-layout: default
-title: "Whisper WordPress Theme Documentation - FitWP"
+layout: docs
+title: Whisper Documentation
+description: Documentation for Whisper WordPress theme
 permalink: /docs/whisper
-published: false
 ---
+
+*Welcome! First of all we want to thank you for purchasing our Whisper WordPress Theme.*
+
+In the following sections we will show you how to set up and use Whisper theme the easiest way possible. Although there're a lot of things written in this documentation, the theme itself is not very hard to use. You can go to the Theme Options page and discover everything yourself. This file is more of a reference if you do not know what to do, or if you are not familiar with WordPress.
+
+If you have any questions that are beyond the scope of this help file, please feel free to ask your questions at the support ticket system.
 
 ## Files Included
 
