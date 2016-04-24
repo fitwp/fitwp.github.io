@@ -47,7 +47,7 @@ You can either choose to upload and installl the theme using **FTP** or use **Wo
 - Click **Install Now**
 - When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate **Noise** theme
 
-![upload](/whisper/wordpress-upload.png)
+![upload](http://docs.fitwp.com//whisper/wordpress-upload.png)
 
 
 
@@ -66,7 +66,7 @@ To install these plugins:
 - You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
 - After installing, if it's required to activate the plugin, just activate
 
-![plugins](/noise/install-plugins.png)
+![plugins](http://docs.fitwp.com//noise/install-plugins.png)
 
 
 
@@ -82,7 +82,7 @@ If you are new to WordPress and have problems with setting up the theme you migh
 - Click **Upload file and import**
 - When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
 
-![import](/whisper/import.png)
+![import](http://docs.fitwp.com//whisper/import.png)
 
 After completing all above steps, go to `Track`, `Artist`, `Album` to see imported data.
 
@@ -98,7 +98,7 @@ After completing all above steps, go to `Track`, `Artist`, `Album` to see import
 
 After install demo content, you'll see a page `Onepage`. This page will be used as the homepage of the website. To set it as homepage, please go to `Settings \ Reading`, under **Front page displays**, please chose **A static page (select below)** and select **Onepage** for **Front page** and **Blog** page for **Posts page**.
 
-![homepage](/noise/homepage.png)
+![homepage](http://docs.fitwp.com//noise/homepage.png)
 
 
 
@@ -112,7 +112,7 @@ In the download package, there's a file called `theme-options.txt`. Please open 
 
 Then go to **Appearance \ Theme Options \ Backup and Restore**, you'll see this:
 
-![backup](/noise/backup.png)
+![backup](http://docs.fitwp.com//noise/backup.png)
 
 Paste the content of `theme-options.txt` that you've just copied into the textarea **(1)**, then click button **(2)** to import the theme options.
 
@@ -135,13 +135,13 @@ Following these steps to assign a menu:
 - When you're done moving menu items, check **Primary Menu** for **theme locations** at the bottom of the page
 - Click **Save Menu**
 
-![menu](/noise/menu.png)
+![menu](http://docs.fitwp.com//noise/menu.png)
 
 <div class="alert">**Note 1:** This changes only order of menu items, not order of sections. To change order of sections, please go to Theme Options.</div>
 
 <div class="alert">**Note 2:** If you use the imported menu (e.g. the **Main** menu which is automatically created), you have to **change the URL** of menu item. Currently they're pointed to section of demo website, and you have to change URL to your website.</div>
 
-![menu](/noise/menu-link.png)
+![menu](http://docs.fitwp.com//noise/menu-link.png)
 
 
 
@@ -149,7 +149,7 @@ Following these steps to assign a menu:
 
 Noise theme has only 1 widget area (sidebar) for **Blog** page. By default, Noise works perfectly with all widgets, so you just need to drag and drop widgets from the left to the sidebar area. That's all.
 
-![sidebar](/whisper/sidebar.png)
+![sidebar](http://docs.fitwp.com//whisper/sidebar.png)
 
 To see options for each widgets, please read the **Widgets** section.
 
@@ -160,7 +160,7 @@ That's all! Now you have the website up with all *basic* elements!
 
 ## Theme Options
 
-![theme options](/noise/theme-options.png)
+![theme options](http://docs.fitwp.com//noise/theme-options.png)
 
 The Noise theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
 
@@ -176,7 +176,7 @@ Let's go through each section.
 ### General
 
 
-![general](/noise/general_option.png)
+![general](http://docs.fitwp.com//noise/general_option.png)
 
 This sections contains:
 
@@ -251,7 +251,7 @@ The default color scheme is black, but you can select any from 7 colors here. Af
 
 When you select **Color Scheme** section, you'll see the following options:
 
-![color sheme](/noise/option-color-sheme.png)
+![color sheme](http://docs.fitwp.com//noise/option-color-sheme.png)
 
 **(1)**: select built-in color scheme. These are 7 predefined color scheme. When you select one of them, your website elements will change color accordingly.
 
@@ -267,7 +267,7 @@ When you select **Color Scheme** section, you'll see the following options:
 
 This section help you to select background pattern or image, and change how it appear.
 
-![background](/noise/background.png)
+![background](http://docs.fitwp.com//noise/background.png)
 
 **(1)**: background color.
 
@@ -294,7 +294,7 @@ After done, click **Save Changes** button to save your data. Now go to the front
 
 ### Custom CSS
 
-![custom css](/noise/custom-css.png)
+![custom css](http://docs.fitwp.com//noise/custom-css.png)
 
 This section allows to enter custom CSS that will be output in the `</head>`. This will **overwrite** CSS of theme, so please be careful!
 
@@ -305,7 +305,7 @@ Custom CSS is useful when you want to adjust **small things** for your website. 
 
 ### Header
 
-![header](/noise/header.png)
+![header](http://docs.fitwp.com//noise/header.png)
 
 This sections contains:
 
@@ -338,7 +338,7 @@ This menu will let you reorder sections of Noise, as well as configure each sect
 
 ### Order Sections
 
-![order](/noise/order.png)
+![order](http://docs.fitwp.com//noise/order.png)
 
 Here you can look at all sections available for Noise. You can drag and drop each section to reorder them as you want.
 
@@ -348,7 +348,7 @@ Here you can look at all sections available for Noise. You can drag and drop eac
 
 ### Opener
 
-![opener](/noise/opener.png)
+![opener](http://docs.fitwp.com//noise/opener.png)
 
 Opener is the screen you see when the preloader finished (100%). It mimics the "Slide to Unlock" effect on iOS. This part allows you to configure the opener with the following options:
 
@@ -362,7 +362,7 @@ Opener is the screen you see when the preloader finished (100%). It mimics the "
 
 ### Top Slider
 
-![slider](/noise/top-slider.png)
+![slider](http://docs.fitwp.com//noise/top-slider.png)
 
 This is the configuration for the top slider. From version 2.2.1 theme sliders have three types for you are: Static Background, Slider Background and Video Background
 
@@ -405,7 +405,7 @@ This option help you can set a video as background for Top Slider and captions a
 
 ### Latest Tracks
 
-![latest](/noise/latest.png)
+![latest](http://docs.fitwp.com//noise/latest.png)
 
 This section allows you to display **all** tracks of your website in a vertical slider.In the frontend you can scroll vertically to see all tracks. The configuration of this section is very simple:
 
@@ -419,7 +419,7 @@ This section allows you to display **all** tracks of your website in a vertical 
 
 ### Like & Follow
 
-![like](/noise/like.png)
+![like](http://docs.fitwp.com//noise/like.png)
 
 This section displays beautiful Facebook like and Twitter follow button in the frontend. It has the following options:
 
@@ -437,7 +437,7 @@ This section displays beautiful Facebook like and Twitter follow button in the f
 
 ### Popular
 
-![popular](/noise/popular.png)
+![popular](http://docs.fitwp.com//noise/popular.png)
 
 This section displays popular tracks (based on votes) in the latest week and in the latest month. The options for this section is very simple:
 
@@ -453,7 +453,7 @@ Please see the screenshot in **Latest Tracks** section to know where these texts
 
 ### Quotes
 
-![testimonials](/noise/testimonials.png)
+![testimonials](http://docs.fitwp.com//noise/testimonials.png)
 
 This section allows you to display maximum 5 quotes in the frontend. It has the following options:
 
@@ -470,7 +470,7 @@ The (4) and (5) is repeated the same for all testimonials.
 
 ### Media
 
-![gallery](/noise/gallery.png)
+![gallery](http://docs.fitwp.com//noise/gallery.png)
 
 This section displays photo and video galleries in the latest month. The options for this section is very simple:
 
@@ -488,7 +488,7 @@ Please see the screenshot in **Latest Tracks** section to know where these texts
 
 ### Latest Tweets
 
-![tweets](/noise/tweets.png)
+![tweets](http://docs.fitwp.com//noise/tweets.png)
 
 This sections display latest tweets in the frontend. It has the following options:
 
@@ -503,7 +503,7 @@ Before you use the Tweets section, you have to create a Twitter app. Following t
 
 - Go to [https://dev.twitter.com/apps](https://dev.twitter.com/apps) and click **Create a new application** button.
 
-![twitter-app](/whisper/twitter-app.png)
+![twitter-app](http://docs.fitwp.com//whisper/twitter-app.png)
 
 - Fill in all information needed for the app. The name and description can be anything, it does not have to be a certain name. You can leave the Callback URL field empty.
 - After creating the app, click **Create My Access Token** button to generate the necessary codes.
@@ -519,7 +519,7 @@ These are needed fields in theme options we've just talked about.
 
 ### Releases
 
-![release](/noise/release.png)
+![release](http://docs.fitwp.com//noise/release.png)
 
 This section displays latest releases (album) in the latest month. The options for this section is very simple:
 
@@ -535,7 +535,7 @@ Please see the screenshot in **Latest Tracks** section to know where these texts
 
 ### Subscribe
 
-![subscribe](/noise/subscribe.png)
+![subscribe](http://docs.fitwp.com//noise/subscribe.png)
 
 This section displays a subscribe to newsletter form. The form itself is created by another plugin. We recommended **Send Poet** (formly WYSIJA) plugin, which you should installed in the beginning of this documentation. But you can use any other plugin which support **shortcode** like Gravity Forms.
 
@@ -552,7 +552,7 @@ This section has the following options:
 
 ### Events
 
-![events](/noise/events.png)
+![events](http://docs.fitwp.com//noise/events.png)
 
 This section displays upcoming and past events in the frontend. The options for this section is very simple:
 
@@ -601,7 +601,7 @@ This section displays an important event with countdown style in the frontend. I
 
 ### Artists
 
-![artists](/noise/artists.png)
+![artists](http://docs.fitwp.com//noise/artists.png)
 
 This section displays all artists in a vertical slider in the frontend. The options for this section is very simple:
 
@@ -618,7 +618,7 @@ Please see the screenshot in **Latest Tracks** section to know where these texts
 
 ### Blog Parallax
 
-![blog_parallax](/noise/blog_parallax.png)
+![blog_parallax](http://docs.fitwp.com//noise/blog_parallax.png)
 
 This section displays some information to introduce about your blog.  It have options following:
 
@@ -674,7 +674,7 @@ This section allows you to display products of your website in a vertical slider
 **Woocommerce Setting:** WooCommerce plugin almost works after activated, you just have to edit settings about image size to make sure products are displayed correctly with Noise.
 
 Here we will show you where to edit these settings.
-![woocommerce_setting](/noise/woocommerce-setting.png)
+![woocommerce_setting](http://docs.fitwp.com//noise/woocommerce-setting.png)
 
 You can import products sample of WooCommerce  follow these steps [here](http://docs.woothemes.com/document/importing-woocommerce-dummy-data/)
 
@@ -683,7 +683,7 @@ You can import products sample of WooCommerce  follow these steps [here](http://
 
 ### Connect
 
-![connect](/noise/connect.png)
+![connect](http://docs.fitwp.com//noise/connect.png)
 
 This section displays a Google Maps and links to your social profiles in the frontent. It has the following options:
 
@@ -699,7 +699,7 @@ This section displays a Google Maps and links to your social profiles in the fro
 
 ### Custom Content
 
-![custom](/noise/custom-content.png)
+![custom](http://docs.fitwp.com//noise/custom-content.png)
 
 This section displays custom content in your onepage page. Custom content can be HTML and you can also use shortcodes here. This is useful if you want to show kind of "About" text in your homepage.
 
@@ -715,7 +715,7 @@ It has the following options:
 
 ### Blog
 
-![blog](/noise/blog.png)
+![blog](http://docs.fitwp.com//noise/blog.png)
 
 This part will show you all options for your blog. Although Noise is an "one-page" theme, you still can create multi-page for your website. Blog is one of that "multi-page".
 
@@ -733,7 +733,7 @@ This section has following options:
 
 ### Footer
 
-![footer](/noise/footer.png)
+![footer](http://docs.fitwp.com//noise/footer.png)
 
 This is the configuration part for footer. It has only 3 options:
 
@@ -782,7 +782,7 @@ Noise has some custom post types, one of them is "Album". When you add or edit a
 - **Album Information**: album main information
 - **Featured Image**: album featured image
 
-![album](/noise/album.png)
+![album](http://docs.fitwp.com//noise/album.png)
 
 Let's go through each items:
 
@@ -805,7 +805,7 @@ Another post type that Noise has is "Artist". When you add or edit an artist, yo
 - **Artist Information**: artist main information
 - **Featured Image**: artist featured image
 
-![artist](/noise/artist.png)
+![artist](http://docs.fitwp.com//noise/artist.png)
 
 Let's go through each items:
 
@@ -830,7 +830,7 @@ Let's go through each items:
 - **Track Information**: track main information
 - **Featured Image**: track featured image
 
-![track](/noise/track.png)
+![track](http://docs.fitwp.com//noise/track.png)
 
 Let's go through each items:
 
@@ -856,7 +856,7 @@ Let's go through each items:
 
 Noise allows you to show your photo gallery or video gallery. When you add or edit a gallery, you'll see the following options:
 
-![gallery](/noise/gallery-edit.png)
+![gallery](http://docs.fitwp.com//noise/gallery-edit.png)
 
 - **(1)**: gallery type: 'Photos' or 'Videos'. If you choose 'Photos', then you have to uploads images, otherwise, you have to upload videos.
 - **(2)**: gallery images. Click the button **Select or Upload Images**, a modal window will display. There you can upload images or choose images from the Media Library. Note: you only to do this if you choose gallery type 'Photos'.
@@ -870,7 +870,7 @@ Noise allows you to show your photo gallery or video gallery. When you add or ed
 
 Noise allows artists/singles to put their events on the website so fans can see and buy tickets. When you add or edit an event, please fill in the information below:
 
-![event](/noise/event.png)
+![event](http://docs.fitwp.com//noise/event.png)
 
 - **(1)**: event date/time. Simply click on the text box, a date/time picker will popup and you just need to select correct date and time.
 - **(2)**: event information (description).
@@ -910,11 +910,11 @@ Each post format will have an icon near post title which tells you what post for
 
 When you edit a post, select a format you want to apply to that post on the **Format** meta box on the right:
 
-![formats](/whisper/post-formats-box.png)
+![formats](http://docs.fitwp.com//whisper/post-formats-box.png)
 
 When you choose a format, a corresponding meta box will appear **below** the content editor, here's the list of them:
 
-![formats](/noise/post-formats.png)
+![formats](http://docs.fitwp.com//noise/post-formats.png)
 
 All you need to do is just enter **all** information in the fields in these meta boxes. This information will be used to decorate the post.
 
@@ -932,7 +932,7 @@ Noise has 4 page templates:
 
 When you edit a page, look at on the right, find **Page Attributes** meta box and select a template from the dropdown **Template**:
 
-![page-templates](/noise/page-templates.png)
+![page-templates](http://docs.fitwp.com//noise/page-templates.png)
 
 View the page to see result!
 
@@ -940,7 +940,7 @@ Note: if you want to make the under construction page work (e.g. your site is un
 
 For **Under Construction** page template, you'll see this box below main editor:
 
-![underconstruction](/noise/underconstruction.png)
+![underconstruction](http://docs.fitwp.com//noise/underconstruction.png)
 
 This page template needs following information:
 
