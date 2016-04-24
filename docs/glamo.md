@@ -1,3 +1,9 @@
+---
+layout: docs
+title: Glamo Documentation
+description: Glamo WordPress theme documentation
+---
+
 Welcome! First of all we want to thank you for purchasing our Glamo WordPress Theme.
 
 In the following sections we will explain how to set up and use Glamo theme the easiest way possible. Although there're a lot of things written in this documentation, the theme itself is not hard to use. You can go to the Theme Options page and explore everything yourself. This file is more of a reference if you do not know what to do, or if you are not familiar with WordPress.
