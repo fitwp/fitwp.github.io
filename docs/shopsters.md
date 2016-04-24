@@ -1,8 +1,7 @@
 ---
 layout: docs
 title: Shopsters Documentation
-permalink: /docs/shopsters
-published: true
+description: Shopsters Wordpress theme documentation
 ---
 
 
