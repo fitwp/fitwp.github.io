@@ -2,7 +2,6 @@
 layout: docs
 title: Whisper Documentation
 description: Documentation for Whisper WordPress theme
-permalink: /docs/whisper
 ---
 
 *Welcome! First of all we want to thank you for purchasing our Whisper WordPress Theme.*
