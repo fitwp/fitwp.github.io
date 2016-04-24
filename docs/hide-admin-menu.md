@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Hide Admin Menu Documentation
-permalink: /docs/hide-admin-menu
+description: Hide Admin Menu WordPress plugin documentation
 ---
 
 *Welcome! First of all we want to thank you for purchasing our Hide Admin Menu plugin.*
