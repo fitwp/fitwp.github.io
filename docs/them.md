@@ -136,44 +136,123 @@ It takes a couple of minutes to process all the content. After done, go to the f
 
 ## Setup the homepage
 
+The homepage of IndusPress has several sections that help you to show your content in an attractive way. You can drag and drop these sections to reorder them or remove them completely. It's fully customizable and extremely flexible for your website.
 
 
-- Go to `Settings > Reading`
-- For **Front page displays**, select **A static page (select below)**
-- Choose either **Home version 1**, **Home version 2**, **Home version 3** from the dropdown for **Front page**
-- Click **Save Changes**
+### Homepage overview
 
-![homepage](http://docs.fitwp.com/whisper/setup-homepage.png)
+The homepage has 5 sections (see the screenshot):
+
+1. Slider
+2. Featured Posts
+3. Featured Post
+4. Instagram
+5. Featured Post
+
+![home](http://i.imgur.com/HF78OJL.jpg)
 
 
-### Setup homepage slider
+Each section represents itself a widget, which allows you to edit its configuration easily. You can also use WordPress widget management system to reorder them as you wish.
 
-After setting up the homepage, you need to setup the slider for homepage to make it display the same as in live preview.
+The homepage uses a specialized sidebar (called Homepage) to display its content. The widgets which can be configured in the Customizer or Widgets page in the dashboard.
 
-The download package contains exported 3 sliders (Revolution Slider) that help you easier to create sliders. You can choose whatever slider to import (no need to import all except you want to have 3 homepage versions exactly the same as in live preview). Following the steps below:
+### Create homepage
 
-- Go to `Revolution Slider`
-- Click **Import Slider** button
-- When a popup appear, click **Browse** and select `home-slider-1.zip` file
-- Click **Import Slider** button to start import the selected slider
+In order to build the homepage the same as in the demo, you need to create two pages, one for your homepage and one for your blog page. Go to **Pages → Add New** and create a page titled **Front Page** and a page titled **Blog**. You can also name these pages anything you like, but for the sake of website organization, we recommend using the name **Front Page** and **Blog**.
 
-![import slider](http://docs.fitwp.com/whisper/import-slider.png)
+For the homepage, after you have given your page a title, select **Homepage** from the list of available **Templates** on the right as the following screenshot:
 
-One problem with Revolution Slider is it doesn't import images correctly. So we have to fix the URL to these images:
+![home](http://i.imgur.com/YXXgwMV.png)
 
-- You're still on the main page of Revolution Slider, click **Edit Slides**
-- Choose first slide to edit and click **Edit Slide**
-- Select **Image 1** from the list of layers and then click on **Change Image Source** (this button appears only when you select **Image 1** layer)
-- Choose correct image from the Media Library as shown in the screenshot below and then click **Insert**
-- Click **Update Slide**
+After creating a page and applying the homepage template, you should set it as the static front page by going to **Settings → Reading** and select **A static page (select below)** for **Front page** displays, and then select the page from the dropdown for **Front page** as follows:
 
-![fix](http://docs.fitwp.com/whisper/fix-revolution-slider.png)
+![select pages](http://i.imgur.com/LB5uszG.png)
 
-**Repeat the steps below for other slides**
+### Homepage sidebar and widgets
 
-<div class="alert">**Important:** We're going through the steps to set up slider for homepage **the same** as in live preview. If you want to make your own slider, follow the **documentation of Revolution Slider** included in download package!</div>
+The content below the main menu (slider, featured posts, etc.) is the **Homepage** sidebar. We make several widgets for you to add your content to the homepage easier. You can add any other widget to the homepage if you want to (text widget, gallery widget).
 
-Now the homepage is working perfectly!
+To start adding content to **Homepage** sidebar, go to the **Dashboard → Appearance → Widgets**, you will see the **Homepage** sidebar as well as all available widgets:
+
+![sidebar](http://i.imgur.com/9CHSfVp.png)
+
+Another way to add and edit widgets is using the **Customizer**. Do that by clicking **Customizer** in the admin bar and select **Widgets**, then select **Homepage** section:
+
+![customizer](http://i.imgur.com/YUc6983.png)
+
+We will use the **Customizer** in the documentation as it allows you to view the changes in real-time without re-loading the page.
+
+Now let’s go through the homepage widgets.
+
+#### Slider
+
+Slider are a collection of featured posts that are displayed in a special slider with an unique effect for text and image. You are able to select which posts to show in the slider as well as which elements to show. This is a good place if you want to highlight the best posts in your blog.
+
+In the **Homepage** sidebar in the **Customizer**, click button **Add a Widget**, you will see a list of available widgets on the right where you can search for widgets and add them. Here we will search for **TheM: Featured Posts** widget and click on it to add to the **Homepage** sidebar.
+
+![slider](http://i.imgur.com/B7rK7wp.png)
+
+The widget has several options for you to adjust:
+
+- **Number of posts**: the number of posts you want to show in the slider (e.g. the number of slides).
+- **Category**: which category you want to get posts from. Select **All** if you want to show posts in all categories.
+- **Tag**: which tag you want to get posts from. Select **All** if you want to show posts in all tags.
+- **Show date**: do you want to show post date? Date will be rotated 90 degree to have a good effect. You should enable this for the slider.
+- **Date format**: the date format. By default it takes WordPress settings in **Settings > General**.
+- **Show excerpt**: do you want to show post excerpt in the slider? The post excerpt is taken from post excerpt and fallback to the post content.
+- **Excerpt length**: the number of words of post excerpt you want to show in the slider. The recommended number is 40.
+- **Show read more button**: do you want to show read more button?.
+- **Read more text**: the read more text.
+- **Display as slider**: check this to make featured posts displayed as a slider.
+- **Slider speed (ms)**: the number of milliseconds between slides.
+
+**Tip**: To select specific posts for the slider, you can create a specific tag and add it to the posts you want to show. Then in this widget, select that tag.
+
+#### Grid of featured posts
+
+Similar to slider, the grid of featured posts displays posts in a 3-column or 4-column grid. This is also a good place to highlight your posts.
+
+The grid of featured posts uses exactly the same widget as the slider (**Featured Posts**). The only difference is you do not check the option to **Display as slider**.
+
+**Note**: In order to have a best view, you should set the number of posts to 3 or 4.
+
+#### Featured post
+
+The **Featured Post** widget allows you to show a single post in the homepage beautifully. That's a good option to show the post that hightlights the main content of your blog.
+
+To add the widget into the homepage, select **TheM: Featured Post** from the widget list:
+
+![featured](http://i.imgur.com/iQLqcPD.png)
+
+The widget has several options for you to adjust:
+
+- **Select post**: select the post you want to show.
+- **Thumbnail**: select position for the thumbnail. In the demo, we use this widget twice: one with thumbnail left and one with thumbnail right to give a good affect of view.
+- **Show date**: do you want to show post date? Date will be rotated 90 degree to have a good effect. You should enable this.
+- **Date format**: the date format. By default it takes WordPress settings in **Settings > General**.
+- **Show excerpt**: do you want to show post excerpt? The post excerpt is taken from post excerpt and fallback to the post content.
+- **Excerpt length**: the number of words of post excerpt you want to show. The recommended number is 40.
+- **Show read more button**: do you want to show read more button?.
+- **Read more text**: the read more text.
+
+#### Instagram
+
+The **Instagram** widget displays the latest images from your stream on Instagram or from any person or from any tag in a beautiful grid or carousel slider. It's quite flexible and gives your blog an impressive look.
+
+To add the widget into the homepage, select **TheM: Instagram** from the widget list:
+
+![instagram](http://i.imgur.com/UeEcaSd.png)
+
+The widget has several options for you to adjust:
+
+- **Title**: the title of the widget. It's usually not used in order to display the images more cleaner.
+- **User ID**: your user ID. In order to get your user ID, click the link above this field **Authorize and get your Access Token and User ID here**. You will be redirected to Instagram to login if you haven't. Then you will be asked to authorize the app to access to your account. Don't worry, the app only sees your basic info like username and email. Then you will be redirected to a page where your user ID and access token are displayed.
+- **Access token**: your access token that you will get in previous step.
+- **Cache time**: the number of seconds that the widget cache the content from Instagram. This prevents continual sending requests to Instagram which might be blocked if the frequency is too low. A good option is 3600 (1 hour).
+- **Number of images**: the number of images you want to show. If you don't show images as a carousel slider (the option below), then you should set this number to 4.
+- **Other user ID**: use this option if you want to display images from an other person than yourself. To get other user's ID, click the link **Click here to get other person's ID** below the input.
+- **Tag**: if you want to get images not from yourself, but from a tag in Instagram, then enter the tag here.
+- **Display as carousel slider**: do you want to show images in a carousel slider (as displayed in the demo)? If not, images will be shown in a grid.
 
 
 ### Setup menu
