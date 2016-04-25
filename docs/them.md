@@ -245,31 +245,111 @@ To add the widget into the homepage, select **TheM: Instagram** from the widget 
 
 The widget has several options for you to adjust:
 
-- **Title**: the title of the widget. It's usually not used in order to display the images more cleaner.
-- **User ID**: your user ID. In order to get your user ID, click the link above this field **Authorize and get your Access Token and User ID here**. You will be redirected to Instagram to login if you haven't. Then you will be asked to authorize the app to access to your account. Don't worry, the app only sees your basic info like username and email. Then you will be redirected to a page where your user ID and access token are displayed.
-- **Access token**: your access token that you will get in previous step.
-- **Cache time**: the number of seconds that the widget cache the content from Instagram. This prevents continual sending requests to Instagram which might be blocked if the frequency is too low. A good option is 3600 (1 hour).
-- **Number of images**: the number of images you want to show. If you don't show images as a carousel slider (the option below), then you should set this number to 4.
-- **Other user ID**: use this option if you want to display images from an other person than yourself. To get other user's ID, click the link **Click here to get other person's ID** below the input.
-- **Tag**: if you want to get images not from yourself, but from a tag in Instagram, then enter the tag here.
-- **Display as carousel slider**: do you want to show images in a carousel slider (as displayed in the demo)? If not, images will be shown in a grid.
+Option|Description
+---|---
+Title|The title of the widget. It's usually not used in order to display the images more cleaner.
+User ID|Your user ID. In order to get your user ID, click the link above this field **Authorize and get your Access Token and User ID here**. You will be redirected to Instagram to login if you haven't. Then you will be asked to authorize the app to access to your account. Don't worry, the app only sees your basic info like username and email. Then you will be redirected to a page where your user ID and access token are displayed.
+Access token|Your access token that you will get in previous step.
+Cache time|The number of seconds that the widget cache the content from Instagram. This prevents continual sending requests to Instagram which might be blocked if the frequency is too low. A good option is 3600 (1 hour).
+Number of images|The number of images you want to show. If you don't show images as a carousel slider (the option below), then you should set this number to 4.
+Other user ID|Use this option if you want to display images from an other person than yourself. To get other user's ID, click the link **Click here to get other person's ID** below the input.
+Tag|If you want to get images not from yourself, but from a tag in Instagram, then enter the tag here.
+Display as carousel slider|Do you want to show images in a carousel slider (as displayed in the demo)? If not, images will be shown in a grid.
 
 
-### Setup menu
+## Customizing the header
+
+The header of the theme has 3 sections:
+
+- The top bar
+- The site title or logo
+- The menu
+
+Each section has several options to customize and let's go through them.
+
+### Top bar
+
+The top bar is divided into 2 parts: the top bar left which can contains social links or text and the top bar right which contains search form, cart icon and an icon to toggle the menu for mobile devices.
+
+#### Top bar left
+
+The top bar left can display either social links or custom text. By default it displays social links. To change which is displayed in the top bar left, please go to **Customizer > Theme Options > Header** and you will see the options as follows:
+
+![top bar left option](http://i.imgur.com/fdbZGPu.png)
+
+If you want to display text in the topbar left, simply select **Text** option and enter the text in the input below. Note that you can enter HTML here, so it's good for you to display a welcome text with a link or something.
+
+If you want to display social links in the top bar left, then you need to create a custom menu for social links and set it to display here. To do that, follow these steps:
+
+- Go to **Customizer > Menu** and click the button **Add a Menu**.
+- Click the button **Add Items** and select **Custom Links** in the list.
+- Enter link to your social profile and click **Add to Menu**.
+- Repeate the process to add more links to your social profiles in other social networks.
+- When you're done, check the checkbox **Social Links Menu** in the section **Menu locations** to make it display in the top bar.
+
+![social menu](http://i.imgur.com/0Qn4al9.png)
+
+**Note**: when you set a menu for social links, these links will be displayed in the footer and **About me** widget as well as in the mobile menu.
+
+#### Site title or logo
+
+By default, TheM display the site title but you can change that to display site logo. The site logo feature requires WordPress 4.5, so you need to upgrade your WordPress to version 4.5 if you have an older version. If you couldn't upgrade, then the only option for you is displaying the site title.
+
+In order to add logo to your site, go to **Customizer > Site Identity** and click the button **Select logo** to upload the logo or select from the Media Library.
+
+![logo](http://i.imgur.com/9ePemyW.png)
+
+#### Main menu
 
 Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default. As the number of pages is large, displaying all of them in the menu is a bad idea.
 
-Following these steps to create a menu:
+Following these steps to create a menu (here we will use the WordPress Dashboard instead of the Customizer because this allow us to add mega menu as described in the next section):
 
-- Go to `Appearance > Menus`
-- Select an existing to edit, or click **create a new menu**. **Note:** when you import theme data, WordPress automatically create a menu **Main** for you, so select it if you want to have same menu as in live preview.
-- Select pages from the left meta box and click **Add to Menu**
-- On the right, feel free to drag and drop menu items to organize them
-- When you're done moving menu items, check **Primary Menu** for **theme locations** at the bottom of the page
-- Click **Save Menu**
+- Go to **Appeance > Menus**
+- Select an existing to edit, or click **Add a menu**. **Note:** when you import the demo, you already have a menu **Main**, so select it if you want to have same menu as in the demo.
+- Click **Add items** to add items to the menu
+- When you're done adding menu items, check **Primary Menu** for **Theme locations** at the bottom of the page
 
-![menu](http://docs.fitwp.com/whisper/menu.png)
+![menu](http://i.imgur.com/aZHKqtb.png)
 
+#### Mega menu
+
+One of the best feature of TheM is mega menu. The mega menu allows you to display custom content in the menu, not only links. You can choose to display custom text or post list in the menu.
+
+In order to use mega menu, you need to use the WordPress Dashboard, not the Customizer. Go to **Appearannce > Menus** and follow the steps below:
+
+Click on a top-level menu item to edit it, you will see an checkbox for **Enable mega menu?** This option allows you to display its submenu items in a mega menu:
+
+![mega](http://i.imgur.com/2i0Orz6.png)
+
+Then add a **Custom Link** as a submenu item for this item, you will see the following options:
+
+![submenu](http://i.imgur.com/Xo7RPIX.png)
+
+Let's break it out:
+
+Option|Description
+---|---
+Layout|The layout of this submenu item.
+Item type|The type of the content of this submenu item. It has 2 options: **Text** which displays a custom text (similar to text widget in WordPress) or **Posts** which displays a list of posts.
+
+If you choose item type **Text**, you will see an option for the **Content**. Simply enter the content you want to display. HTML and shortcodes are allowed. (See the screenshot above)
+
+If you choose item type **Posts**, then you will see more options like this:
+
+![submenu posts](http://i.imgur.com/0sW8Ebb.png)
+
+Option|Description
+---|---
+Number Of Posts|How many posts you want to displayed. It should be fit to your layout, e.g. if you choose layout 3/4, then you should set the number of posts 3.
+Category|You can choose to display posts from all categories, or a specific category
+Tag|You can choose to display posts from all tags, or a specific tag
+Show Date|Whether or not show post date
+Date Format|Date format. Click the [?] link for a full list of supported date formats
+Show Excerpt|Whether or not show post excerpt
+Excerpt Length|The number of words of post content will be displayed
+
+After done editing, click **Save Menu** and see it in action in the front end.
 
 ### Setup widget areas
 
