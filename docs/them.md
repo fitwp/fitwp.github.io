@@ -12,37 +12,37 @@ In the following sections we will show you how to set up and use TheM theme the 
 
 The download package (`.zip`) that you get from ThemeForest contains the following files and folder:
 
-- `them.zip`: main theme file that need to be uploaded to host to install TheM theme
+- `them.zip`: Main theme file that need to be uploaded to host to install TheM theme
 - `docs.html`: Theme documentation (this file)
+- `them-demo-import.zip`: The plugin for demo import
 
 
 ## Installation
 
 ### Install theme
 
-After you download the `.zip` package from ThemeForest, unzip it. You'll see a file `them.zip`, which is the main file that needed to upload and install.
+After you download the `.zip` package from ThemeForest, unzip it. You'll see a file `them.zip`, which is the main file that needed to upload and install. Then follow the steps below to install the theme.
 
-You can either choose to upload and installl the theme using **FTP** or use **WordPress theme install** function.
+Login to your WordPress dashboard and click on **Appearance > Themes**. Then click on the **Add New** button at the top.
 
-**Install theme using WordPress install function**
+![add theme](http://i.imgur.com/vt5vYby.png)
 
-- Go to `Appearance > Themes` and click **Add New**
-- Select **Upload**
-- Click **Browse** and select the `them.zip` file
-- Click **Install Now**
-- When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate **TheM** theme
+On the next screen, click on the **Upload Theme** button at the top.
 
-![upload](http://docs.fitwp.com/whisper/wordpress-upload.png)
+![upload theme](http://i.imgur.com/8NfJfgU.png)
 
-**Upload and install using FTP**
+You will be prompted to choose the zip file that you downloaded earlier. Select the file and click **Install Now**.
 
-- Unzip `them.zip`, you'll get a folder `them`
-- Use a FTP client like [FileZilla](http://filezilla-project.org/) and upload that folder to `wp-content/themes` folder on your host
-- Go to `Appearance > Themes` and activate **TheM** theme
+![install theme](http://i.imgur.com/H1pryEI.png)
+
+Once your theme is installed, you will see a success message along with the link to activate and preview the theme. Just click **Activate** link to complete the installation of the theme.
+
+For more information, please read more our very detailed guide on [how to install a WordPress theme](http://fitwp.com/docs/install-wordpress-theme).
+
 
 ### Install plugins
 
-After installing TheM, you'll see a notification in the top of the page that says the theme needs some plugins to function properly.
+After installing TheM, you'll see a notification in the top of the page that says the theme needs some plugins to function properly. These plugins adds more features to the theme such as portfolio, contact form, shop, ... which makes your blog more powerful.
 
 TheM theme **requires** the following plugins:
 
@@ -52,39 +52,91 @@ TheM theme **requires** the following plugins:
 - **Jetpack**: Adds portfolio and infinite scroll to your blog. If you don't need these features, you can ignore this plugin.
 - **WooCommerce**: Helps you to sell stuffs on your blog. You can ignore this plugin if you don't need a shop.
 
-The following plugins are **recommended**:
+The following plugins are **recommended** if you want a better shop for your blog (you can ignore them if you don't want to):
 
 - **YITH WooCommerce Wishlist**: Adds wishlist to your shop.
 - **YITH WooCommerce Compare**: Adds compare feature to your shop.
 
-TheM is working perfectly with these plugins. It automatically adds more styles to them to make the design match the theme.
-
 To install these plugins:
 
-- Click **Begin installing plugins**
-- You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
-- After installing, if it's required to activate the plugin, just activate
+- Click **Begin installing plugins** in the notification in the top of the page
+- You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below the plugins' names
+- After installing, if it's required to activate the plugin, just activate them
 
 ![plugins](http://docs.fitwp.com/whisper/install-plugins.png)
 
 
-### Install demo content
+### Configure plugins
 
-If you are new to WordPress and have problems with setting up the theme you might want to import the demo content file that comes with the theme. The following actions will import some dummy posts and pages from the live preview:
+To make sure the plugins work well with your blog, you should configure them a little bit as below:
 
-- Go to `Tools > Import`
-- Select **WordPress** from the list
-- If you haven't installed the **WordPress import plugin**, a popup window will appears and ask you to install it. Just click **Install Now**. When the installation progress is completed, click **Activate Plugin & Run Importer**. If you have installed this plugin, skip to next step.
-- Click **Browse** and select `demo-content.xml` file from the download package
-- Click **Upload file and import**
-- When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
+**Jetpack**:
 
-![import](http://docs.fitwp.com/whisper/import.png)
+This plugin requires you to connect to WordPress.com to use its functionality. However, if you don't want to connect to WordPress.com, you can still use it freely by following these steps:
 
-After completing all above steps, go to `Posts` and `Pages` to see imported posts and pages. There are some special pages that you should pay attention to such as: **Homepage** (3 versions), **Blog** (2 versions), **Portfolios** (2 versions), **Contact**.
+- Use a FTP software like FileZilla to connect to your host
+- Open the file `wp-config.php` in the installed WordPress folder
+- Add the following line at the beginning of the file, below `<?php`
+
+```php
+define( 'JETPACK_DEV_DEBUG', true);
+```
+
+For more information, please read [this guide](https://jetpack.com/support/development-mode/).
+
+By default, TheM uses 2 modules of Jetpack: **Custom Content Types** and **Infinite Scroll**:
+
+- If you want to show portfolio in your blog, then you need to activate **Custom Content Types** module.
+- If you want to have infinite scroll for blog post, porfolio or shop, then you need to activate **Infinite Scroll** module.
+
+Go to **Jetpack → Settings** and activate the modules you want to use.
+
+![jetpack](http://i.imgur.com/ilqQQL0.png)
+
+There are several useful modules that you might want to use. Just activate them and try! Jetpack is a very powerful plugin and one of the most popular plugin for WordPress. It's well developed and actively maintained by Automattic, the organization behind WordPress.
+
+**WooCommerce**:
+
+To make sure product images are displayed beautifully, we need to adjust WooCommerce settings.
+
+Go to **WooCommerce → Settings** and click on the tab **Products**. Then click on **Display** link and change the image sizes as shown in this screenshot:
+
+![woocommerce](http://i.imgur.com/QsgmIgr.png)
+
+**YITH WooCommerce Compare**:
+
+Go to **YITH Plugins → Compare** and set **Link or Button** option to **Link** as follows:
+
+![compare](http://i.imgur.com/3MfUvlG.png)
 
 
-### Setup the homepage
+
+### Import demo content
+
+If you are new to WordPress and have problems with setting up the theme you might want to import the demo content. This will save you a little time at the beginning and give you an overview of how the theme works.
+
+This step is optional. You should be able to customize the whole theme by following our documentation. In case you want a quick setup for the look just like our demo, please follow these steps:
+
+ 1. Download the demo import plugin [here](http://goo.gl)
+
+ 2. Go to **Plugins → Add New** in the dashboard, then click **Upload Plugin**
+
+![upload](http://i.imgur.com/f326I3H.png)
+
+ 3. Choose the `.zip` file you downloaded in step 1 and click **Install Now**.
+
+![install](http://i.imgur.com/zCJlsg0.png)
+
+4. After installing the plugin, click **Activate** link to activate it.
+
+5. Go to **Tools → Import Demo** and click **Import Demo Content** button.
+
+It takes a couple of minutes to process all the content. After done, go to the frontend and enjoy the theme.
+
+
+## Setup the homepage
+
+
 
 - Go to `Settings > Reading`
 - For **Front page displays**, select **A static page (select below)**
@@ -157,7 +209,6 @@ That's all! Now you have the website up with all *basic* elements!
 
 ## Theme Options
 
-![theme options](http://docs.fitwp.com/whisper/theme-options.png)
 
 The TheM theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
 
@@ -771,624 +822,3 @@ The widget has the following options:
 This widgets displays popular posts, recent posts and recent comments in a tabbed widget. Each tab has its own options. For popular posts and recent posts, the options are similar to the Recent Posts widget above.
 
 Note that popular posts is counted based on number of comments.
-
-
-
-
-## Shortcodes
-
-The TheM theme is bundled with powerful shortcodes that you can customize your page content in thousand ways!
-
-With TheM Shortcode Generator, there is a shortcode for anything you need, and they allow you to create so many different page layouts. Users can quickly and easily built their own custom pages using all the various shortcodes that TheM includes. Just about any element you see on our demo is a shortcode that you can insert on any page. Several shortcodes have numerous options for customization. There are endless options to choose from! Easily create your own pages by using our shortcodes, tons of possibilities and we add more all the time!
-
-Good samples of shortcodes are homepages and other pages in the live preview demo. They’re all created with shortcodes! No need to remember shortcode attributes, all is done via a friendly interface.
-
-When you edit a post or a page, click on **Shortcodes** button above the content editor to show the shortcodes menu.
-
-![shortcode menu](http://docs.fitwp.com/whisper/shortcode-menu.png)
-
-Select a shortcode from the menu, a popup will appear that lets you add more settings for shortcodes.
-
-Each popup will have 3 parts:
-
-- **Shortcode configuration** on the left: which lets you edit shortcode attributes
-- **Shortcode preview** on the right: which show you preview of the shortcode
-- **Insert button**: insert shortcode to the editor when you're done configuring it
-
-Let's go one by one:
-
-
-
-### Highlight
-
-This shortcode highlights a word, sentence or any text in post content. [See demo](http://themes.fitwp.com/whisper/shortcodes/highlight/).
-
-**Attributes:**
-
-```
-[highlight]Lorem ipsum dolor sit amet[/highlight]
-[highlight background="pink"]Lorem ipsum dolor sit amet[/highlight]
-[highlight custom_background="#c9c9c9"]Lorem ipsum dolor sit amet[/highlight]
-```
-
-- `background` (optional): Background color for highlighted text. TheM has built-in 24 colors for you to choose from (see the screenshot below). If you don't choose background color, TheM will use default color - yellow.
-- `custom_background` (optional): custom background color. If you don't like any color from the predefined set, you can specify your custom background color here.
-
-**Popup:**
-
-![highlight](http://docs.fitwp.com/whisper/highlight.png)
-
-**(1)**: choose background color for highlighted text.
-
-**(2)**: custom background color.
-
-**(3)**: this is a preview of shortcode, which will show you all shortcode attributes.
-
-**(4)**: when you're done, click **Insert** button to insert shortcode to the editor.
-
-
-
-### Superscript
-
-Simply choose a text and select superscript, the text will be display<sup>like this</sup>. There's no config for this. [See demo](http://themes.fitwp.com/whisper/shortcodes/superscript-and-subscript/).
-
-
-
-### Subscript
-
-Simply choose a text and select subcript, the text will be display<sub>like this</sub>. There's no config for this. [See demo](http://themes.fitwp.com/whisper/shortcodes/superscript-and-subscript/).
-
-
-
-### Dropcap
-
-This shortcode displays a letter (usually the first letter of the paragraph) bigger and colored to get attraction from users. [See demo](http://themes.fitwp.com/whisper/shortcodes/dropcaps/).
-
-**Attributes:**
-
-```
-[dropcap]L[/dropcap]orem ipsum dolor sit amet
-[dropcap type="color"]L[/dropcap]orem ipsum dolor sit amet
-```
-
-- `type` (optional): empty (default) or `color`, which will display dropcap in gray square or in colored square.
-
-**Popup:**
-
-![dropcap](http://docs.fitwp.com/whisper/dropcap.png)
-
-
-
-### Divider
-
-This shortcode displays a beautiful horizontal line (divider). [See demo](http://themes.fitwp.com/whisper/shortcodes/divider/).
-
-**Attributes:**
-
-```
-[divider]
-[divider type="icon"]
-```
-
-- `type` (optional): divider type, empty (default) or `icon`. If not specified or empty, the shortcode will show a simple horizontal line. If `icon` - horizontal line with an icon.
-
-**Popup:**
-
-![divider](http://docs.fitwp.com/whisper/divider.png)
-
-
-
-### Button
-
-This shortcode displays a beautiful button on your page. [See demo](http://themes.fitwp.com/whisper/shortcodes/buttons/).
-
-**Attributes:**
-
-```
-[button link="#" color="pink" background="pink"]Click me[/button]
-[button link="#" color="pink" icon="serviceicon-power" background="pink"]Click me[/button]
-[button link="#" color="pink" icon="serviceicon-power" icon_position="right" align="left" full="1" background="pink" target="_blank" nofollow="1" id="myid" class="myclass"]Click me[/button]
-```
-
-- `link` (required): button URL
-- `color` (required): button color name. You can choose from 24 predefined colors (see popup below)
-- `size` (optional): button size, can be `small`, `medium` (default) or `large`
-- `icon` (optional): button icon. You can select from 140+ premium font icons from iconsweets2 (see popup below).
-- `icon_position` (optional): icon position, can be `left` (default) or `right`.
-- `align` (optional): you want to float the button to the `left`, `right`, `center` or `none` (default)?
-- `full` (optional): display the button full-width (block) (value `1`) or not (empty). Default is empty.
-- `background` (optional): if you don't like the 24 predefined button colors, you can choose custom background and custom text color. This option is for custom background color.
-- `text_color` (optional): custom text color for button.
-- `target` (optional): link target, can be empty (default) - open link in same window or `_blank` - open in new window.
-- `nofollow` (optional): link will be nofollowed (value `1`) or not (empty). Default is empty.
-- `id` (optional): button ID, in case you want a custom HTML ID attribute for the button. It is useful when you need it for CSS or Javascript.
-- `class` (optional): button CSS, in case you want a custom HTML CSS attribute for the button. It is useful when you need it for CSS or Javascript.
-
-**Popup:**
-
-![button](http://docs.fitwp.com/whisper/button.png)
-
-In the popup, there're some advance options hidden by default. You need to click the **Advanced Button** to show them all.
-
-
-
-### Box
-
-Also called **alert box**, **information box** or **styled box**.
-
-This shortcode displays an alert, success, error or information box with a close icon or not. [See demo](http://themes.fitwp.com/whisper/shortcodes/information-boxes/).
-
-**Attributes:**
-
-```
-[box]Lorem ipsum dolor sitamet[/box]
-[box type="success" close="1"]Lorem ipsum dolor sitamet[/box]
-```
-
-- `type` (optional): box type, can be empty (or `alert`), `success`, `error`, `info`. Default is empty.
-- `close` (optional): display close icon (value `1`) or not. Default is `1`.
-
-**Popup:**
-
-![box](http://docs.fitwp.com/whisper/box.png)
-
-
-
-### Toggles
-
-These shortcodes will display a panel of content which can be hide/show when you click on the panel title. [See demo](http://themes.fitwp.com/whisper/shortcodes/toggles-accordions-tabs/).
-
-This is a combination of 2 shortcodes: `[toggles]` and `[toggle]`. `[toggles]` is a wrapper and doesn't have any attributes, while `[toggle]` is a shortcode to display each panel and has the following attributes:
-
-**Attributes:**
-
-```
-[toggles]
-[toggle title="1st panel"]Lorem ipsum dolor sitamet[/toggle]
-[toggle title="2nd panel"]Lorem ipsum dolor sitamet[/toggle]
-[/toggles]
-```
-
-- `title`: panel title.
-
-**Popup:**
-
-![toggles](http://docs.fitwp.com/whisper/toggles.png)
-
-In the popup, do add more toggle panel, just click the button **Add Toggle** and fill in the title and content.
-
-
-
-### Accordions
-
-These shortcodes will display a panel of content which can be hide/show when you click on the panel title. Similar to toggles, the difference here is when a panel is opened, other panels are closed (in toggles, they still can be opened). [See demo](http://themes.fitwp.com/whisper/shortcodes/toggles-accordions-tabs/).
-
-This is a combination of 2 shortcodes: `[accordions]` and `[accordion]`. `[accordions]` is a wrapper and doesn't have any attributes, while `[accordion]` is a shortcode to display each panel and has the following attributes:
-
-**Attributes:**
-
-```
-[accordions]
-[accordion title="1st panel"]Lorem ipsum dolor sitamet[/accordion]
-[accordion title="2nd panel"]Lorem ipsum dolor sitamet[/accordion]
-[/accordions]
-```
-
-- `title`: panel title.
-
-**Popup:**
-
-![accordions](http://docs.fitwp.com/whisper/accordions.png)
-
-In the popup, do add more accordion panel, just click the button **Add Accordion** and fill in the title and content.
-
-
-
-### Tabs
-
-These shortcodes will display tabs of content which can be switched when you click on the tab title. [See demo](http://themes.fitwp.com/whisper/shortcodes/toggles-accordions-tabs/).
-
-This is a combination of 2 shortcodes: `[tabs]` and `[tab]`. `[tabs]` is a wrapper, while `[tab]` is a shortcode to display each tab content.
-
-**Attributes:**
-
-```
-[tabs]
-[tab title="1st tab" icon="serviceicon-user2"]Lorem ipsum dolor sitamet[/tab]
-[tab title="2nd tab" icon="serviceicon-home"]Lorem ipsum dolor sitamet[/tab]
-[/tabs]
-
-[tabs type="vertical"]
-[tab title="1st tab" icon="serviceicon-user2"]Lorem ipsum dolor sitamet[/tab]
-[tab title="2nd tab" icon="serviceicon-home"]Lorem ipsum dolor sitamet[/tab]
-[/tabs]
-```
-
-For `[tabs]`:
-
-- `type` (optional): tabs style, can be empty (or `horizontal`) or `vertical`. Default is empty.
-
-For `[tab]`:
-
-- `title`: tab title.
-- `icon` (optional): tab icon. You don't need to remmember icon name, just select from the list of icons (see popup below).
-
-**Popup:**
-
-![tabs](http://docs.fitwp.com/whisper/tabs.png)
-
-In the popup, do add more tab, just click the button **Add Tab** and fill in the title, content and select tab icon.
-
-
-
-### Progress Bar
-
-This shortcode will display a progress bar with title and percentage. [See demo](http://themes.fitwp.com/whisper/shortcodes/progress-bar/).
-
-**Attributes:**
-
-```
-[progress_bar text="Web Development" percent="80" type="block"]
-```
-
-- `type` (optional): can be empty or `block`. If empty, the label will display **above** the progress bar, while `block` will display the label **inside** the progress bar.
-- `text`: text label
-- `percent`: the percentage **without** `%`
-
-**Popup:**
-
-![progress bar](http://docs.fitwp.com/whisper/progress-bar.png)
-
-
-
-### Promotion Box
-
-This shortcode will display a promotion box that helps you to get people attraction and improve click through rate (CTR). It's also called **Call To Action** box. [See demo](http://themes.fitwp.com/whisper/shortcodes/promo-box/).
-
-**Attributes:**
-
-```
-[promo_box heading="We'll tell you why you should buy TheM!" text="We are constantly improving TheM for our beloved users." button1_text="Purchase Now" button1_link="#" button1_color="red" button1_nofollow="1"]
-
-[promo_box type="two-buttons" heading="We'll tell you why you should buy TheM!" text="We are constantly improving TheM for our beloved users." button1_text="Purchase Now" button1_link="#" button1_color="red" button1_nofollow="1" button2_text="Learn More" button2_link="#" button2_color="green" button2_nofollow="1"]
-```
-
-- `type` (optional): promotion box type. Can be empty (displays 1 button) or `two-buttons` (displays 2 buttons).
-- `heading`: box heading text
-- `text`: box text content
-- `button1_text`: button 1 text
-- `button1_link`: button 1 link
-- `button1_color`: button 1 color, you can choose from 24 predefined colors (see popup below)
-- `button1_nofollow` (optional): set this value to `1` if you want the button link is nofollowed
-- `button2_text` (optional): button 2 text
-- `button2_link` (optional): button 2 link
-- `button2_color` (optional): button 2 color, you can choose from 24 predefined colors (see popup below)
-- `button2_nofollow` (optional): set this value to `1` if you want the button link is nofollowed
-
-Note all the attributes for 2nd button are used only when you choose the promotion box type `two-buttons`.
-
-**Popup:**
-
-![promotion box](http://docs.fitwp.com/whisper/promotion-box.png)
-
-
-
-### Map
-
-This shortcode will display a Google Maps in your pages. [See demo](http://themes.fitwp.com/whisper/shortcodes/google-maps/).
-
-**Attributes:**
-
-```
-[map map_type="satellite" marker_title="Hanoi" info_window="This is Hanoi" zoom="14" scrollwheel="1" address="Hanoi, Vietnam" width="100%" height="400px" controls="zoom,pan,scale"]
-
-[map type="latlng" map_type="satellite" marker_title="Hanoi" info_window="This is Hanoi" zoom="14" scrollwheel="1" latitude="10.0" longtitude="0.10" width="100%" height="400px" controls="zoom,pan,scale"]
-```
-
-- `type` (option): display map using address or latitude and longtitude. Values can be empty (use address) or `latlng` (use latitude and longtitude).
-- `map_type` (optional): Google Maps type, can be road map (empty value), `satellite`, `terrain` or `hybrid`. [Learn more about Google Map types](https://developers.google.com/maps/documentation/javascript/maptypes).
-- `address`: map address, used only when you set `type` empty.
-- `latitude`: latitude, used only when you set `type` to `latlng`.
-- `longtitude`: longtitude, used only when you set `type` to `latlng`.
-- `width` (optional): map width. You can set it using `%` or `px`. Default value is `100%` which means the map is displayed full width.
-- `height` (optional): map height. You can set it using `%` or `px`. Default value is `400px`.
-- `marker_title` (optional): the marker title when you move the mouse over the marker.
-- `info_window` (optional): the info window content when you click on the marker.
-- `zoom` (optional): map zoom level, default is 8.
-- `scrollwheel` (optional): allow scrollwheel when seeing the map. Values can be empty (no scrollwheen - default) or `1`.
-- `controls` (optional): a comma-separated list of map controls. Each control can be one of the following value: `zoom,pan,scale,map_type,street_view,rotate,overview`. [Learn more about Google Maps controls](https://developers.google.com/maps/documentation/javascript/controls).
-
-**Popup:**
-
-![map](http://docs.fitwp.com/whisper/map.png)
-
-
-
-### Column
-
-TheM theme comes with a 12-grid columns (960.gs). This shortcode lets you display content in a column.
-
-**Attributes:**
-
-```
-[column span="3" class="myclass" total="12"]Lorem ipsum dolor sitamet[/column]
-```
-
-- `span`: number of span columns. Can be from 1 to 12.
-- `class` (optional): custom CSS class. It might be useful if you need to customize the look of the column content.
-- `total` (optional): total column of the grid. By default it's 12. But if you need to display a nested grid, you should set this value to total column of the nested grid.
-
-<div class="alert alert-error">WordPress does not support nested shortcode with **same name**, so if you want to display nested column (grid), you have to use HTML, like this:</div>
-
-```
-<div class="grid_8">
-[column span="3" class="myclass" total="8"]Lorem ipsum dolor sitamet[/column]
-[column span="5" class="myclass" total="8"]Lorem ipsum dolor sitamet[/column]
-</div>
-```
-
-Note that in this example the `total` equals to number of columns of the `div`.
-
-**Popup:**
-
-![column](http://docs.fitwp.com/whisper/column.png)
-
-
-
-### Icon
-
-TheM has 140+ premium font icons from iconsweets2 that you can select from to make your content more attractive. [See list of icons](http://themes.fitwp.com/whisper/shortcodes/icon/).
-
-**Attribute:**
-
-```
-[icon class="serviceicon-tools" size="64"]
-```
-
-- `class`: icon class. [See this](http://themes.fitwp.com/whisper/shortcodes/icon/) for list of icon classes. If you use the popup to pick the icon, you don't need to remmember its class.
-- `size`: icon size in `px` (but don't enter `px` here). Optional. If not specified, the icon will take the font size of current element.
-
-**Popup:**
-
-![icon](http://docs.fitwp.com/whisper/icon.png)
-
-
-
-### Icon Box
-
-Icon box is a way of displaying main information in a "box", which is usually used in homepage, landing pages. [See demo](http://themes.fitwp.com/whisper/shortcodes/icon-box/).
-
-**Attributes:**
-
-```
-[icon_box type="big" url="http://google.com" title="Configure" icon="serviceicon-tools"]Lorem ipsum dolor sit amet.[/icon_box]
-[icon_box type="hex" url="http://google.com" title="Support" icon="serviceicon-group"]Lorem ipsum dolor sit amet.[/icon_box]
-[icon_box type="small" title="Design" icon="serviceicon-brush"]Lorem ipsum dolor sit amet.
-
-<a class="more-link" href="#">Continue reading <span>&gt;</span></a>[/icon_box]
-```
-
-- `type`: `big`, `hex`, `small`, `simple`. Type of icon box. See demo to know how they look like.
-- `title`: icon box title (heading)
-- `icon`: icon class. Same as for icon shortcode above. Just pick from the popup, or manually enter it if you remember ;)
-- `url`: URL that the icon box links to. This parameter is **not** available for `small` type.
-
-<div class="alert">You always **can** enter HTML into shortcode content. In the 3rd example above, you see how we used a link with class `more-link` and a `span` tag inside it to make a beautiful readmore link.</div>
-
-<div class="alert">You should use icon box type `hex` and `small` within `[column]` shortcode to make the icon box same width. This is **NOT** applied to `big` type as it always takes 25% width.</div>
-
-**Popup:**
-
-![icon-box](http://docs.fitwp.com/whisper/icon-box.png)
-
-
-
-### Note Box
-
-Note box is an other way to display important information such as headlines. It's very similar to `[promo_box]` shortcode but needs a different config. [See demo](http://themes.fitwp.com/whisper/shortcodes/note-box/).
-
-**Attributes:**
-
-```
-[note type="icon"]<h1>Lorem ipsum <span class="text-color">dolor</span> sit amet.</h1>
-<p>This is awesome</p>[/note]
-```
-
-- `type`: empty (no icon) or `icon`. Display note box with icon or not. Default is empty.
-
-<div class="alert">You always **can** (and you **should**) enter HTML into shortcode content. In the example above, you see how we used `h1`, `p` tags.</div>
-
-<div class="alert">Use `text-color` CSS class to highlight text in note box (as in the example above)</div>
-
-**Popup:**
-
-![note-box](http://docs.fitwp.com/whisper/note-box.png)
-
-
-
-### Social Media
-
-This shortcode helps you to display links to social media networks. It shows an icon of that network. TheM supports 60 social networks! [See demo](http://themes.fitwp.com/whisper/shortcodes/social-media-links-and-icons/).
-
-**Attributes:**
-
-```
-[social class="pixons-wordpress" url="WordPress" title="http://wordpress.com/fitwp"]
-```
-
-- `class`: social icon class. You don't need to remember this, just click on the icon in the popup to select which social network you like.
-- `url`: URL to your social network profile.
-
-<div class="alert alert-success">You might want to copy the shortcodes to widget to show your social network profiles in sidebar, footer, etc. (same as we did in the demo).</div>
-
-**Popup:**
-
-![social-media](http://docs.fitwp.com/whisper/social-media.png)
-
-
-
-### Social Feed
-
-This shortcode shows items from the feed of creative social networks: Pinterest, Deviant Art, Flickr, Dribbble, Youtube, Instagram and Newsfeed (RSS). [See demo](http://themes.fitwp.com/whisper/shortcodes/social-feed/).
-
-**Attributes:**
-
-```
-[social_feed network="pinterest" username="fitwp" limit="16"]
-```
-
-- `network`: name of the network that you want to fetch items from
-- `username`: your username on that network.
-- `limit`: number of items will be displayed
-
-<div class="alert">For newsfeed (RSS) `username` **must** be the RSS link of the feed.</div>
-
-**Popup:**
-
-![social-feed](http://docs.fitwp.com/whisper/social-feed.png)
-
-
-
-### Team Member
-
-This displays a team member profile on your website. [See demo](http://themes.fitwp.com/whisper/shortcodes/team-member/).
-
-**Attributes:**
-
-```
-[team_member name="Mathew Parkson" position="Senior Manager" photo="http://themes.fitwp.com/whisper/wp-content/uploads/sites/3/2013/12/team-1.jpg" phone="+00 123 4567" email="mathewp@business.com"]It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.[/team_member]
-```
-
-- `name`: member name
-- `position`: member position
-- `photo`: URL to member's image. You should use Media Library to upload image and then paste image URL here.
-- `phone`: phone number
-- `email`: email address
-- Content of the shortcode: member's biography
-
-**Popup:**
-
-![team-member](http://docs.fitwp.com/whisper/team-member.png)
-
-
-
-### Clients
-
-This shortcode displays a list of your clients in a carousel slider. [See demo](http://themes.fitwp.com/whisper/shortcodes/clients/).
-
-This shortcode actually contains 2 shortcodes: `[clients]` is a wrapper and `[client]` is the shortcode that contains each client's information.
-
-**Attributes:**
-
-```
-[clients title=Our Clients]
-[client name="FitWP" url="http://fitwp.com" image="http://fitwp.com/avatar"]Building premium WordPress themes.[/client]
-[client name="Deluxe Blog Tips" url="http://dbt.com" image="http://dbt.com/avatar"]WordPress tips.[/client]
-[/clients]
-```
-
-For `[clients]`:
-
-- `title` (optional): the title of the carousel slider.
-
-For `[client]`:
-
-- `name`: client's name
-- `url`: client's URL
-- `image`: client's image
-- The content of the shortcode: client's description
-
-<div class="alert alert-success">Althought this shortcode is called **Clients**, you can use it to display **testimonials**!</div>
-
-**Popup:**
-
-![clients](http://docs.fitwp.com/whisper/clients.png)
-
-In the popup, when you need to add more client, just click **Add Client** button.
-
-
-
-### Posts
-
-This shortcode display latest posts from your blog on your pages **in a grid**. [See demo](http://themes.fitwp.com/whisper/shortcodes/posts/).
-
-**Attributes:**
-
-```
-[posts title_wrap="1" title="Blog Posts" number="3" category="company-news" content_limit="25" more="Continue Reading" total_columns="12"]
-[posts title_wrap="1" title="Blog Posts" number="3" content_limit="30" more="Read more" total_columns="9"]
-```
-
-- `title_wrap`: show a title for the shortcode or not? Value can be empty (not display) or `1` (display).
-- `title`: the title of the shortcode. Used only when `title_wrap` is set to `1`
-- `number`: number of blog posts to show
-- `category`: **slug** (*not* name or ID) of category where do you want to get posts from. If empty, then posts will be get from all categories.
-- `content_limit`: number of words of post content will be displayed.
-- `more`: read more link text
-- `total_columns`: the total columns of all blog posts will display. This value is used to calculate the column of each post.
-
-For example: if you want to display 2 blog posts in a grid 8 columns (like page content), each post will be 4 columns, then use:
-
-```
-[posts title_wrap="1" title="Blog Posts" number="2" content_limit="30" more="Read more" total_columns="8"]
-```
-
-If you want to display 4 posts, each post is 3 columns, then total columns is 12:
-
-```
-[posts title_wrap="1" title="Blog Posts" number="4" content_limit="30" more="Read more" total_columns="12"]
-```
-
-**Popup:**
-
-![posts](http://docs.fitwp.com/whisper/posts.png)
-
-In the popup, click **Advanced Button** to show more options for the shortcode.
-
-
-
-### Portfolios
-
-Similar to `[posts]` shortcode, this shortcode display latest portfolios from your blog on your pages **in a grid**. [See demo](http://themes.fitwp.com/whisper/shortcodes/portfolios/).
-
-**Attributes:**
-
-```
-[portfolios title_wrap="1" title="My Works" number="3" format_icon="1" total_columns="9"]
-```
-
-- `title_wrap`: show a title for the shortcode or not? Value can be empty (not display) or `1` (display).
-- `title`: the title of the shortcode. Used only when `title_wrap` is set to `1`
-- `number`: number of blog posts to show
-- `format_icon`: show post format icon (value `1`) or not (empty value). Default is empty.
-- `total_columns`: the total columns of all postfolios will display. This value is used to calculate the column of each post.
-
-For example: if you want to display 2 postfolios in a grid 8 columns (like page content), each postfolio will be 4 columns, then use:
-
-```
-[portfolios title_wrap="1" title="My Works" number="2" format_icon="1" total_columns="8"]
-```
-
-If you want to display 4 portfolios, each post is 3 columns, then total columns is 12:
-
-```
-[portfolios title_wrap="1" title="My Works" number="4" total_columns="12"]
-```
-
-**Popup:**
-
-![portfolios](http://docs.fitwp.com/whisper/shortcode-portfolios.png)
-
-In the popup, click **Advanced Button** to show more options for the shortcode.
-
-
-
-### Posts/Portfolios Tab
-
-This shortcode displays tabs of posts and portfolios. [See demo](http://themes.fitwp.com/whisper/shortcodes/post-portfolio-tab/).
-
-This shortcode doesn't contains any parameters, just use it:
-
-```
-[post_portfolio_tab]
-```
