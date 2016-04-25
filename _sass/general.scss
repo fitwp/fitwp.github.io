@@ -23,12 +23,14 @@ cite {
 	font: 16px 'Homemade Apple', cursive;
 }
 table {
+	font-size: 14px;
 	th,
 	td {
 		padding: 8px;
 		line-height: 1.42857143;
 		vertical-align: top;
 		border-top: 1px solid #ddd;
+		min-width: 130px;
 	}
 	th {
 		border-top: 0;
