@@ -15,14 +15,16 @@
 	
 	margin: 0;
 	float: left;
-
-	a {
-		color: #fff;
-	}
-	span {
-		color: rgba(255, 255, 255, .8);
-		font-size: 14px;
-	}
+}
+.site-title {
+	color: #fff;
+}
+.site-description {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 30px;
+	line-height: 1;
 }
 .nav {
 	float: right;
