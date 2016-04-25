@@ -353,29 +353,61 @@ Excerpt Length|The number of words of post content will be displayed
 
 After done editing, click **Save Menu** and see it in action in the front end.
 
-### Setup widget areas
 
-TheM theme has 6 widget areas (sidebars) by default:
+## Customizing the footer
 
-- **Blog sidebar:** main website sidebar which will display on all blog posts, archive pages, etc.
-- **Page sidebar:** will display on all pages (WordPress pages)
-- **Footer sidebars:** there are 4 default sidebars for footer, each sidebar is a column in the footer. Later you can change number of columns in footer in **Theme Options** (we'll talk about this later).
+The footer of TheM is simple and has only 2 parts: the **social links** and **copyright text**. The social links is automatically pulled from the **Social Links** menu that we have covered in the section [#top-bar](Top bar) above. Please read this to understand how to setup the social links menu.
 
-To setup a sidebar, select it from the right by clicking its title or the arrow down. Then drag and drop widgets from the left to the sidebar area.
+The copyright text displays general copyright text for your blog. In case you want to change this text, please go to **Customizer > Theme Options > Footer** and enter the text for the footer:
 
-![sidebar](http://docs.fitwp.com/whisper/sidebar.png)
+![footer](http://i.imgur.com/t2rR8k7.png)
 
-That's all! Now you have the website up with all *basic* elements!
+Note that you can enter HTML here (links, strong, etc.).
+
+
+## Custom sidebar for page content
+
+You already see how to setup the homepage with a custom sidebar and widgets. This is a very flexible way to add and organize content to a special page like the homepage.
+
+This section shows you how to do the same for other pages, not just only homepage.
+
+Basically it requires 3 steps:
+
+### Create a custom sidebar
+
+To create a new custom sidebar, go to **Appearance > Sidebars**:
+
+![sidebars](http://i.imgur.com/WuV1wdn.png)
+
+On this page, you will see a list of created sidebar. If you want to create a new sidebar, simply enter new sidebar name in the input box. Click **Add more** button if you want to add multiple sidebars. Then click **Save changes** to submit the changes.
+
+Finishing this step, you will see all custom sidebars listed in the beginning of the page.
+
+### Add widgets to the sidebar
+
+After creating custom sidebars, go to **Appearance > Widgets** and you will see new sidebars listed as a widgetized area.
+
+![widgets](http://i.imgur.com/XMiZlsn.png)
+
+Now you can drag and drop any widget to the new sidebar. There's nothing different between custom sidebar and normal WordPress sidebar.
+
+### Assign sidebar to a page
+
+After done adding widgets to the new custom sidebar, now go to edit a page that you want to use the custom sidebar for its content.
+
+On the right of the editing page, you will see a box **Custom sidebar content** where you can select a custom sidebar for the page content:
+
+![sidebar content](http://i.imgur.com/dMfYxea.png)
+
+After selecting the sidebar, go to the frontend and you will see the widgets of that sidebar is added below the main content of the page.
+
 
 
 ## Theme Options
 
+The TheM theme incorporates its **Theme Options** within the **Customizer**. You can change all theme options in one place and preview the changes in real-time!
 
-The TheM theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
-
-With TheM's advanced theme options panel, you can customize just about any part of your site quickly and easily. Every element on the site can have the color changed to your liking. Choose a boxed or wide skin, or change the website color scheme, select fonts for all headings and body copy, change sizes, colors and line-heights of all fonts, select different footer column layouts, enable or disable several options, advanced blog and portfolio options, upload your own custom favicon, upload custom backgrounds to the featured title area and background areas of the boxed version, select from various site/page layouts, input custom CSS, set hundreds of other options to easily customize your site!
-
-All options have full description so you can know what you are doing. Just click and save!
+To start with the **Theme Options**, go to **Customizer > Theme Options**. All options have full description so you can know what you are doing. Just click and save!
 
 Let's go through each section.
 
