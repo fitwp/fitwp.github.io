@@ -184,7 +184,7 @@ We will use the **Customizer** in the documentation as it allows you to view the
 
 Now let’s go through the homepage widgets.
 
-#### Slider
+### Section: Slider
 
 Slider are a collection of featured posts that are displayed in a special slider with an unique effect for text and image. You are able to select which posts to show in the slider as well as which elements to show. This is a good place if you want to highlight the best posts in your blog.
 
@@ -194,21 +194,23 @@ In the **Homepage** sidebar in the **Customizer**, click button **Add a Widget**
 
 The widget has several options for you to adjust:
 
-- **Number of posts**: the number of posts you want to show in the slider (e.g. the number of slides).
-- **Category**: which category you want to get posts from. Select **All** if you want to show posts in all categories.
-- **Tag**: which tag you want to get posts from. Select **All** if you want to show posts in all tags.
-- **Show date**: do you want to show post date? Date will be rotated 90 degree to have a good effect. You should enable this for the slider.
-- **Date format**: the date format. By default it takes WordPress settings in **Settings > General**.
-- **Show excerpt**: do you want to show post excerpt in the slider? The post excerpt is taken from post excerpt and fallback to the post content.
-- **Excerpt length**: the number of words of post excerpt you want to show in the slider. The recommended number is 40.
-- **Show read more button**: do you want to show read more button?.
-- **Read more text**: the read more text.
-- **Display as slider**: check this to make featured posts displayed as a slider.
-- **Slider speed (ms)**: the number of milliseconds between slides.
+Option|Description
+---|---
+Number of posts|The number of posts you want to show in the slider (e.g. the number of slides).
+Category|Which category you want to get posts from. Select **All** if you want to show posts in all categories.
+Tag|Which tag you want to get posts from. Select **All** if you want to show posts in all tags.
+Show date|Do you want to show post date? Date will be rotated 90 degree to have a good effect. You should enable this for the slider.
+Date format|The date format. By default it takes WordPress settings in **Settings > General**.
+Show excerpt|Do you want to show post excerpt in the slider? The post excerpt is taken from post excerpt and fallback to the post content.
+Excerpt length|The number of words of post excerpt you want to show in the slider. The recommended number is 40.
+Show read more button|Do you want to show read more button?.
+Read more text|The read more text.
+Display as slider|Check this to make featured posts displayed as a slider.
+Slider speed (ms)|The number of milliseconds between slides.
 
 **Tip**: To select specific posts for the slider, you can create a specific tag and add it to the posts you want to show. Then in this widget, select that tag.
 
-#### Grid of featured posts
+### Section: Grid of featured posts
 
 Similar to slider, the grid of featured posts displays posts in a 3-column or 4-column grid. This is also a good place to highlight your posts.
 
@@ -216,7 +218,7 @@ The grid of featured posts uses exactly the same widget as the slider (**Feature
 
 **Note**: In order to have a best view, you should set the number of posts to 3 or 4.
 
-#### Featured post
+### Section: Featured post
 
 The **Featured Post** widget allows you to show a single post in the homepage beautifully. That's a good option to show the post that hightlights the main content of your blog.
 
@@ -226,16 +228,18 @@ To add the widget into the homepage, select **TheM: Featured Post** from the wid
 
 The widget has several options for you to adjust:
 
-- **Select post**: select the post you want to show.
-- **Thumbnail**: select position for the thumbnail. In the demo, we use this widget twice: one with thumbnail left and one with thumbnail right to give a good affect of view.
-- **Show date**: do you want to show post date? Date will be rotated 90 degree to have a good effect. You should enable this.
-- **Date format**: the date format. By default it takes WordPress settings in **Settings > General**.
-- **Show excerpt**: do you want to show post excerpt? The post excerpt is taken from post excerpt and fallback to the post content.
-- **Excerpt length**: the number of words of post excerpt you want to show. The recommended number is 40.
-- **Show read more button**: do you want to show read more button?.
-- **Read more text**: the read more text.
+Option|Description
+---|---
+Select post|Select the post you want to show.
+Thumbnail|Select position for the thumbnail. In the demo, we use this widget twice: one with thumbnail left and one with thumbnail right to give a good affect of view.
+Show date|Do you want to show post date? Date will be rotated 90 degree to have a good effect. You should enable this.
+Date format|The date format. By default it takes WordPress settings in **Settings > General**.
+Show excerpt|Do you want to show post excerpt? The post excerpt is taken from post excerpt and fallback to the post content.
+Excerpt length|The number of words of post excerpt you want to show. The recommended number is 40.
+Show read more button|Do you want to show read more button?.
+Read more text|The read more text.
 
-#### Instagram
+### Section: Instagram
 
 The **Instagram** widget displays the latest images from your stream on Instagram or from any person or from any tag in a beautiful grid or carousel slider. It's quite flexible and gives your blog an impressive look.
 
@@ -271,8 +275,6 @@ Each section has several options to customize and let's go through them.
 
 The top bar is divided into 2 parts: the top bar left which can contains social links or text and the top bar right which contains search form, cart icon and an icon to toggle the menu for mobile devices.
 
-#### Top bar left
-
 The top bar left can display either social links or custom text. By default it displays social links. To change which is displayed in the top bar left, please go to **Customizer > Theme Options > Header** and you will see the options as follows:
 
 ![top bar left option](http://i.imgur.com/fdbZGPu.png)
@@ -291,7 +293,7 @@ If you want to display social links in the top bar left, then you need to create
 
 **Note**: when you set a menu for social links, these links will be displayed in the footer and **About me** widget as well as in the mobile menu.
 
-#### Site title or logo
+### Site title or logo
 
 By default, TheM display the site title but you can change that to display site logo. The site logo feature requires WordPress 4.5, so you need to upgrade your WordPress to version 4.5 if you have an older version. If you couldn't upgrade, then the only option for you is displaying the site title.
 
@@ -299,7 +301,7 @@ In order to add logo to your site, go to **Customizer > Site Identity** and clic
 
 ![logo](http://i.imgur.com/9ePemyW.png)
 
-#### Main menu
+### Main menu
 
 Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default. As the number of pages is large, displaying all of them in the menu is a bad idea.
 
@@ -312,7 +314,7 @@ Following these steps to create a menu (here we will use the WordPress Dashboard
 
 ![menu](http://i.imgur.com/aZHKqtb.png)
 
-#### Mega menu
+### Mega menu
 
 One of the best feature of TheM is mega menu. The mega menu allows you to display custom content in the menu, not only links. You can choose to display custom text or post list in the menu.
 
