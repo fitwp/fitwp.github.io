@@ -5,6 +5,7 @@ description: TheM is a minimal and creative WordPress theme perfectly for travel
 ---
 
 <div class="col-md-8">
+
 **TheM is a minimal and creative WordPress theme for bloggers**. TheM gives your blog an <em>elegant beauty with modern and creative style</em>. The components of TheM are thoroughly designed to fit the travel, lifestyle or personal blogs. You will feel the **smoothness** of the theme as well as the **sophistication** of every single page when using it.
 
 Built on the latest technology of WordPress 4.5, TheM very **lightweight** and does not require you to install a bundle of heavy plugins. Instead, TheM is built in a professional manner and is **optimized** for the usage purpose. The theme features are thoroughly researched and made specifically for TheM only. Therefore, the theme runs very smooth and fast. The page loading speed of the theme will help your blog achieve a high score on **user experience**.
@@ -49,6 +50,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 - YITH WooCommerce Compare
 - Yoast SEO and All In One SEO
 - Any popular plugins...
+
 </div>
 
 <div class="col-md-4">
