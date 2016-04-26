@@ -1,0 +1,30 @@
+<div class="col-md-4 theme-info">
+	<h4>Theme Details</h4>
+	<div class="price pull-right">${{ page.price }}</div>
+
+	<p>Use on unlimited websites. One year update and support.</p>
+
+	<a class="btn btn-success btn-lg btn-block btn-buy" href="{{ page.buy }}>Buy Now</a>
+
+	<table class="table table-condensed">
+		<tbody>
+			<tr>
+				<th>Version</th>
+				<td>{{ version }}</td>
+			</tr>
+			<tr>
+				<th>Compatibility</th>
+				<td>{{ page.compatibility }}</td>
+			</tr>
+			<tr>
+				<th>Release Date</th>
+				<td>{{ page.release }}</td>
+			</tr>
+			<tr>
+				<th>Last Update</th>
+				<td>{{ page.update }}</td>
+			</tr>
+		</tbody>
+	</table>
+	<p><a class="btn btn-info btn-sm btn-docs" href="{{ page.docs }}">View Documentation</a></p>
+</div>
