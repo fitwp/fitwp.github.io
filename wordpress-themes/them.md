@@ -54,11 +54,15 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 </div>
 
 <div class="col-md-4">
-	<h4>Theme Details</h4>
+	
+	#### Theme Details
 	<p class="price pull-right">$49</p>
-	<p class="note">Use on unlimited websites. One year update and support.</p>
-	<button id="purchase" class="btn btn-success btn-lg btn-purchase">Buy Now</button>
-	<table class="table-condensed product-info">
+	
+	Use on unlimited websites. One year update and support.
+	
+	<button class="btn btn-success btn-lg btn-block">Buy Now</button>
+	
+	<table class="table-condensed">
 		<tr>
 			<th>Version</th>
 			<td>1.0</td>
