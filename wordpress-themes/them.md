@@ -19,7 +19,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 - **Portfolio included**: If you're a creative designer or photographer, TheM can help you to show your projects in an elegant way.
 - **E-commerce included**: With the help of WooCommerce, TheM adds a high-configurable and good looking shop  for you to show and sell your digital products.
 
-## TheM All Features</h2>
+## TheM All Features
 
 - Responsive on all devices and browsers
 - Supports custom logo (requires WordPress 4.5+)
