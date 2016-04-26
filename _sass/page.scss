@@ -120,3 +120,25 @@
 		margin-right: .5em;
 	}
 }
+
+// Style for single theme
+// ---------------------------------------
+.theme-info {
+	h4 {
+		text-transform: uppercase;
+		margin: 0 0 20px;
+		font-weight: bold;
+	}
+	.price {
+		font-size: 40px;
+		line-height: 1;
+		margin-left: 10px;
+	}
+	.btn-buy {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	th {
+		border-bottom: 0;
+	}
+}
