@@ -22,16 +22,31 @@ Built on the latest technology of WordPress 4.5, TheM very **lightweight** and d
 
 Being carefully built for bloggers, TheM brings a **great custom configuration** for each component of the blog to help you personalize your website the way you want and make it the unique blog in the world.
 
-## TheM Highlighted Features
+![them - homepage template](http://i.imgur.com/HK8fpke.png)
+
+<h2 class="text-center">Highlighted Features</h2>
+
+<div class="row">
+<div class="col-md-6">
+<h3><i class="fa fa-diamon"></i> Creative and unique design</h3>
+<p>Let your blog stand out of the crowd with the minimal, sophisticated and pixel-perfect design.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-tachometer"></i> Super fast and smooth</h3>
+<p>No redundant elements. No heavy frameworks. Just have exactly what you need for your blog.</p>
+</div>
+</div>
+</div>
 
 *   **Creative slider and homepage layout**: Make your homepage outstanding with an unique look. Every elements is highly customizable. No plugins required.
-*   **Fast and smooth**: Most the features in TheM is hand-crafted without help of heavy plugins like page builders or sliders. We make TheM with latest technology and recommendations of WordPress and guarantee the best coding quality to make sure bloggers have a fast and smooth website when using TheM.
-*   **Minimalism and sotisphication**: Simple but sotisphicated. TheM is built with concentration on typography, color, white space, content and all small details to make your website look elegant and perfect.
 *   **Mega menu**: Create mega menu to show an impressive look to your visitors in TheM is easy and intuitive. No plugins required.
 *   **Portfolio included**: If you’re a creative designer or photographer, TheM can help you to show your projects in an elegant way.
 *   **E-commerce included**: With the help of WooCommerce, TheM adds a high-configurable and good looking shop for you to show and sell your digital products.
+*   
 
-## TheM All Features
+![them - blog template](http://i.imgur.com/IDVmvym.png)
+
+<h2 class="text-center">All Features</h2>
 
 *   Responsive on all devices and browsers
 *   Supports custom logo (requires WordPress 4.5+)
