@@ -12,7 +12,9 @@ update: April 26, 2016
 docs: /docs/them
 ---
 
-![them - minimal creative wordpress blog template](http://i.imgur.com/bGosMlg.png)
+[![them - minimal creative wordpress blog template](http://i.imgur.com/bGosMlg.png)](http://demo3.fitwp.com)
+
+<p class="text-center">*Click to view the demo</p>
 
 **TheM is a minimal and creative WordPress theme for bloggers**. TheM gives your blog an _elegant beauty with modern and creative style_. The components of TheM are thoroughly designed to fit the travel, lifestyle or personal blogs. You will feel the **smoothness** of the theme as well as the **sophistication** of every single page when using it.
 
