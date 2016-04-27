@@ -32,7 +32,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <p>Let your blog stand out of the crowd with the minimal, sophisticated and pixel-perfect design.</p>
 </div>
 <div class="col-md-6">
-<h3><i class="fa fa-tachometer"></i> Super fast and smooth</h3>
+<h3><i class="fa fa-diamond"></i> Super fast and smooth</h3>
 <p>No redundant elements. No heavy frameworks. Just have exactly what you need for your blog.</p>
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
@@ -143,4 +143,4 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 	<div class="col-md-3"><a href="http://i.imgur.com/zHCUH76.jpg"><img src="http://i0.wp.com/i.imgur.com/zHCUH76.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
 	<div class="col-md-3"><a href="http://i.imgur.com/YscsPV6.jpg"><img src="http://i0.wp.com/i.imgur.com/YscsPV6.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
 	<div class="col-md-3"><a href="http://i.imgur.com/M8TOn1F.jpg"><img src="http://i0.wp.com/i.imgur.com/M8TOn1F.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-</div
+</div>
