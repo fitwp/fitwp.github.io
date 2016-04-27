@@ -2,7 +2,6 @@
 layout: theme
 title: TheM - Minimal Creative WordPress Blog Theme
 description: TheM is a minimal and creative WordPress theme perfectly for travel, lifestyle or personal blogs.
-permalink: /wordpress-themes/them
 price: 49
 buy: "#"
 demo: http://demo3.fitwp.com
