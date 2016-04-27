@@ -132,7 +132,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 - Has built-in **related posts** (no plugins required)
 - Has built-in **author info box** and author social links for single post
 
-<h2 class="text-center">Screenshots</a>
+<h2 class="text-center">Screenshots</h2>
 
 <div class="gallery row">
 	<div class="col-md-3"><a href="http://i.imgur.com/Rs2SwVO.jpg"><img src="http://i0.wp.com/i.imgur.com/Rs2SwVO.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
