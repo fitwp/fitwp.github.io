@@ -118,6 +118,8 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 </div>
 </div>
 
+<div class="text-center"><a href="#" class="btn btn-success btn-lg btn-buy">Buy Theme Now</a></div>
+
 ### Other features
 
 - **Responsive** on all devices and browsers
@@ -130,7 +132,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 - Has built-in **related posts** (no plugins required)
 - Has built-in **author info box** and author social links for single post
 
-## Screenshots
+<h2 class="text-center">Screenshots</a>
 
 <div class="gallery row">
 	<div class="col-md-3"><a href="http://i.imgur.com/Rs2SwVO.jpg"><img src="http://i0.wp.com/i.imgur.com/Rs2SwVO.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
@@ -141,15 +143,4 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 	<div class="col-md-3"><a href="http://i.imgur.com/zHCUH76.jpg"><img src="http://i0.wp.com/i.imgur.com/zHCUH76.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
 	<div class="col-md-3"><a href="http://i.imgur.com/YscsPV6.jpg"><img src="http://i0.wp.com/i.imgur.com/YscsPV6.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
 	<div class="col-md-3"><a href="http://i.imgur.com/M8TOn1F.jpg"><img src="http://i0.wp.com/i.imgur.com/M8TOn1F.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-</div>
-
-### Supported plugins
-
-*   [Meta Box](https://metabox.io)
-*   Jetpack
-*   Contact Form 7
-*   WooCommerce
-*   YITH WooCommerce Wishlist
-*   YITH WooCommerce Compare
-*   Yoast SEO and All In One SEO
-*   Any popular plugins…
+</div
