@@ -28,7 +28,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 
 <div class="row">
 <div class="col-md-6">
-<h3><i class="fa fa-diamon"></i> Creative and unique design</h3>
+<h3><i class="fa fa-diamond"></i> Creative and unique design</h3>
 <p>Let your blog stand out of the crowd with the minimal, sophisticated and pixel-perfect design.</p>
 </div>
 <div class="col-md-6">
@@ -36,17 +36,20 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <p>No redundant elements. No heavy frameworks. Just have exactly what you need for your blog.</p>
 </div>
 </div>
-</div>
 
 *   **Creative slider and homepage layout**: Make your homepage outstanding with an unique look. Every elements is highly customizable. No plugins required.
 *   **Mega menu**: Create mega menu to show an impressive look to your visitors in TheM is easy and intuitive. No plugins required.
 *   **Portfolio included**: If you’re a creative designer or photographer, TheM can help you to show your projects in an elegant way.
 *   **E-commerce included**: With the help of WooCommerce, TheM adds a high-configurable and good looking shop for you to show and sell your digital products.
-*   
+
+
 
 ![them - blog template](http://i.imgur.com/IDVmvym.png)
 
 <h2 class="text-center">All Features</h2>
+
+<div class="row">
+<div class="col-md-6">
 
 *   Responsive on all devices and browsers
 *   Supports custom logo (requires WordPress 4.5+)
@@ -56,6 +59,10 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 *   Has built-in creative slider for the homepage (no plugins required)
 *   Has built-in creative homepage layout (no plugins required)
 *   Supports unlimited sidebars
+
+</div>
+<div class="col-md-6">
+
 *   Supports unlimited landing pages or custom pages with custom layout
 *   Supports various options for pagination: next/prev links, numberic links, load more button or infinite scroll
 *   Has built-in related posts (no plugins required)
@@ -63,6 +70,12 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 *   Supports custom footer credit text
 *   Supports portfolio
 *   Supports WooCommerce
+
+</div>
+</div>
+
+
+
 
 ## Supported plugins
 
