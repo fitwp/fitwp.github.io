@@ -50,31 +50,29 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 
 <div class="row">
 <div class="col-md-6">
-
-*   Responsive on all devices and browsers
-*   Supports custom logo (requires WordPress 4.5+)
-*   Supports custom social links
-*   Supports mobile menu where you can show any content for mobile devices
-*   Supports multi-level and mega menu
-*   Has built-in creative slider for the homepage (no plugins required)
-*   Has built-in creative homepage layout (no plugins required)
-*   Supports unlimited sidebars
-
+	<ul>
+		<li>Responsive on all devices and browsers</li>
+		<li>Supports custom logo (requires WordPress 4.5+)</li>
+		<li>Supports custom social links</li>
+		<li>Supports mobile menu where you can show any content for mobile devices</li>
+		<li>Supports multi-level and mega menu</li>
+		<li>Has built-in creative slider for the homepage (no plugins required)</li>
+		<li>Has built-in creative homepage layout (no plugins required)</li>
+		<li>Supports unlimited sidebars</li>
+	</ul>
 </div>
 <div class="col-md-6">
-
-*   Supports unlimited landing pages or custom pages with custom layout
-*   Supports various options for pagination: next/prev links, numberic links, load more button or infinite scroll
-*   Has built-in related posts (no plugins required)
-*   Has built-in author info box and author social links for single post
-*   Supports custom footer credit text
-*   Supports portfolio
-*   Supports WooCommerce
-
+	<ul>
+		<li>Supports unlimited landing pages or custom pages with custom layout</li>
+		<li>Supports various options for pagination: next/prev links, numberic links, load more button or infinite scroll</li>
+		<li>Has built-in related posts (no plugins required)</li>
+		<li>Has built-in author info box and author social links for single post</li>
+		<li>Supports custom footer credit text</li>
+		<li>Supports portfolio</li>
+		<li>Supports WooCommerce</li>
+	</ul>
 </div>
 </div>
-
-
 
 
 ## Supported plugins
