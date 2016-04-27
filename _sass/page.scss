@@ -146,3 +146,13 @@
 		border-bottom: 0;
 	}
 }
+.theme .actions {
+	z-index: 3;
+	text-align: center;
+	position: relative;
+	margin-top: 40px;
+	
+	.btn-outline {
+		margin-right: 15px;
+	}
+}
