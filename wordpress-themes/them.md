@@ -35,22 +35,25 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <h3><i class="fa fa-tachometer"></i> Super fast and smooth</h3>
 <p>No redundant elements. No heavy frameworks. Just have exactly what you need for your blog.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Easy to use</h3>
-<p>Easy to configure. Options are well-organized and logical. Follows WordPress recommendation.</p>
+<p>Easy to configure. Options are well-organized and logical. Follows WordPress standards.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> 1-click demo import</h3>
 <p>Save time setting up the theme. After 1 minute and you'll get exactly what you see in our demo.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Porfolio showcase</h3>
 <p>Show your work in a creative mansory layout using the most popular Jetpack plugin.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> WooCommerce compatible</h3>
-<p>Create a shop online to sell stuffs on your blog easily with a few clicks using the best e-commerce plugin.</p>
+<p>Create a shop online to sell stuffs on your blog easily with a few clicks using WooCommerce.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Live preview supported</h3>
 <p>See the changes on your blog in real time with the live preview in the WordPress Customizer.</p>
@@ -59,22 +62,25 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <h3><i class="fa fa-diamond"></i> Mega menu supported</h3>
 <p>Attracts your visitors with beautiful mega menu. Supports custom text and featured posts list.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
-<h3><i class="fa fa-diamond"></i> Featured slider &amp; featured content</h3>
+<h3><i class="fa fa-diamond"></i> Featured content &amp; slider
 <p>Show featured content on homepage or custom landing page in an unique slider or grid.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Custom logo in WordPress 4.5</h3>
 <p>Supports custom logo in WordPress 4.5. Now you can show site title or upload a custom logo.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Social links menu</h3>
 <p>Display your social profile links in the top bar, sidebar or footer with just single configuration.</p>
 </div>
 <div class="col-md-6">
-<h3><i class="fa fa-diamond"></i> Custom sidebars &amp; custom page layout</h3>
+<h3><i class="fa fa-diamond"></i> Custom sidebars &amp; layout</h3>
 <p>Create unlimited sidebars for pages and use them to add any widget to page content.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Custom widgets</h3>
 <p>Custom about me widget, instagram widget, twitter widget, recent post widget, ...</p>
@@ -83,25 +89,28 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <h3><i class="fa fa-diamond"></i> Search engine optimized</h3>
 <p>Optimized HTML structure and tags for best SEO score. Also optimized for loading speed.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> High-quality code</h3>
-<p>Made with WordPress coding standards, our theme guarantee the high coding quality. Bug free.</p>
+<p>Made with WordPress coding standards, our theme guarantee the high coding quality.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Translation ready</h3>
 <p>Supports translation via .PO file for any language.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Jetpack supported</h3>
 <p>Smooth integration with Jetpack, the most popular plugin in the world.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Contact form 7 supported</h3>
-<p>Create custom contact page easily with Contact Form 7, the best configurable contact form plugin.</p>
+<p>Create custom contact page easily with Contact Form 7, the best contact form plugin.</p>
 </div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Detailed documentation</h3>
-<p>Our careful and meticulous documentation will help you understand and use every element of the theme.</p>
+<p>Our careful and meticulous documentation will help you understand every element of the theme.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Responsive &amp; friendly support</h3>
