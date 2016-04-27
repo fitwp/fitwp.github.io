@@ -35,45 +35,91 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <h3><i class="fa fa-tachometer"></i> Super fast and smooth</h3>
 <p>No redundant elements. No heavy frameworks. Just have exactly what you need for your blog.</p>
 </div>
-</div>
-
-*   **Creative slider and homepage layout**: Make your homepage outstanding with an unique look. Every elements is highly customizable. No plugins required.
-*   **Mega menu**: Create mega menu to show an impressive look to your visitors in TheM is easy and intuitive. No plugins required.
-*   **Portfolio included**: If you’re a creative designer or photographer, TheM can help you to show your projects in an elegant way.
-*   **E-commerce included**: With the help of WooCommerce, TheM adds a high-configurable and good looking shop for you to show and sell your digital products.
-
-
-
-![them - blog template](http://i.imgur.com/IDVmvym.png)
-
-<h2 class="text-center">All Features</h2>
-
-<div class="row">
 <div class="col-md-6">
-	<ul>
-		<li>Responsive on all devices and browsers</li>
-		<li>Supports custom logo (requires WordPress 4.5+)</li>
-		<li>Supports custom social links</li>
-		<li>Supports mobile menu where you can show any content for mobile devices</li>
-		<li>Supports multi-level and mega menu</li>
-		<li>Has built-in creative slider for the homepage (no plugins required)</li>
-		<li>Has built-in creative homepage layout (no plugins required)</li>
-		<li>Supports unlimited sidebars</li>
-	</ul>
+<h3><i class="fa fa-diamond"></i> Easy to use</h3>
+<p>Easy to configure. Options are well-organized and logical. Follows WordPress recommendation.</p>
 </div>
 <div class="col-md-6">
-	<ul>
-		<li>Supports unlimited landing pages or custom pages with custom layout</li>
-		<li>Supports various options for pagination: next/prev links, numberic links, load more button or infinite scroll</li>
-		<li>Has built-in related posts (no plugins required)</li>
-		<li>Has built-in author info box and author social links for single post</li>
-		<li>Supports custom footer credit text</li>
-		<li>Supports portfolio</li>
-		<li>Supports WooCommerce</li>
-	</ul>
+<h3><i class="fa fa-diamond"></i> 1-click demo import</h3>
+<p>Save time setting up the theme. After 1 minute and you'll get exactly what you see in our demo.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Porfolio showcase</h3>
+<p>Show your work in a creative mansory layout using the most popular Jetpack plugin.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> WooCommerce compatible</h3>
+<p>Create a shop online to sell stuffs on your blog easily with a few clicks using the best e-commerce plugin.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Live preview supported</h3>
+<p>See the changes on your blog in real time with the live preview in the WordPress Customizer.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Mega menu supported</h3>
+<p>Attracts your visitors with beautiful mega menu. Supports custom text and featured posts list.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Featured slider &amp; featured content</h3>
+<p>Show featured content on homepage or custom landing page in an unique slider or grid.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Custom logo in WordPress 4.5</h3>
+<p>Supports custom logo in WordPress 4.5. Now you can show site title or upload a custom logo.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Social links menu</h3>
+<p>Display your social profile links in the top bar, sidebar or footer with just single configuration.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Custom sidebars &amp; custom page layout</h3>
+<p>Create unlimited sidebars for pages and use them to add any widget to page content.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Custom widgets</h3>
+<p>Custom about me widget, instagram widget, twitter widget, recent post widget, ...</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Search engine optimized</h3>
+<p>Optimized HTML structure and tags for best SEO score. Also optimized for loading speed.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> High-quality code</h3>
+<p>Made with WordPress coding standards, our theme guarantee the high coding quality. Bug free.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Translation ready</h3>
+<p>Supports translation via .PO file for any language.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Jetpack supported</h3>
+<p>Smooth integration with Jetpack, the most popular plugin in the world.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Contact form 7 supported</h3>
+<p>Create custom contact page easily with Contact Form 7, the best configurable contact form plugin.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Detailed documentation</h3>
+<p>Our careful and meticulous documentation will help you understand and use every element of the theme.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Responsive &amp; friendly support</h3>
+<p>Our experienced support staffs are always here to  answer your questions fast and to the point.</p>
 </div>
 </div>
 
+### Other features
+
+- **Responsive** on all devices and browsers
+- Supports **mobile menu** where you can show any content for mobile devices
+- Supports multi-level and mega menu
+- Has **built-in creative slider** for the homepage (no plugins required)
+- Has built-in creative homepage layout (no plugins required)
+- Supports unlimited landing pages or custom pages with custom layout
+- Supports various **options for pagination**: next/prev links, numberic links, load more button or infinite scroll
+- Has built-in **related posts** (no plugins required)
+- Has built-in **author info box** and author social links for single post
 
 ## Supported plugins
 
@@ -85,3 +131,5 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 *   YITH WooCommerce Compare
 *   Yoast SEO and All In One SEO
 *   Any popular plugins…
+
+![them - blog template](http://i.imgur.com/IDVmvym.png)
