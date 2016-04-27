@@ -64,7 +64,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
-<h3><i class="fa fa-diamond"></i> Featured content &amp; slider
+<h3><i class="fa fa-diamond"></i> Featured content &amp; slider</h3>
 <p>Show featured content on homepage or custom landing page in an unique slider or grid.</p>
 </div>
 <div class="col-md-6">
