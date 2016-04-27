@@ -157,8 +157,25 @@
 			margin-right: 15px;
 		}
 	}
-	.entry-content img {
-		box-shadow: none;
-		margin: 0;
+	.entry-content {
+		img {
+			box-shadow: none;
+			margin: 0;
+		}
+		ul {
+			list-style: none;
+			padding-left: 2em;
+		}
+		li:before {
+			display: inline-block;
+			font: normal normal normal 1em/1 FontAwesome;
+			font-size: inherit;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			content: "\f00c";
+			margin: 0 .5em 0 -1.5em;
+			position: relative;
+		}
 	}
 }
