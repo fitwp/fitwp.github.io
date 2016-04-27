@@ -12,6 +12,8 @@ update: April 26, 2016
 docs: /docs/them
 ---
 
+![them - minimal creative wordpress blog template](http://i.imgur.com/bGosMlg.png)
+
 **TheM is a minimal and creative WordPress theme for bloggers**. TheM gives your blog an _elegant beauty with modern and creative style_. The components of TheM are thoroughly designed to fit the travel, lifestyle or personal blogs. You will feel the **smoothness** of the theme as well as the **sophistication** of every single page when using it.
 
 Built on the latest technology of WordPress 4.5, TheM very **lightweight** and does not require you to install a bundle of heavy plugins. Instead, TheM is built in a professional manner and is **optimized** for the usage purpose. The theme features are thoroughly researched and made specifically for TheM only. Therefore, the theme runs very smooth and fast. The page loading speed of the theme will help your blog achieve a high score on **user experience**.
