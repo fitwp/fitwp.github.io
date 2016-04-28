@@ -41,8 +41,9 @@
 <script async src="https://gumroad.com/js/gumroad.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery/2.2.1/jquery.min.js"></script>
 <script>
-	$( '.btn-buy' ).on( 'click', function()
+	$( '.btn-buy' ).on( 'click', function( e )
 	{
+		e.preventDefault();
 		$( '.gateways' ).slideToggle();	
 	} );
 </script>
