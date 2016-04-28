@@ -37,11 +37,14 @@
 	} );
 </script>
 {% endif %}
-{% if include.type == 'theme' %}
+{% if include.type == 'theme' and page.gumroad %}
 <script async src="https://gumroad.com/js/gumroad.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery/2.2.1/jquery.min.js"></script>
 <script>
-	
+	$( '.btn-buy' ).on( 'click', function()
+	{
+		$( '.gateways' ).slideToggle();	
+	} );
 </script>
 {% endif %}
 <script src="//load.sumome.com/" data-sumo-site-id="4ae03b273fad8ddafae45c177a777d3f74388afe3dd744bb360e66e68691df35" async></script>
