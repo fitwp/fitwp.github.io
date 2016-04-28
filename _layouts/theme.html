@@ -17,7 +17,7 @@
 				
 					<a class="btn btn-success btn-lg btn-block btn-buy" href="{{ page.buy }}">Buy Now</a>
 					
-					<% if page.gumroad %>
+					{% if page.gumroad %}
 						<div class="hidden gateways text-center row">
 							<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" class="col-md-6">
 								<input type="hidden" name="cmd" value="_xclick">
@@ -38,7 +38,7 @@
 							</form>
 							<div class="col-md-6"><a href="{{ page.gumroad }}?wanted=true">Credit card</a></div>
 						</div>
-					<% endif %>
+					{% endif %}
 				
 					<table class="table table-condensed">
 						<tbody>
