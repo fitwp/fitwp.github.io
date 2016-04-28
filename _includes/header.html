@@ -8,7 +8,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Homemade+Apple">
+	{% if include.type == 'home' %}
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Homemade+Apple">
+	{% else %}
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+	{% endif %}
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="canonical" href="http://fitwp.com{{ page.url }}">
 	{% if include.type == 'theme' %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">{% endif %}
