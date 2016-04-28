@@ -135,12 +135,12 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <h2 class="text-center">Screenshots</h2>
 
 <div class="gallery row">
-	<div class="col-md-3"><a href="http://i.imgur.com/Rs2SwVO.jpg"><img src="http://i0.wp.com/i.imgur.com/Rs2SwVO.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/X6h75ut.jpg"><img src="http://i0.wp.com/i.imgur.com/X6h75ut.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/8DVoTIK.jpg"><img src="http://i0.wp.com/i.imgur.com/8DVoTIK.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/zYbk80D.jpg"><img src="http://i0.wp.com/i.imgur.com/zYbk80D.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/PsVTmAh.jpg"><img src="http://i0.wp.com/i.imgur.com/PsVTmAh.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/zHCUH76.jpg"><img src="http://i0.wp.com/i.imgur.com/zHCUH76.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/YscsPV6.jpg"><img src="http://i0.wp.com/i.imgur.com/YscsPV6.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
-	<div class="col-md-3"><a href="http://i.imgur.com/M8TOn1F.jpg"><img src="http://i0.wp.com/i.imgur.com/M8TOn1F.jpg?resize=165,165" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/Rs2SwVO.jpg"><img src="http://i.imgur.com/8x7CWWn.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/X6h75ut.jpg"><img src="http://i.imgur.com/l9GkFWD.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/8DVoTIK.jpg"><img src="http://i.imgur.com/yMXH3BU.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/zYbk80D.jpg"><img src="http://i.imgur.com/ndVKAxI.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/PsVTmAh.jpg"><img src="http://i.imgur.com/iFn9H8b.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/zHCUH76.jpg"><img src="http://i.imgur.com/czeSMyg.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/YscsPV6.jpg"><img src="http://i.imgur.com/S9h9hu2.jpg" alt="image" width="165" height="165"></a></div>
+	<div class="col-md-3"><a href="http://i.imgur.com/M8TOn1F.jpg"><img src="http://i.imgur.com/SjMdxvW.jpg" alt="image" width="165" height="165"></a></div>
 </div>
