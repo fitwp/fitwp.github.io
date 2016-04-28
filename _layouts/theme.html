@@ -32,7 +32,7 @@
 								<input type="hidden" name="custom" value="{{ page.slug }}">
 							
 								<input type="hidden" name="return" value="http://fitwp.com/thanks">
-								<input type="hidden" name="cancel_return" value="http://fitwp.com{{ page.url }}">
+								<input type="hidden" name="cancel_return" value="http://fitwp.com{{ page.url | remove: '.html' }}">
 								<input type="hidden" name="notify_url" value="http://deals.fitwp.com/ipn.php">
 								<button type="submit" class="btn btn-block btn-danger">Paypal</button>
 							</form>
