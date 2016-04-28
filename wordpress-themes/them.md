@@ -12,7 +12,7 @@ update: April 26, 2016
 docs: /docs/them
 ---
 
-[![them - minimal creative wordpress blog template](http://i.imgur.com/bGosMlg.png)](http://demo3.fitwp.com)
+<a href="http://demo3.fitwp.com" target="_blank"><img src="http://i.imgur.com/bGosMlg.png" alt="them - wordpress blogging theme" width="750" height="562"></a>
 
 <p class="text-center"><em>Click to view the demo</em></p>
 
@@ -22,7 +22,7 @@ Built on the latest technology of WordPress 4.5, TheM very **lightweight** and d
 
 Being carefully built for bloggers, TheM brings a **great custom configuration** for each component of the blog to help you personalize your website the way you want and make it the unique blog in the world.
 
-![them - homepage template](http://i.imgur.com/HK8fpke.png)
+<img src="http://i.imgur.com/HK8fpke.png" alt="them - minimal wordpress blog template" width="750" height="561">
 
 <h2 class="text-center">Highlighted Features</h2>
 
