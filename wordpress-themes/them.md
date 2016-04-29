@@ -130,6 +130,8 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 - Has **built-in creative slider** for the homepage (no plugins required)
 - Has built-in creative homepage layout (no plugins required)
 - Supports unlimited landing pages or custom pages with custom layout
+- Supports **2 sidebar layout** (left and right) for blog
+- Supports **narrow and wide** page width layout
 - Supports various **options for pagination**: next/prev links, numberic links, load more button or infinite scroll
 - Has built-in **related posts** (no plugins required)
 - Has built-in **author info box** and author social links for single post
