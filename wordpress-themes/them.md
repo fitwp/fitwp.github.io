@@ -82,6 +82,14 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <h3><i class="fa fa-diamond"></i> Custom sidebars &amp; layout</h3>
 <p>Create unlimited sidebars for pages and use them to add any widget to page content.</p>
 </div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Infinite scroll</h3>
+<p>Automatically load more posts when reach to the end of the page.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Fancy mobile menu</h3>
+<p>Smooth mobile menu effect. Easily configured with widgets.</p>
+</div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Custom widgets</h3>
@@ -112,7 +120,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Detailed documentation</h3>
-<p>Our careful and meticulous documentation will help you understand every element of the theme.</p>
+<p>Our careful documentation will help you understand every element of the theme.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Responsive &amp; friendly support</h3>
