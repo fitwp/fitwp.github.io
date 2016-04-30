@@ -17,6 +17,7 @@ description: Documentation for WordPress themes and WordPress plugins made by Fi
 				<li><svg class="icon"><use xlink:href="#file"></use></svg><a href="/docs/galaticos">Galaticos</a></li>
 				<li><svg class="icon"><use xlink:href="#file"></use></svg><a href="/docs/couponia">Couponia</a></li>
 				<li><svg class="icon"><use xlink:href="#file"></use></svg><a href="/docs/constructent">Constructent</a></li>
+				<li><svg class="icon"><use xlink:href="#file"></use></svg><a href="/docs/them">TheM</a></li>
 			</ul>
 		</div>
 	</div>
