@@ -128,7 +128,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 </div>
 </div>
 
-<div class="text-center"><a href="#" class="btn btn-success btn-lg btn-buy">Buy Theme Now</a></div>
+<div class="text-center"><a href="#theme-info" class="btn btn-success btn-lg btn-buy">Buy Theme Now</a></div>
 
 ### Other features
 
