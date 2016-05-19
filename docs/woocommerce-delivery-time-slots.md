@@ -226,6 +226,22 @@ To show shipping time in your template, please use the following code:
 <?php echo do_shortcode( '[wdts_shipping_time id="ORDER_ID"]' ); ?>
 ```
 
+## Display time picker field in other pages than checkout
+
+To place the date picker field in another page, for example the cart page, you need to overwrite the WooCommerce template file in your theme. These are the basic steps:
+
+- Create a folder `woocommerce/cart` in your theme. You can bypass this step if your theme already has this folder.
+- Copy the file `templates/cart/cart-totals.php` from WooCommerce's folder and paste it into the `woocommerce/cart` folder you've just created above
+- Open the new copied file and put the following code inside that file:
+
+```php
+<?php echo do_shortcode( '[wdts_field]' ); ?>
+```
+
+Then preview in the front end. You might want to move the line to an appropriate place.
+
+To understand about the WooCommerce template, please read [this documentation](https://docs.woothemes.com/document/template-structure/)
+
 ## Email
 
 By default, the shipping time is attached to default WooCommerce email sent to admin. But if your theme is using custom email template, then the new template might overwrite WooCommerce's template.
