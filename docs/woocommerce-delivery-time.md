@@ -246,6 +246,22 @@ Parameter|Description
 `id`|Order ID. Required.
 `format`|Date format. List of date formats are described [here](http://codex.wordpress.org/Formatting_Date_and_Time). If no format is entered, the plugin will takes the format in the Settings page. Optional.
 
+## Display time picker field in other pages than checkout
+
+To place the date picker field in another page, for example the cart page, you need to overwrite the WooCommerce template file in your theme. These are the basic steps:
+
+- Create a folder `woocommerce/cart` in your theme. You can bypass this step if your theme already has this folder.
+- Copy the file `templates/cart/cart-totals.php` from WooCommerce's folder and paste it into the `woocommerce/cart` folder you've just created above
+- Open the new copied file and put the following code inside that file:
+
+```php
+<?php echo do_shortcode( '[wdt_field]' ); ?>
+```
+
+Then preview in the front end. You might want to move the line to an appropriate place.
+
+To understand about the WooCommerce template, please read [this documentation](https://docs.woothemes.com/document/template-structure/)
+
 
 ## Email
 
