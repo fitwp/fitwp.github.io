@@ -31,7 +31,7 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <div class="row">
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Creative and unique design</h3>
-<p>Let your blog stand out of the crowd with the minimal, sophisticated and pixel-perfect design.</p>
+<p>Minimal, sophisticated and pixel-perfect design with beautiful typography.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Super fast and smooth</h3>
@@ -49,11 +49,11 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Porfolio showcase</h3>
-<p>Show your work in a creative mansory layout using the most popular Jetpack plugin.</p>
+<p>Show your work in a creative masonry layout using the most popular Jetpack plugin.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> WooCommerce compatible</h3>
-<p>Create a shop online to sell stuffs on your blog easily with a few clicks using WooCommerce.</p>
+<p>Create a shop online to sell stuff on your blog with a few clicks using WooCommerce.</p>
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
@@ -62,21 +62,30 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Mega menu supported</h3>
-<p>Attracts your visitors with beautiful mega menu. Supports custom text and featured posts list.</p>
+<p>Attracts your visitors with a beautiful mega menu. Supports custom text and featured posts list.</p>
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Featured content &amp; slider</h3>
-<p>Show featured content on homepage or custom landing page in an unique slider or grid.</p>
+<p>Show featured content on homepage or custom landing page in a unique slider or grid.</p>
 </div>
 <div class="col-md-6">
-<h3><i class="fa fa-diamond"></i> Custom logo in WordPress 4.5</h3>
+<h3><i class="fa fa-diamond"></i> Custom logo</h3>
 <p>Supports custom logo in WordPress 4.5. Now you can show site title or upload a custom logo.</p>
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> 700+ options for custom fonts</h3>
+<p>Integrated all Google Fonts with various options to customize for a beautiful typography.</p>
+</div>
+<div class="col-md-6">
+<h3><i class="fa fa-diamond"></i> Custom color options</h3>
+<p>Select custom colors for links, buttons, top bar, etc. and preview them in real-time.</p>
+</div>
+<div class="clearfix visible-md-block visible-lg-block"></div>
+<div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Social links menu</h3>
-<p>Display your social profile links in the top bar, sidebar or footer with just single configuration.</p>
+<p>One configuration for social links and display them in many places on your website.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Custom sidebars &amp; layout</h3>
@@ -84,16 +93,16 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Infinite scroll</h3>
-<p>Automatically load more posts when reach to the end of the page.</p>
+<p>Load more posts when to reach to the end of the page. Support auto mode and manual mode.</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Fancy mobile menu</h3>
-<p>Smooth mobile menu effect. Easily configured with widgets.</p>
+<p>Smooth hamburger mobile menu effect. Customize mobile menu with widgets.</p>
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Custom widgets</h3>
-<p>Custom about me widget, instagram widget, twitter widget, recent post widget, ...</p>
+<p>Custom about me widget, Instagram widget, Twitter widget, recent post widget, ...</p>
 </div>
 <div class="col-md-6">
 <h3><i class="fa fa-diamond"></i> Search engine optimized</h3>
@@ -105,8 +114,8 @@ Being carefully built for bloggers, TheM brings a **great custom configuration**
 <p>Made with WordPress coding standards, our theme guarantee the high coding quality.</p>
 </div>
 <div class="col-md-6">
-<h3><i class="fa fa-diamond"></i> Translation ready</h3>
-<p>Supports translation via .PO file for any language.</p>
+<h3><i class="fa fa-diamond"></i> Responsive images</h3>
+<p>Optimize image loading with responsive images. On mobiles - small images, on desktops - large images.</p>
 </div>
 <div class="clearfix visible-md-block visible-lg-block"></div>
 <div class="col-md-6">
