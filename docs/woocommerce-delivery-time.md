@@ -246,6 +246,19 @@ Parameter|Description
 `id`|Order ID. Required.
 `format`|Date format. List of date formats are described [here](http://codex.wordpress.org/Formatting_Date_and_Time). If no format is entered, the plugin will takes the format in the Settings page. Optional.
 
+## Display time picker field in other places on the checkout page
+
+If you're a developer, you can do that by changing the hook used in the plugin:
+
+- Open the file `inc/delivery-time.php` in the plugin
+- On the line 23, you'll see:
+
+```php
+add_action( 'woocommerce_before_order_notes', array( $this, 'show_field' ), 20 );
+```
+
+- Change `woocommerce_before_order_notes` to another hook to show the field in a different place. List of hooks can be found [here](https://docs.woothemes.com/wc-apidocs/hook-docs.html).
+
 ## Display time picker field in other pages than checkout
 
 To place the date picker field in another page, for example the cart page, you need to overwrite the WooCommerce template file in your theme. These are the basic steps:
@@ -261,7 +274,6 @@ To place the date picker field in another page, for example the cart page, you n
 Then preview in the front end. You might want to move the line to an appropriate place.
 
 To understand about the WooCommerce template, please read [this documentation](https://docs.woothemes.com/document/template-structure/)
-
 
 ## Email
 
