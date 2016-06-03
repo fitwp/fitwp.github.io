@@ -1,4 +1,3 @@
-
 ---
 layout: theme
 title: Shopsters - Multiconcept Ecommerce WordPress Theme
