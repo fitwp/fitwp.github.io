@@ -146,7 +146,7 @@ Shopsters is an Responsive Wordpress + Woocommerce Theme that is extremely custo
 - Has built-in **related posts** (no plugins required)
 - Has built-in **author info box** and author social links for single post
 
-###Why Shopsters
+### Why Shopsters
 
 - Reliable Elite Theme Author;
 - Always up to date;
@@ -157,7 +157,7 @@ Shopsters is an Responsive Wordpress + Woocommerce Theme that is extremely custo
 - Revolution Slider plugin is included in theme for free – save $19
 - Visual Composer plugin is included in theme for free – save $34
 
-###Core Features
+### Core Features
 
 - Built-in mega menu
 - Easy Installation & Setup
@@ -172,7 +172,7 @@ Shopsters is an Responsive Wordpress + Woocommerce Theme that is extremely custo
 - Fully Customizable
 - Translation Ready
 
-###All the Customization Features you need
+### All the Customization Features you need
 
 - Easily Change the Look & Feel;
 - Upload Your Logo;
@@ -184,11 +184,11 @@ Shopsters is an Responsive Wordpress + Woocommerce Theme that is extremely custo
 - Lots of Pre-Built Pages;
 - Child Theme Included;
 
-###A Flexible Header – for Real
+### A Flexible Header – for Real
 
 As web designers, we how important the header is, for any site. Being able to adjust it to your needs it’s crucial. For that reason, the Shopsters’s header is one of the most complex parts of the theme, feature-wise. We’ve put a lot of effort into developing such a flexible solution that will allow you to create something custom for each project.
 
-###Powerful eCommerce Functionality
+### Powerful eCommerce Functionality
 
 The theme was built for WooCommerce, the most popular eCommerce solution for WordPress, which helps you sell anything online, shippable goods, virtual or digital files.
 
@@ -209,7 +209,7 @@ The theme was built for WooCommerce, the most popular eCommerce solution for Wor
 - SEO Optimized
 - Optional Wishlist
 
-###Compatible with many popular plugins
+### Compatible with many popular plugins
 
 - Compatible with Meta Box plugin
 - Compatible with Visual Composer plugin
@@ -218,7 +218,7 @@ The theme was built for WooCommerce, the most popular eCommerce solution for Wor
 - Compatible with YITH WooCommerce Wishlist plugin
 - And much much more…</>
 
-###Credits
+### Credits
 
 - Proudly created with Meta Box WordPress plugin
 - LESS CSS
