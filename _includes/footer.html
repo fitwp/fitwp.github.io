@@ -36,33 +36,41 @@ $( '#go-top' ).on( 'click', function ( e )
 	}, 500 );
 } );
 
-var $tocNav = $( '#toc' ),
-	top = $tocNav.offset().top - 53, // 53 = height of SumoMe bar
-	left = $tocNav.offset().left,
-	height = $tocNav.height() + 53,
-	bottom = $( '.footer' ).offset().top,
-	$window = $( window );
-console.log(top);
-console.log(height);
-console.log(bottom);
-$window.on( 'scroll', function()
+/**
+ * Fix sidebar
+ */
+function fixedSidebar()
 {
-	var windowTop = $window.scrollTop();
-	console.log(windowTop);
-	if ( windowTop > top )
+	var $tocNav = $( '#toc' ),
+		top = $tocNav.offset().top - 53, // 53 = height of SumoMe bar
+		left = $tocNav.offset().left,
+		height = $tocNav.height() + 53,
+		bottom = $( '.footer' ).offset().top,
+		$window = $( window );
+	console.log(top);
+	console.log(height);
+	console.log(bottom);
+	$window.on( 'scroll', function()
 	{
-		var topPosition = windowTop + height < bottom ? 53 : bottom - height;
-		$tocNav.css( {
-			position: 'fixed',
-			top: topPosition,
-			left: left
-		} );
-	}
-	else
-	{
-		$tocNav.attr( 'style', '' );
-	}
-} );
+		var windowTop = $window.scrollTop();
+		console.log(windowTop);
+		if ( windowTop > top )
+		{
+			var topPosition = windowTop + height < bottom ? 53 : bottom - height;
+			$tocNav.css( {
+				position: 'fixed',
+				top: topPosition,
+				left: left
+			} );
+		}
+		else
+		{
+			$tocNav.attr( 'style', '' );
+		}
+	} );
+}
+
+fixedSidebar();
 </script>
 {% endif %}
 {% if include.type == 'theme' and page.gumroad %}
