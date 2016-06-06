@@ -184,13 +184,13 @@ We will use the **Customizer** in the documentation as it allows you to view the
 
 Now let’s go through the homepage widgets.
 
-### Section: Slider
+### Section: Featured Content as Creative Slider
 
 Slider are a collection of featured posts that are displayed in a special slider with an unique effect for text and image. You are able to select which posts to show in the slider as well as which elements to show. This is a good place if you want to highlight the best posts in your blog.
 
 In the **Homepage** sidebar in the **Customizer**, click button **Add a Widget**, you will see a list of available widgets on the right where you can search for widgets and add them. Here we will search for **TheM: Featured Posts** widget and click on it to add to the **Homepage** sidebar.
 
-![slider](http://i.imgur.com/B7rK7wp.png)
+![slider](http://i.imgur.com/7udjMtF.png)
 
 The widget has several options for you to adjust:
 
@@ -205,14 +205,15 @@ Show excerpt|Do you want to show post excerpt in the slider? The post excerpt is
 Excerpt length|The number of words of post excerpt you want to show in the slider. The recommended number is 40.
 Show read more button|Do you want to show read more button?.
 Read more text|The read more text.
-Display as slider|Check this to make featured posts displayed as a slider.
+Display as|Choose which format you want to show the featured content. There are 4 styles that you can select from: creative slider (as shown in demo Creative, full width slider - in demo Travel/Girl, single post slider - in demo Lifestyle/Minimal, grid - in demo Creative/Food)
 Slider speed (ms)|The number of milliseconds between slides.
+Hide these posts in the home page|Whether to exclude these posts in the post list in the homepage to remove duplication?
 
 **Tip**: To select specific posts for the slider, you can create a specific tag and add it to the posts you want to show. Then in this widget, select that tag.
 
-### Section: Grid of featured posts
+### Section: Featured Content as Grid
 
-Similar to slider, the grid of featured posts displays posts in a 3-column or 4-column grid. This is also a good place to highlight your posts.
+Similar to creative slider, the grid of featured posts displays posts in a 3-column or 4-column grid. This is also a good place to highlight your posts.
 
 The grid of featured posts uses exactly the same widget as the slider (**Featured Posts**). The only difference is you do not check the option to **Display as slider**.
 
