@@ -42,10 +42,12 @@ var $tocNav = $( '#toc' ),
 	height = $tocNav.height() + 53,
 	bottom = $( '.footer' ).offset().top,
 	$window = $( window );
-
+console.log(height);
+console.log(bottom);
 $window.on( 'scroll', function()
 {
 	var windowTop = $window.scrollTop();
+	console.log(windowTop);
 	if ( windowTop > top )
 	{
 		var topPosition = windowTop + height < bottom ? 53 : bottom - height;
