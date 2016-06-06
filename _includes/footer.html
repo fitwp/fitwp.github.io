@@ -64,8 +64,7 @@ function fixedSidebar()
 		}
 	} );
 }
-
-fixedSidebar();
+$( window ).on( 'load', fixedSidebar );
 </script>
 {% endif %}
 {% if include.type == 'theme' and page.gumroad %}
