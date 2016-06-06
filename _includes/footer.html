@@ -37,30 +37,35 @@ $( '#go-top' ).on( 'click', function ( e )
 } );
 
 var $tocNav = $( '#toc' ),
-	offset = $tocNav.offset().top - 53, // 53 = height of SumoMe bar
+	top = $tocNav.offset().top - 53, // 53 = height of SumoMe bar
 	left = $tocNav.offset().left,
+	height = $tocNav.height(),
+	bottom = $( '.footer' ).offset().top,
 	$window = $( window );
-if ( $tocNav.height() < $window.height() )
+
+$window.on( 'scroll', function()
 {
-	console.log( 'load' );
-	$window.on( 'scroll', function()
+	if ( $window.scrollTop() > top && $window.scrollTop() + height < bottom )
 	{
-				console.log( 'load' );
-		if ( $window.scrollTop() > offset )
-		{
-				console.log( $window.scrollTop() );
-			$tocNav.css( {
-				position: 'fixed',
-				top: 53,
-				left: left
-			} );
-		}
-		else
-		{
-			$tocNav.attr( 'style', '' );
-		}
-	} );
-}
+		$tocNav.css( {
+			position: 'fixed',
+			top: 53,
+			left: left
+		} );
+	}
+	else if ( $window.scrollTop() > top )
+	{
+		$tocNav.css( {
+			position: 'fixed',
+			top: bottom - height,
+			left: left
+		} );
+	}
+	else
+	{
+		$tocNav.attr( 'style', '' );
+	}
+} );
 </script>
 {% endif %}
 {% if include.type == 'theme' and page.gumroad %}
