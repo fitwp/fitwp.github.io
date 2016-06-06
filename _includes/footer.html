@@ -52,9 +52,8 @@ function fixedSidebar()
 		var windowTop = $window.scrollTop();
 		if ( windowTop > top )
 		{
-			var topPosition = windowTop + height < bottom ? 53 : bottom - height - windowTop + 53;
-			$tocNav.css( {
-				position: 'fixed',
+			var topPosition = windowTop + height < bottom ? windowTop + 53 : bottom - height;
+			$tocNav.offset( {
 				top: topPosition,
 				left: left
 			} );
