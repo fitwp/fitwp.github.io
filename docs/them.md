@@ -263,9 +263,9 @@ Display as carousel slider|Do you want to show images in a carousel slider (as d
 
 ## Theme options
 
-After done installing and setup the theme, you might want to customize the theme to fit your needs. All the theme customization are location in *Customizer → Theme Options*. There are various options for the theme and they'll be explained in the sections below
+After done installing and setup the theme, you might want to customize the theme to fit your needs. All the theme customization are location in *Customizer → Theme Options*. You can change all theme options in one place and preview the changes in real-time! There are various options for the theme and they'll be explained in the sections below
 
-## General options
+### General options
 
 ![favicon](http://i.imgur.com/FHj5yOZ.png)
 
@@ -280,9 +280,9 @@ To add a site icon, follow these steps:
 1. Click the Crop Image button.
 1. That's it! You're shiny new Site Icon is ready to go!
 
-## Header options
+### Header options
 
-### Top bar
+#### Top bar
 
 The top bar is divided into 2 parts: the top bar left and top bar right. Each part can have the following content:
 
@@ -321,7 +321,7 @@ If you want to display a custom menu in the top bar, then you need to create a c
 
 **Note**: when you set a menu for social links, these links will be displayed in the footer and **About me** widget as well as in the mobile menu.
 
-### Logo
+#### Logo
 
 By default, TheM display the site title but you can change that to display site logo. The site logo feature requires WordPress 4.5, so you need to upgrade your WordPress to version 4.5 if you have an older version. If you couldn't upgrade, then the only option for you is displaying the site title.
 
@@ -333,7 +333,7 @@ You also can choose the logo position below as center (default), left or right.
 
 When choosing the position left or right, you have an option to minimize the main menu to the toggle icon like in the [Minimal demo](http://demo3.fitwp.com/them4/)
 
-### Main menu
+#### Main menu
 
 Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default. As the number of pages is large, displaying all of them in the menu is a bad idea.
 
@@ -346,7 +346,7 @@ Following these steps to create a menu (here we will use the WordPress Dashboard
 
 ![menu](http://i.imgur.com/aZHKqtb.png)
 
-### Mega menu
+#### Mega menu
 
 One of the best feature of TheM is mega menu. The mega menu allows you to display custom content in the menu, not only links. You can choose to display custom text or post list in the menu.
 
@@ -385,7 +385,7 @@ Excerpt Length|The number of words of post content will be displayed
 
 After done editing, click **Save Menu** and see it in action in the front end.
 
-### Mobile menu
+#### Mobile menu
 
 There is also 1 option for the mobile menu here. The mobile menu is displayed when you click on the toggle icon on the top bar (if you choose top bar left / right dislays functional icons, or you can see it on mobile devices). The option allows you to select which type of content will be displayed in the mobile menu: the main menu and social icons or widgets.
 
@@ -394,7 +394,7 @@ If you choose the main menu and social icons then all items of the main menu and
 If you choose widgets then you need to go to *Customizer → Widgets* and you will see a new sidebar **Mobile**. Simply add new widgets to this sidebar and they'll displayed in the mobile menu.
 
 
-## Footer options
+### Footer options
 
 The footer of TheM is simple and has only 2 parts: the **social links** and **copyright text**. The social links is automatically pulled from the **Social Links** menu that we have covered in the section [#top-bar](Top bar) above. Please read this to understand how to setup the social links menu.
 
@@ -412,7 +412,7 @@ Footer background size (width height)|Enter CSS for background size
 Footer background repeat|Do you want the background image repeated?
 Show go to top button|Do you want to show go to top button?
 
-## Blog options
+### Blog options
 
 The blog options is located in *Customizer → Theme Options → Blog*. There are several options as follows:
 
@@ -483,13 +483,6 @@ On the right of the editing page, you will see a box **Custom sidebar content** 
 
 After selecting the sidebar, go to the frontend and you will see the widgets of that sidebar is added below the main content of the page.
 
-
-
-## Theme Options
-
-The TheM theme incorporates its **Theme Options** within the **Customizer**. You can change all theme options in one place and preview the changes in real-time!
-
-To start with the **Theme Options**, go to **Customizer > Theme Options**. All options have full description so you can know what you are doing. Just click and save!
 
 
 ## Widgets
