@@ -47,16 +47,12 @@ function fixedSidebar()
 		height = $tocNav.height() + 53,
 		bottom = $( '.footer' ).offset().top,
 		$window = $( window );
-	console.log(top);
-	console.log(height);
-	console.log(bottom);
 	$window.on( 'scroll', function()
 	{
 		var windowTop = $window.scrollTop();
-		console.log(windowTop);
 		if ( windowTop > top )
 		{
-			var topPosition = windowTop + height < bottom ? 53 : bottom - height;
+			var topPosition = windowTop + height < bottom ? 53 : bottom - height - windowTop + 53;
 			$tocNav.css( {
 				position: 'fixed',
 				top: topPosition,
