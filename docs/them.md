@@ -398,6 +398,8 @@ If you choose widgets then you need to go to *Customizer → Widgets* and you wi
 
 The footer of TheM is simple and has only 2 parts: the **social links** and **copyright text**. The social links is automatically pulled from the **Social Links** menu that we have covered in the section [#top-bar](Top bar) above. Please read this to understand how to setup the social links menu.
 
+Go to *Customizer → Theme Options → Footer* to start customizing the footer.
+
 ![footer options](http://i.imgur.com/pFIVJr3.png)
 
 Options|Description
@@ -410,6 +412,40 @@ Footer background size (width height)|Enter CSS for background size
 Footer background repeat|Do you want the background image repeated?
 Show go to top button|Do you want to show go to top button?
 
+## Blog options
+
+The blog options is located in *Customizer → Theme Options → Blog*. There are several options as follows:
+
+![blog options](http://i.imgur.com/3P8LvjQ.png)
+
+Options|Description
+---|---
+Blog sidebar layout|The sidebar layout for the blog (left, right or no sidebar)
+Hide post thumbnail on blog archive page|Do you want to hide post thumbnails on the blog page? See [Minimal demo](http://demo3.fitwp.com/them4/)
+Content display on blog archive page|What type of post content will be displayed. Available options are Post excerpt, Post content or Post content before more tag. To understand what those values mean, take a look at the screenshot bellow:
+
+![post content](http://i.imgur.com/VaeOhBI.png)
+
+Where:
+
+- (A): Whole post content, this is what you enter in the editor.
+- (B): Post excerpt, which is optional hand-crafted summaries of your content. [Learn more about manual excerpt](http://codex.wordpress.org/Excerpt). If you don’t enter anything in the excerpt box, WordPress will auto generate excerpt from post content by taking a number of words from the beginning of post content and removing all HTML tags from it.
+(C): The post content before more tag
+(D): The more tag
+
+Return to blog option: if you choose
+
+- Post excerpt: The theme will get post excerpt and display it. Remember: if you don’t enter excerpts for post, WordPress will auto generate excerpt from post content by taking a number of words from the beginning of post content and removing all HTML tags from it.
+- Post content: The theme will get whole post content and display it. This is the default value.
+- Post content before more tag: The theme will get only the post content before more tag and display it.
+
+Options|Description
+---|---
+Post content limit (words)|The number of words of the post content will be displayed in the blog page.
+Read more text|The read more text
+Pagination style|The pagination style. The theme supports 4 pagination style: next/prev style (see [Travel demo](http://demo3.fitwp.com/them2/), numeric style, infinite scroll (see [Minimal demo](http://demo3.fitwp.com/them4/), load more button (see [Creative demo](http://demo3.fitwp.com/blog/category/discovery/). Note that if you choose infinite scroll or load more button style, you need to install the Jetpack plugin and activate the Infinite scroll module.
+Pagination load more text|The load more text for the load more button. Only applied if you choose load more button style.
+Hide related posts on single post|This option allows you to hide related posts on single post. It's useful if you use another related posts plugin.
 
 ## Custom sidebar for page content
 
