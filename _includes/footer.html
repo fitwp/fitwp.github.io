@@ -35,6 +35,31 @@
 			scrollTop: 0
 		}, 500 );
 	} );
+	
+	$body.scrollspy( { target: '.toc-nav nav' } );
+
+	var $tocNav = $( '#toc' ),
+		offset = $tocNav.offset().top - 53, // 53 = height of SumoMe bar
+		left = $tocNav.offset().left,
+		$window = $( window );
+	if ( $tocNav.height() < $window.height() )
+	{
+		$window.on( 'scroll', function()
+		{
+			if ( $window.scrollTop() > offset )
+			{
+				$tocNav.css( {
+					position: 'fixed',
+					top: 53,
+					left: left
+				} );
+			}
+			else
+			{
+				$tocNav.attr( 'style', '' );
+			}
+		} );
+	}
 </script>
 {% endif %}
 {% if include.type == 'theme' and page.gumroad %}
