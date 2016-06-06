@@ -44,19 +44,23 @@
 	margin: 5em auto;
 
 	h2,
-	h3 {
+	h3,
+	h4 {
 		margin: 2em 0 1em;
 		color: #000;
-		font-size: 2.5em;
 		line-height: 1.25;
 	}
 	h2 {
 		font-size: 2.5em;
-		font-weight: 400;
+		font-weight: normal;
 	}
 	h3 {
 		font-size: 1.3em;
-		font-weight: 700;
+		font-weight: bold;
+	}
+	h4 {
+		font-weight: bold;
+		text-transform: uppercase;
 	}
 	p {
 		margin-bottom: 2em;
