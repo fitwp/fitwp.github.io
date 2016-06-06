@@ -261,28 +261,45 @@ Other user ID|Use this option if you want to display images from an other person
 Tag|If you want to get images not from yourself, but from a tag in Instagram, then enter the tag here.
 Display as carousel slider|Do you want to show images in a carousel slider (as displayed in the demo)? If not, images will be shown in a grid.
 
+## Theme options
 
-## Customizing the header
+After done installing and setup the theme, you might want to customize the theme to fit your needs. All the theme customization are location in *Customizer → Theme Options*. There are various options for the theme and they'll be explained in the sections below
 
-The header of the theme has 3 sections:
+## General options
 
-- The top bar
-- The site title or logo
-- The menu
+![favicon](http://i.imgur.com/FHj5yOZ.png)
 
-Each section has several options to customize and let's go through them.
+The general options is located under *General* section. There is only 1 option for the website site icon. The site icon is an icon associated with a website or webpage intended to be used when you bookmark the web page. Web browsers use them in the URL bar, on tabs, and elsewhere to help identify a website visually. Also, it is used as application icon of mobile device.
+
+To add a site icon, follow these steps:
+
+1. Click the Add a Site Icon button.
+1. Click the Choose File button to select the desired icon.
+1. Click the Upload Image button.
+1. Crop your image. You can use the Preview section on the right to see what your image will look like in its final form.
+1. Click the Crop Image button.
+1. That's it! You're shiny new Site Icon is ready to go!
+
+## Header options
 
 ### Top bar
 
-The top bar is divided into 2 parts: the top bar left which can contains social links or text and the top bar right which contains search form, cart icon and an icon to toggle the menu for mobile devices.
+The top bar is divided into 2 parts: the top bar left and top bar right. Each part can have the following content:
 
-The top bar left can display either social links or custom text. By default it displays social links. To change which is displayed in the top bar left, please go to **Customizer > Theme Options > Header** and you will see the options as follows:
+- Social icons
+- Functional icons (search, cart, mobile menu icons)
+- A custom menu
+- Custom text
 
-![top bar left option](http://i.imgur.com/fdbZGPu.png)
+By default top bar left displays social links and top bar right displays functional icons. To change which is displayed in the top bar left, please go to *Customizer → Theme Options → Header* and you will see the options as follows:
 
-If you want to display text in the topbar left, simply select **Text** option and enter the text in the input below. Note that you can enter HTML here, so it's good for you to display a welcome text with a link or something.
+![header options](http://i.imgur.com/K2lXvNs.png)
 
-If you want to display social links in the top bar left, then you need to create a custom menu for social links and set it to display here. To do that, follow these steps:
+Simply select which type of content you want to display for each part of the top bar.
+
+If you want to display text , simply select **Text** option and enter the text in the input below. Note that you can enter HTML here, so it's good for you to display a welcome text with a link or something.
+
+If you want to display social links in the top bar, then you need to create a custom menu for social links and set it to display here. To do that, follow these steps:
 
 - Go to **Customizer > Menu** and click the button **Add a Menu**.
 - Click the button **Add Items** and select **Custom Links** in the list.
@@ -292,15 +309,29 @@ If you want to display social links in the top bar left, then you need to create
 
 ![social menu](http://i.imgur.com/0Qn4al9.png)
 
+If you want to display a custom menu in the top bar, then you need to create a custom menu and set it to display here. To do that, follow these steps:
+
+- Go to *Customizer → Menu* and click the button **Add a Menu**.
+- Click the button **Add Items** and select **Custom Links** in the list.
+- Enter link to your social profile and click **Add to Menu**.
+- Repeate the process to add more links to your social profiles in other social networks.
+- When you're done, check the checkbox **Top Bar Left/Right Menu** in the section **Menu locations** to make it display in the top bar.
+
+![top bar menu](http://i.imgur.com/wplleaO.png)
+
 **Note**: when you set a menu for social links, these links will be displayed in the footer and **About me** widget as well as in the mobile menu.
 
-### Site title or logo
+### Logo
 
 By default, TheM display the site title but you can change that to display site logo. The site logo feature requires WordPress 4.5, so you need to upgrade your WordPress to version 4.5 if you have an older version. If you couldn't upgrade, then the only option for you is displaying the site title.
 
-In order to add logo to your site, go to **Customizer > Site Identity** and click the button **Select logo** to upload the logo or select from the Media Library.
+In order to add logo to your site, go to *Customizer → Theme Options → Header* and click the button **Select logo** to upload the logo or select from the Media Library.
 
-![logo](http://i.imgur.com/9ePemyW.png)
+![header options](http://i.imgur.com/K2lXvNs.png)
+
+You also can choose the logo position below as center (default), left or right.
+
+When choosing the position left or right, you have an option to minimize the main menu to the toggle icon like in the [Minimal demo](http://demo3.fitwp.com/them4/)
 
 ### Main menu
 
@@ -308,7 +339,7 @@ Although the theme is working now and it shows menu, but because we haven't crea
 
 Following these steps to create a menu (here we will use the WordPress Dashboard instead of the Customizer because this allow us to add mega menu as described in the next section):
 
-- Go to **Appeance > Menus**
+- Go to *Appeance → Menus*
 - Select an existing to edit, or click **Add a menu**. **Note:** when you import the demo, you already have a menu **Main**, so select it if you want to have same menu as in the demo.
 - Click **Add items** to add items to the menu
 - When you're done adding menu items, check **Primary Menu** for **Theme locations** at the bottom of the page
@@ -319,7 +350,7 @@ Following these steps to create a menu (here we will use the WordPress Dashboard
 
 One of the best feature of TheM is mega menu. The mega menu allows you to display custom content in the menu, not only links. You can choose to display custom text or post list in the menu.
 
-In order to use mega menu, you need to use the WordPress Dashboard, not the Customizer. Go to **Appearannce > Menus** and follow the steps below:
+In order to use mega menu, you need to use the WordPress Dashboard, not the Customizer. Go to *Appearannce → Menus* and follow the steps below:
 
 Click on a top-level menu item to edit it, you will see an checkbox for **Enable mega menu?** This option allows you to display its submenu items in a mega menu:
 
@@ -354,16 +385,30 @@ Excerpt Length|The number of words of post content will be displayed
 
 After done editing, click **Save Menu** and see it in action in the front end.
 
+### Mobile menu
 
-## Customizing the footer
+There is also 1 option for the mobile menu here. The mobile menu is displayed when you click on the toggle icon on the top bar (if you choose top bar left / right dislays functional icons, or you can see it on mobile devices). The option allows you to select which type of content will be displayed in the mobile menu: the main menu and social icons or widgets.
+
+If you choose the main menu and social icons then all items of the main menu and social icons will be displayed in the mobile menu.
+
+If you choose widgets then you need to go to *Customizer → Widgets* and you will see a new sidebar **Mobile**. Simply add new widgets to this sidebar and they'll displayed in the mobile menu.
+
+
+## Footer options
 
 The footer of TheM is simple and has only 2 parts: the **social links** and **copyright text**. The social links is automatically pulled from the **Social Links** menu that we have covered in the section [#top-bar](Top bar) above. Please read this to understand how to setup the social links menu.
 
-The copyright text displays general copyright text for your blog. In case you want to change this text, please go to **Customizer > Theme Options > Footer** and enter the text for the footer:
+![footer options](http://i.imgur.com/pFIVJr3.png)
 
-![footer](http://i.imgur.com/t2rR8k7.png)
-
-Note that you can enter HTML here (links, strong, etc.).
+Options|Description
+---|---
+Hide social links|Whether to hide social links
+Footer text|The footer copyright text. You can enter HTML and shortcodes here.
+Footer background|Upload or select an existing image from the Media Library for for the footer background.
+Footer background position|Where do you want the footer background image align?
+Footer background size (width height)|Enter CSS for background size
+Footer background repeat|Do you want the background image repeated?
+Show go to top button|Do you want to show go to top button?
 
 
 ## Custom sidebar for page content
