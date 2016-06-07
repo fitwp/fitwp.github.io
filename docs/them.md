@@ -447,6 +447,104 @@ Pagination style|The pagination style. The theme supports 4 pagination style: ne
 Pagination load more text|The load more text for the load more button. Only applied if you choose load more button style.
 Hide related posts on single post|This option allows you to hide related posts on single post. It's useful if you use another related posts plugin.
 
+### Color options
+
+TheM allows you to change the color scheme and colors of some elements to have an unique look and feeld. There is no limit to pick colors in TheM.
+
+To start customizing the colors, please go to *Customizer → Theme Options → Colors* and you'll see the following options:
+
+![color options](http://i.imgur.com/wVfOm36.png)
+
+To change the color scheme of the theme, you need to adjust 2 colors:
+
+Options|Description
+---|---
+Primary color|The primary color for the theme, which is used for links, buttons, social icons. Default is black.
+Secondary color|The secondary color for the post meta, categories, post date. Default is gray.
+
+To personalize the theme, TheM add the following options for you to customize the top bar, the primary menu and some elements, all are self-explained by their name:
+
+- Top bar background color
+- Top bar text color
+- Top bar link color
+- Top bar link hover color
+- Primary menu link color
+- Recent posts heart icon color
+
+### Typography options
+
+One of the coolest features of the TheM theme is custom typography. This feature allows you to select custom fonts, font sizes, font styles for various elements on the website without touching code. TheM supports all Google Fonts (more than 700 fonts) which is the largest free collection of fonts available on the Internet.
+
+To start using custom fonts for TheM, please go to the *Customizer → Theme Options → Typography* and you’ll see the following screenshot:
+
+![font options](http://i.imgur.com/ARhLlK4.png)
+
+TheM allows you to change typography for:
+
+- Body text (post content, post summary)
+- Headings (H1, H2, …, H6 tags)
+- Top bar
+- Primary menu
+- Post title
+
+These are the main elements of the website and for each element, TheM sets up a necessary group of settings to adjust such as:
+
+- Font family: which can be selected from 700+ fonts from Google Fonts. To see how they look, you can simply select them and see the changes in real-time or go to http://google.com/fonts and search for the font name.
+- Font weight: normal, bold, extra bold, etc. Some fonts have only some weights, so make sure you preview the result.
+- Font size: in pixels. Leave it blank to use the default value.
+- Line height: in pixels. Leave it blank to use the default value.
+- Text transform: UPPERCASE, lowercase, Capitalize
+- Letter spacing: in pixels. Leave it blank to use the default value.
+
+Note that some elements don't have all the above settings. We add only the settings with a serious consideration that those settings are really needed for the elements.
+
+If you want to change typography for other elements or custom the fonts more deeply, please see the documentation for custom CSS in the Design options section.
+
+### Portfolio options
+
+TheM has a built-in portfolio section which shows your projects in a beautiful masonry grid with a filter. This is a great way to show to your visitors what you have done in the past by highlighting previous projects.
+
+The settings for portfolio are simple and put in **Customizer  → Theme Options → Portfolio**:
+
+![portfolio settings](http://i.imgur.com/Wz0zeGP.png)
+
+There are only 2 options:
+
+- Portfolio archive page title: The title for portfolio archive page (at http://yourdomain.com/portfolio). By default it's just "Archive" which is useless. Enter something meaningful here like "Portfolio", "Our works", "Recent Projects", etc.
+- Number of projects per page: The number of projects shown in 1 page in the archive page. Note that by default if you choose pagination style Next/Prev links or numeric links (in the **Customizer  → Theme Options → Blog** section), then all portfolios are get and organized in a masonry layout. In these cases, this option is not applied. It's only applied if you choose pagination style Infinite scroll or Load more button where some projects are loaded when scrolling or clicking the button.
+
+### WooCommerce options
+
+TheM supports [WooCommerce](https://wordpress.org/plugins/woocommerce) plugin - the best and most popular e-commerce plugin for WordPress. Essentially, you do not need to do anything. TheM smoothly integrates with WooCommerce and setup everything for you.
+
+To change the options of TheM for WooCommerce, please go to **Customizer  → Theme Options → WooCommerce**:
+
+![woocommerce settings](http://i.imgur.com/VTH8HQu.png)
+
+There are only 1 option for the number of products shown on shop page. This option overwrites default WordPress/WooCommerce options which makes you can customize the shop page better.
+
+
+## Add/Edit Portfolio
+
+TheM has a built-in portfolio section which shows your projects in a beautiful masonry grid with a filter. This is a great way to show to your visitors what you have done in the past by highlighting previous projects.
+
+To start using portfolio, please install the [Jetpack](http://jetpack.me) plugin. This is a very popular plugin made by Automattic, the company behind WordPress. It allows you to create portfolio, testimonials, add related posts and many more.
+
+Creating a portfolio project is as simple as creating a post. Go to *Portfolio → Add New* and add new project title, content and set featured image as follows:
+
+![add portfolio](http://i.imgur.com/ryDRly4.png)
+
+In the portfolio project content, you can put anything about the project such as project description, client name, date, etc. Remember to use HTML elements and custom CSS classes to style the content beautifully.
+
+Do not forget to add project types on the right. It's used to filter the projects in the portfolio page.
+
+After finishing adding basic content for projects, please fill in all the information about the project in the **Project Settings** meta box:
+
+![edit project](http://i.imgur.com/Lh7nuNZ.png)
+
+Now go to the frontend and view all projects at http://yourdomain.com/portfolio/
+
+
 ## Custom sidebar for page content
 
 You already see how to setup the homepage with a custom sidebar and widgets. This is a very flexible way to add and organize content to a special page like the homepage.
