@@ -555,7 +555,7 @@ Basically it requires 3 steps:
 
 ### Create a custom sidebar
 
-To create a new custom sidebar, go to **Appearance > Sidebars**:
+To create a new custom sidebar, go to *Appearance → Sidebars*:
 
 ![sidebars](http://i.imgur.com/WuV1wdn.png)
 
@@ -565,7 +565,7 @@ Finishing this step, you will see all custom sidebars listed in the beginning of
 
 ### Add widgets to the sidebar
 
-After creating custom sidebars, go to **Appearance > Widgets** and you will see new sidebars listed as a widgetized area.
+After creating custom sidebars, go to *Appearance → Widgets* and you will see new sidebars listed as a widgetized area.
 
 ![widgets](http://i.imgur.com/XMiZlsn.png)
 
@@ -585,4 +585,157 @@ After selecting the sidebar, go to the frontend and you will see the widgets of 
 
 ## Widgets
 
-TheM plays nicely with default WordPress widgets. Besides that the theme has some additional widgets that might be useful for you. In order to add widgets to your website, simply go to **Customizer > Widgets** and select widgets begin with **TheM** to your website. All the options of the widgets are self-explained.
+TheM plays nicely with default WordPress widgets. Besides that the theme has some additional widgets that might be useful for you. In order to add widgets to your website, simply go to *Customizer → Widgets* or *Appearance → Widgets* and select widgets begin with **TheM** to your website. All the options of the widgets are self-explained.
+
+### TheM: About
+
+This widget shows your personal information in a beautiful format. To start using it, just drag and drop the **TheM: About** widget into the primary sidebar or any sidebar you want to show (we recommend Primary sidebar and Mobile sidebar). This widget has the following options:
+
+![about widget](http://i.imgur.com/WW3pxtK.png)
+
+Options|Description
+---|---
+Title|The widget title
+Image|Your image. Click the **Select** button to upload or choose an image from the Media Library
+Intro|Intro text about yourself
+Show social links from Social Links menu|Display links to your social profiles. Links are get from Social Links Menu.
+Social links|If you don't check the checkbox for "Show social links from Social Links menu", then you can enter custom links in each input below.
+Signature|Your signature in text. It will be displayed beautifully with a custom Google Font
+Signature Image|If you don't want to display signature with text, then upload your signature image here. Click the **Select** button to upload or choose an image from the Media Library.
+
+### TheM: Featured Blocks
+
+This widget shows 3 featured blocks in a grid which you can use to display links to your most favourite content. See [Girl demo](http://demo3.fitwp.com/them6/) to understand how we use it.
+
+This widget has the following options for each block:
+
+![block](http://i.imgur.com/Mo5ynBf.png)
+
+Options|Description
+---|---
+Image|The block background image. Click the **Select** button to upload or choose an image from the Media Library
+Text|The text displayed in the center of the block (with white background)
+Link|Where do you want the block link to?
+
+### TheM: Featured Post
+
+This widget displays a specific post in an attractive way. It's very useful when you want to highlight a post in the homepage. See [Creative demo](http://demo3.fitwp.com/) to understand how it works.
+
+The widget has the following options:
+
+![featured post](http://i.imgur.com/cWQnUrz.png)
+
+Options|Description
+---|---
+Select post|Select the post you want to feature
+Thumbnail|Select the thumbnail position. See [Creative demo](http://demo3.fitwp.com/) to understand how it works.
+Show date|Do you want to show post date? We recommend enable this.
+Date format|The date format. See [this link](http://codex.wordpress.org/Formatting_Date_and_Time) for a full list of supported date formats
+Show excerpt|Whether or not show post excerpt
+Excerpt length|The number of words of post content will be displayed
+Show read more button|Whether or not show read more button
+Read more text|The read more text
+
+
+### TheM: Featured Posts
+
+This is the most important widget in TheM. It displays your featured posts in the home page flexibly. All our demos use this widget to show featured posts.
+
+We already talked about this widget when we setup the homepage above. Here are some more details for you.
+
+![featured posts](http://i.imgur.com/XTJsSmO.png)
+
+The widget has several options for you to adjust:
+
+Option|Description
+---|---
+Number of posts|The number of posts you want to show
+Category|Which category you want to get posts from. Select **All** if you want to show posts in all categories.
+Tag|Which tag you want to get posts from. Select **All** if you want to show posts in all tags.
+Show date|Do you want to show post date?
+Date format|The date format. By default it takes WordPress settings in *Settings → General*. See [this link](http://codex.wordpress.org/Formatting_Date_and_Time) for a full list of supported date formats.
+Show excerpt|Do you want to show post excerpt? The post excerpt is taken from post excerpt and fallback to the post content.
+Excerpt length|The number of words of post excerpt you want to show. The recommended number is 40.
+Show read more button|Do you want to show read more button?.
+Read more text|The read more text.
+Display as|Choose which format you want to show the featured content. There are 4 styles that you can select from: creative slider (as shown in demo [Creative](http://demo3.fitwp.com/them4/), full width slider - in demo [Travel](http://demo3.fitwp.com/them2)/[Girl](http://demo3.fitwp.com/them6), single post slider - in demo [Lifestyle](http://demo3.fitwp.com/them5)/[Minimal](http://demo3.fitwp.com/them4/), grid - in demo [Creative](http://demo3.fitwp.com)/[Food](http://demo3.fitwp.com/them3/)
+Slider speed (ms)|The number of milliseconds between slides.
+Hide these posts in the home page|Whether to exclude these posts in the post list in the homepage to remove duplication?
+
+**Tip**: To select specific posts for the slider, you can create a specific tag and add it to the posts you want to show. Then in this widget, select that tag.
+
+### TheM: Flickr
+
+This widget displays your recent images from Flicker. It has the following options:
+
+![flickr](http://i.imgur.com/QAB8chC.png)
+
+
+Option|Description
+---|---
+Title|The widget title
+Flickr ID|Your Flickr ID. [Get it here](http://idgettr.com/)
+Type|Get images from User or Group
+Number of photos|Number of photos you want to show
+Display|Display latest images or random images
+Size|Select image sizes
+
+
+### TheM: Instagram
+
+This widget displays the recent images from your Instagram account or someone's account. It has the following options:
+
+![instagram options](http://i.imgur.com/qyBc61i.png)
+
+Option|Description
+---|---
+Title|The widget title
+User ID|Your user ID. [Get it here](http://9webtools.com/instagram-token)
+Access token|Your access token. [Get it here](http://9webtools.com/instagram-token)
+Cache time (seconds)|The number of seconds the widget store images in the cache.
+Number of images|Number of images you want to show
+Other user ID|Another person's Instagram ID. Use this option if you want to display images from another account. Get another person's ID [here](http://jelled.com/instagram/lookup-user-id)
+Tag|Use this to fetch recent images tagged with a specific tag.
+Display as carousel slider?|Do you want to display images in a carousel? See [Creative demo](http://demo3.fitwp.com).
+
+### TheM: Recent Posts
+
+This widget simply displays recent posts in the sidebar. It has the following options:
+
+![recent posts](http://i.imgur.com/nD1pQ9X.png)
+
+Option|Description
+---|---
+Title|The widget title
+Number of posts|The number of posts you want to show
+Category|Which category you want to get posts from. Select **All** if you want to show posts in all categories.
+Display first post big|Whether or not to show first post bigger than others. See [Food demo](http://demo3.fitwp.com/them3/)
+Show date|Do you want to show post date?
+Date format|The date format. By default it takes WordPress settings in *Settings → General*. See [this link](http://codex.wordpress.org/Formatting_Date_and_Time) for a full list of supported date formats.
+Show like number|Do you want to show like number? See [Food demo](http://demo3.fitwp.com/them3/)
+
+### TheM: Latest Tweets
+
+Before you use the Tweets widget, you have to create a Twitter app. Go to https://dev.twitter.com/apps and click **Create a new application** button.
+
+![twitter app](http://i.imgur.com/IEqljdM.png)
+
+Fill in all information needed for the app. The name and description can be anything, it does not have to be a certain name. You can leave the Callback URL field empty.
+After creating the app, click **Create My Access Token** button to generate the necessary codes. Now go to app **Dashboard** and selec **Keys and Access Token** tab and copy the following fields:
+
+- Consumer key
+- Consumer secret
+- Access token
+- Access token secret
+
+These fields will be used in the tweets widget.
+
+![app](http://i.imgur.com/sytKLv2.png)
+
+Now go to your website admin area, then *Appearance → Widgets*, drag and drop **TheM: Latest Tweets** widget into a sidebar that you want it to show there. You'll see these fields like this:
+
+![tweets](http://i.imgur.com/nYl5T8P.png)
+
+You also need to enter **Cache time** - which is the time your tweets will be temporarily stored in WordPress cache, Twitter **username** and **Number of tweets**.
+
+After filling all information, just click Save.
