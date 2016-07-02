@@ -3,14 +3,13 @@ layout: theme
 title: TheM - Minimal Creative WordPress Blog Theme
 description: TheM is a minimal and creative WordPress theme perfectly for travel, lifestyle or personal blogs.
 slug: them
-price: 29
-buy: "#"
-gumroad: https://gum.co/Bxhe
-demo: http://demo3.fitwp.com
+price: 59
+buy: http://themeforest.net/item/them-minimal-creative-wordpress-blog-theme/15938766
+demo: http://demo3.fitwp.com/themeforest/them.php
 version: 1.0
 compatibility: WordPress 4.3+
 release: April 26, 2016
-update: April 26, 2016
+update: July 2, 2016
 docs: /docs/them
 ---
 
