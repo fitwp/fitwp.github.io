@@ -117,7 +117,7 @@ If you are new to WordPress and have problems with setting up the theme you migh
 
 This step is optional. You should be able to customize the whole theme by following our documentation. In case you want a quick setup for the look just like our demo, please follow these steps:
 
- 1. Download the demo import plugin [here](https://drive.google.com/file/d/0B_MC_8W12Cg4ZTdUUHBOQXVjd1U/view?usp=sharing)
+ 1. Download the demo import plugin [here](https://drive.google.com/open?id=0B_MC_8W12Cg4UWx5alpoaFFKUXc)
 
  2. Go to **Plugins → Add New** in the dashboard, then click **Upload Plugin**
 
