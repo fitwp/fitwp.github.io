@@ -133,6 +133,22 @@ This step is optional. You should be able to customize the whole theme by follow
 
 It takes a couple of minutes to process all the content. After done, go to the frontend and enjoy the theme.
 
+#### Important:
+
+The demo import plugin has a large file size (50 MB), because we **already included all the images**. So when you install, you get the exact demo as you see.
+
+However, as the file size is big, some hosts may disallow to upload. To fix the problem, follow these steps:
+
+1. Unzip the file `them-demo-import.zip` to `them-demo-import` folder
+2. Use a FTP client software ([FileZilla](https://filezilla-project.org/) works great for us) and upload that folder to `wp-content/plugins`
+
+![filezilla](https://i.imgur.com/K4LQHuG.png)
+
+3. Then go to your **Dashboard → Plugins** and activate the plugin.
+
+4. Go to **Tools → Import Demo** and click **Import Demo Content** button.
+
+
 
 ## Setup the homepage
 
