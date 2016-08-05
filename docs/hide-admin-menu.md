@@ -43,8 +43,23 @@ If you have an old version of the plugin, please follow the steps below to updat
 
 ### Normal usage
 
+Just go to the **Dashboard > Hide Admin Menu** and check the menu items you want to hide for specific roles.
+
 ### MultiSite usage
 
 Since version 2.1, you can setup menu visibility for whole network only **ONCE**. You don't need to go to each blog admin page to setup the plugin anymore.
 
 To do this, just go go **Network Dashboard -> Hide Admin Menu** and from here you can toggle menu items for all site at once, similarly to what you did for a single WordPress website.
+
+## Remove plugin settings
+
+There is a situation when you accidentally block yourself from accessing the Dashboard. In that case, you need to remove the plugin settings to let you in.
+
+Doing that by inserting the following lines into your theme's `functions.php` file:
+
+```php
+delete_option( 'rw_hide_admin_menu' );
+delete_option( 'rw_hide_admin_bar' );
+```
+
+Then you can log into your website. After that, removing the lines to use the plugin as normal.
