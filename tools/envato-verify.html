@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Envato purchase code verifier</title>
+	<style>
+		label,
+		strong {
+			display: inline-block;
+			min-width: 120px;
+			font-weight: bold;
+		}
+		input {
+			width: 27em;
+			padding: 5px 10px;
+		}
+		button {
+			padding: 5px 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+<h1>Envato purchase code verifier</h1>
+<form action="" id="form">
+	<p>
+		<label for="username">Username</label>
+		<input type="text" id="username" placeholder="Enter your Envato username">
+	</p>
+	<p>
+		<label for="api_key">API Key</label>
+		<input type="text" id="api_key" placeholder="Enter your Envato account API Key">
+	</p>
+	<p>
+		<label for="purchase_code">Purchase code</label>
+		<input type="text" id="purchase_code" placeholder="Enter purchase code">
+	</p>
+	<button type="submit">Verify</button>
+</form>
+<div id="result"></div>
+<script>
+	/**
+	 * Verify a purchase code via Ajax when form is submitted.
+	 * @param e Submit event
+	 */
+	function verify( e ) {
+		e.preventDefault();
+
+		var username = document.getElementById( 'username' ),
+			api_key = document.getElementById( 'api_key' ),
+			purchase_code = document.getElementById( 'purchase_code' ),
+			url = 'http://marketplace.envato.com/api/edge/' + username.value + '/' + api_key.value + '/verify-purchase:' + purchase_code.value + '.json',
+			request = new XMLHttpRequest();
+
+		request.open( 'GET', url, true );
+		request.onload = function () {
+			if ( this.status == 200 ) {
+				displayResult( this.response );
+			} else {
+				alert( 'Error requesting Envato API, please try again.' );
+			}
+		};
+		request.onerror = function () {
+			alert( 'Error requesting Envato API, please try again.' );
+		};
+		request.send();
+	}
+
+	/**
+	 * Display result.
+	 * @param data
+	 */
+	function displayResult( data ) {
+		data = JSON.parse( data );
+
+		var output = '';
+		output += '<h2>License</h2>';
+		output += '<p><strong>Item:</strong> ' + data['verify-purchase'].item_name + '</p>';
+		output += '<p><strong>Buyer:</strong> ' + data['verify-purchase'].buyer + '</p>';
+		output += '<p><strong>Licence:</strong> ' + data['verify-purchase'].licence + '</p>';
+		output += '<p><strong>Purchase date:</strong> ' + data['verify-purchase'].created_at + '</p>';
+		document.getElementById( 'result' ).innerHTML = output;
+	}
+
+	document.getElementById( 'form' ).addEventListener( 'submit', verify );
+</script>
+</body>
+</html>
